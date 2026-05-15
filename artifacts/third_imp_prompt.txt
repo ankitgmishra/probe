@@ -1,0 +1,362 @@
+Now implement a lightweight evaluation and observability layer for the existing ProbeAI research agent.
+
+IMPORTANT:
+
+* Keep this lightweight and practical.
+* Do NOT overengineer.
+* Do NOT introduce benchmark frameworks.
+* Do NOT use LLM-as-a-judge systems.
+* Do NOT add complex abstractions.
+* Everything should remain understandable and inspectable.
+
+The current system already has:
+
+* state.json
+* report.md
+
+& even  evaluator.py running at very end.
+
+We now want to improve evaluation and observability while keeping the architecture minimal.
+
+GOALS
+────────────────────────────────────
+
+1. Add evals.json output
+2. Improve evaluator.py
+3. Add measurable heuristic-based metrics
+4. Improve citation quality in reports
+5. Improve observability/debugging
+6. Add lightweight contradiction + freshness analysis
+
+────────────────────────────────────
+NEW OUTPUT FILES
+────────────────────────────────────
+
+Each run directory should now contain:
+
+runs/<run_id>/
+├── state.json
+├── report.md
+├── evals.json
+
+
+Purpose:
+
+* state.json → full execution trace
+* report.md → final readable report
+* evals.json → evaluation + diagnostics
+* logs.txt → optional debug logs
+
+────────────────────────────────────
+
+1. IMPLEMENT evals.json
+   ────────────────────────────────────
+
+Create a structured evals.json file after synthesis completes.
+
+Example shape:
+
+{
+"factuality_score": 0.82,
+"citation_coverage": 0.91,
+"source_diversity": 7,
+"source_authority_score": 0.74,
+"answer_completeness": 0.78,
+"uncertainty_calibration": 0.88,
+"iteration_depth": 2,
+"runtime_seconds": 905,
+"sources_analyzed": 25,
+"unsupported_claims": 1,
+"weak_evidence_claims": 4,
+"avg_evidence_per_claim": 1.8,
+"contradictions_detected": 2,
+"freshness_score": 0.81
+}
+
+Persist this to:
+runs/<run_id>/evals.json
+
+────────────────────────────────────
+2. IMPROVE evaluator.py
+────────────────────────────────────
+
+Expand evaluator.py into a lightweight evaluation module.
+
+Keep it deterministic and heuristic-based.
+
+NO AI judging.
+
+────────────────────────────────────
+3. REQUIRED METRICS
+────────────────────────────────────
+
+Implement these evaluation metrics:
+
+A. Factuality Score
+Approximate factuality heuristically.
+
+Use:
+
+* evidence strength
+* multiple supporting sources
+* speculative evidence penalties
+
+Example approach:
+
+strong = 1.0
+moderate = 0.7
+weak = 0.3
+speculative = 0.1
+
+Compute weighted average.
+
+────────────────────────────────────
+
+B. Citation Coverage
+
+Measure:
+claims_with_citations / total_claims
+
+Goal:
+determine how many findings are actually cited.
+
+────────────────────────────────────
+
+C. Source Diversity
+
+Measure:
+
+* unique domains
+* optionally unique source categories
+
+Examples:
+
+* news
+* research
+* docs
+* forums
+* social
+* blogs
+
+Simple implementation is fine.
+
+────────────────────────────────────
+
+D. Source Authority Score
+
+Implement deterministic authority scoring.
+
+Use simple domain rules.
+
+Example:
+
+HIGH_AUTHORITY = [
+".gov",
+".edu",
+"nature.com",
+"arxiv.org",
+"openai.com",
+"anthropic.com"
+]
+
+MEDIUM_AUTHORITY = [
+"medium.com",
+"substack.com",
+"techcrunch.com"
+]
+
+LOW_AUTHORITY = [
+"reddit.com",
+"linkedin.com",
+"forums"
+]
+
+Weights:
+high = 1.0
+medium = 0.6
+low = 0.3
+
+Compute average authority score.
+
+Keep implementation simple.
+
+────────────────────────────────────
+
+E. Answer Completeness
+
+Use planner subquestions.
+
+Metric:
+answered_subquestions / total_subquestions
+
+This should use existing planner state.
+
+────────────────────────────────────
+
+F. Uncertainty Calibration
+
+Measure whether the report:
+
+* mentions uncertainty
+* separates weak evidence
+* avoids overclaiming
+
+Simple heuristic:
+search for phrases like:
+
+* "uncertain"
+* "limited evidence"
+* "speculative"
+* "likely"
+* "unclear"
+
+Also detect whether weak evidence sections exist.
+
+────────────────────────────────────
+
+G. Iteration Depth
+
+Track:
+
+* iterations completed
+* reflection cycles
+* number of search rounds
+
+This is important because the assignment explicitly requires iterative behavior.
+
+────────────────────────────────────
+
+H. Runtime / Cost Metrics
+
+Track:
+
+* runtime_seconds
+* sources_analyzed
+* iterations
+* retries
+* optional model call counts
+
+Keep lightweight.
+
+────────────────────────────────────
+4. ADDITIONAL LIGHTWEIGHT ANALYSIS
+────────────────────────────────────
+
+Implement these additional diagnostics.
+
+────────────────────────────────────
+
+A. Contradiction Detection
+
+Detect conflicting evidence heuristically.
+
+Example:
+
+* one source says Cursor dominates
+* another says Copilot still leads
+
+Simple implementation:
+flag contradictory wording across evidence claims.
+
+Output:
+"contradictions_detected": 2
+
+No need for sophisticated NLP.
+
+────────────────────────────────────
+
+B. Evidence Redundancy
+
+Detect repeated claims from similar sources.
+
+Output:
+"redundant_sources": 5
+
+────────────────────────────────────
+
+C. Freshness Score
+
+Estimate freshness using:
+
+* publication dates
+* years mentioned in snippets
+* recency of sources
+
+Recent sources should score higher.
+
+Example:
+2026 source > 2023 source
+
+Output:
+"freshness_score": 0.81
+
+────────────────────────────────────
+
+D. Unsupported Claims
+
+Detect findings with weak or missing supporting evidence.
+
+Output example:
+
+"unsupported_claims": [
+"Cursor will fully replace VS Code"
+]
+
+This is very important for observability/debugging.
+
+────────────────────────────────────
+
+E. Reflection Quality
+
+Measure whether reflection generated:
+
+* new queries
+* new search directions
+* additional iterations
+
+Goal:
+prove the agent actually iterates.
+
+────────────────────────────────────
+7. OBSERVABILITY / LOGGING
+────────────────────────────────────
+
+Improve logging.
+
+Log:
+
+* generated queries
+* extracted evidence count
+* reflection decisions
+* stop conditions
+* unsupported claims
+* weak evidence
+* contradictions
+* runtime metrics
+* batch extraction progress
+
+Logs should help debug research runs.
+
+Keep logs human-readable.
+
+
+────────────────────────────────────
+10. DESIGN CONSTRAINTS
+────────────────────────────────────
+
+Keep the implementation:
+
+* minimal
+* inspectable
+* understandable
+* deterministic where possible
+* practical for debugging
+
+Avoid:
+
+* benchmark frameworks
+* LangSmith
+* DeepEval
+* GPT-as-a-judge
+* complex scoring systems
+* unnecessary abstractions

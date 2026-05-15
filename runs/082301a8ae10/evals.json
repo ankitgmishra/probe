@@ -1,0 +1,29 @@
+{
+  "factuality_score": 0.64,
+  "source_diversity": 10,
+  "source_categories": {
+    "social": 7,
+    "other": 28
+  },
+  "source_authority_score": 0.46,
+  "uncertainty_calibration": 0.67,
+  "iteration_depth": 1,
+  "runtime_seconds": 223.4,
+  "sources_analyzed": 15,
+  "stop_reason": "sufficient_evidence",
+  "total_evidence": 35,
+  "strong_evidence_count": 8,
+  "moderate_evidence_count": 16,
+  "weak_evidence_count": 10,
+  "speculative_evidence_count": 1,
+  "avg_evidence_per_subquestion": 2.0,
+  "redundant_evidence_pairs": 0,
+  "freshness_score": 0.1,
+  "reflection_quality": {
+    "total_reflections": 1,
+    "continue_decisions": 0,
+    "new_queries_generated": 2,
+    "gaps_identified": 0,
+    "iterative_behavior": false
+  }
+}

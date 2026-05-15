@@ -1,0 +1,139 @@
+I am building a minimal deep research agent.
+
+Goal:
+Build a lightweight iterative research and evidence-verification agent that:
+- takes a research question
+- performs iterative web research
+- extracts structured evidence
+- identifies gaps
+- performs additional searches
+- generates a cited report
+
+Important:
+Do NOT use:
+- LangChain
+- LangGraph
+- LlamaIndex
+- prebuilt research-agent frameworks
+- Deep Research APIs
+
+The orchestration loop must be implemented manually.
+
+Tech stack:
+- Python
+- Ollama
+- Tavily
+- Pydantic
+- JSON persistence
+
+Architecture requirements:
+
+1. Planner
+- break the research question into subquestions
+- identify what evidence is needed
+- generate a research plan
+
+2. Search
+- generate search queries
+- fetch search results
+- gather URLs/snippets/documents
+
+3. Extract
+- extract:
+  - claims
+  - facts
+  - dates
+  - quotes
+  - source URLs
+- store structured evidence objects
+
+4. Reflection / Iteration loop
+- determine missing information
+- identify weak evidence
+- identify unsupported claims
+- generate additional search queries
+- run at least one additional research iteration
+
+5. Synthesis
+Generate a final cited report with:
+- Executive Summary
+- Key Findings
+- Evidence Table
+- Strong Evidence
+- Weak Evidence / Speculation
+- Open Questions / Uncertainty
+- Sources
+
+The report should cite sources for major claims.
+
+Important design goals:
+- simple and inspectable
+- structured outputs
+- configurable limits
+- evidence grounding
+- uncertainty handling
+- useful logs
+- understandable architecture
+
+The system should support configurable limits such as:
+- max_iterations
+- max_sources
+- max_runtime_seconds
+- min_evidence_per_claim
+
+The agent should stop when:
+- enough evidence has been collected
+- runtime/source/iteration limits are reached
+- the question cannot be answered confidently
+
+Persist intermediate state to JSON so the run can be inspected later.
+
+Log:
+- generated search queries
+- fetched sources
+- extracted evidence
+- reflection decisions
+- iteration summaries
+
+Avoid:
+- frontend
+- vector databases
+- embeddings
+- overengineering
+- unnecessary abstractions
+
+Suggested file structure:
+
+research_agent/
+  planner.py
+  search.py
+  extractor.py
+  reflector.py
+  synthesizer.py
+  models.py
+  main.py
+  config.py
+  utils.py
+  runs/
+
+Also include:
+- README.md
+- planning artifacts
+
+The final design should feel like:
+- a lightweight AI infrastructure prototype
+- an inspectable research system
+
+
+Keep the implementation clean and minimal.
+
+
+
+
+
+
+
+What i got from it: 
+
+I got Entire Agent working in this Prompt itself .
+

@@ -1,0 +1,31 @@
+### INSTRUCTION
+You are a Research Evaluator. Analyze the collected evidence against the research goals and decide whether to continue or stop.
+
+### RESEARCH STATUS
+QUESTION: {question}
+SUB-QUESTIONS: {subquestions}
+EVIDENCE ({evidence_count} pieces): {evidence_summary}
+
+### CONSTRAINTS
+1. OUTPUT MUST BE VALID JSON ONLY.
+2. DO NOT mark research as "sufficient" if major gaps exist.
+3. MINIMUM EVIDENCE THRESHOLD: {min_evidence_per_claim} pieces per sub-question.
+4. {coverage_note}
+
+### DECISION OPTIONS
+- "continue": More research needed. Provide new, specific search queries.
+- "sufficient": All sub-questions meet the threshold with high-quality evidence.
+- "unanswerable": Information simply does not exist online.
+
+### RESPONSE SCHEMA
+{
+  "decision": "continue|sufficient|unanswerable",
+  "coverage_summary": "string",
+  "gaps": ["string"],
+  "weak_claims": ["string"],
+  "new_search_queries": ["string"],
+  "reasoning": "string"
+}
+
+### STRICT RULE
+Start your response with '{' and end with '}'. No prose allowed.

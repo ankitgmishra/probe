@@ -1,0 +1,66 @@
+The research agent and synthesis pipeline are already working.
+
+Now improve report grounding and citation quality.
+
+Important:
+Do NOT redesign the architecture.
+Do NOT add external citation libraries.
+Keep the implementation lightweight and readable.
+
+Current issue:
+The report includes sources and evidence tables, but major findings should include clearer inline citations tied to supporting evidence.
+
+Goal:
+Make the final report feel more like a professional deep research report.
+
+Requirements:
+
+1. Update synthesizer prompts
+
+Modify synthesizer_prompt.txt so the LLM:
+- includes inline citation markers for major claims
+- references supporting evidence rows or source numbers
+- clearly distinguishes:
+  - strong evidence
+  - weak evidence
+  - speculative inference
+  - uncertainty
+
+Example desired formatting:
+
+"Cursor adoption appears strongest among AI-native engineers building rapidly iterative workflows [2][5]."
+
+2. Improve markdown report formatting
+
+Ensure report sections are clearly structured:
+- Executive Summary
+- Key Findings
+- Evidence Table
+- Weak Evidence / Speculative Claims
+- Open Questions / Uncertainty
+- Sources
+
+3. Improve evidence table linkage
+
+Ensure evidence rows are numbered consistently so findings can reference them.
+
+4. Preserve uncertainty handling
+
+Do not make the synthesizer overly confident.
+The report should explicitly acknowledge:
+- weak evidence
+- conflicting evidence
+- unresolved questions
+
+5. Improve source attribution
+
+Ensure each major finding is grounded in:
+- one or more evidence rows
+- associated source URLs
+
+
+Goal:
+Make the report:
+- more grounded
+- easier to inspect
+- more professional

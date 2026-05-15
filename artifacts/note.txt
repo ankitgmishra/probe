@@ -1,0 +1,12 @@
+
+
+
+Changes during implementation:
+
+- Batch Size
+- Improved overall prompts myself.
+- Solved 1 Schema Mismatch Error occurred during execution 
+- Added heuristic-based evaluation metrics
+- Removed Some Eval heuristic which doesnt make sense because of heuristic nature. 
+   Eg Citation Coverage, Contradiction, Answer Completeness
+

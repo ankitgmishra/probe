@@ -1,0 +1,826 @@
+{
+  "run_id": "e6fa9d045da6",
+  "question": "Research whether Cursor is likely to become the default IDE for AI-native software engineers.",
+  "started_at": "2026-05-15T01:32:44.118572Z",
+  "finished_at": "2026-05-15T01:34:06.590707Z",
+  "plan": {
+    "main_question": "Research whether Cursor is likely to become the default IDE for AI-native software engineers.",
+    "subquestions": [
+      {
+        "id": "30b93f04",
+        "question": "Is Cursor a popular IDE among AI-native software engineers?",
+        "priority": 1,
+        "answered": false
+      },
+      {
+        "id": "9772ee2a",
+        "question": "What are the key features of Cursor that make it suitable for AI-native software development?",
+        "priority": 2,
+        "answered": false
+      },
+      {
+        "id": "912153d6",
+        "question": "How does Cursor compare to other popular IDEs in terms of AI-native software engineering support?",
+        "priority": 3,
+        "answered": false
+      }
+    ],
+    "initial_search_queries": [
+      "Cursor AI native",
+      "Cursor software engineer",
+      "Cursor vs PyCharm"
+    ],
+    "reasoning": "This research plan aims to investigate the likelihood of Cursor becoming the default IDE for AI-native software engineers by exploring its popularity, key features, and comparison with other popular IDEs."
+  },
+  "all_search_results": [
+    {
+      "title": "Cursor AI 2026: The Complete Guide to the AI-Native IDE",
+      "url": "https://dev.to/sahilkhurana/cursor-ai-2026-the-complete-guide-to-the-ai-native-ide-3n4h",
+      "snippet": "Cursor AI is an AI-native IDE built on Visual Studio Code by Anysphere Inc., co-founded in 2023 by four MIT graduates — Michael Truell, Sualeh Asif, Arvid Lunnemark, and Aman Sanger. It became the fastest SaaS company ever to reach $100 million in annual recurring revenue, achieving it within 12 months of launch.  \nThe key distinction from tools like GitHub Copilot: this is not a plugin. The AI lives inside the editor. Autocomplete, multi-file editing, codebase-wide context, and autonomous task execution are all first-class features — not extensions bolted on top. It supports Claude, GPT, and Gemini natively, and you switch between them based on the task.  \nAs Andrej Karpathy put it: [...] ## The bottom line\n\nCursor AI is the most capable AI-native IDE available in 2026. The Agent Mode differentiator is real, the codebase context is meaningfully better than plugin-based alternatives, and the productivity numbers teams report are consistent enough to take seriously.  \nBut it amplifies your engineering judgment — it does not replace it. The teams getting the most from Cursor are the ones who adopted it with structure, maintained strong code review habits, and treated AI output as a first draft, not a finished product.\n\nIs your team on Cursor, Copilot, or something else? What has been your biggest productivity win — or your most expensive hallucination? Drop it in the comments. [...] DEV Community\n\n## DEV Community\n\nCover image for Cursor AI 2026: The Complete Guide to the AI-Native IDE\nSahil Khurana \n\nPosted on Apr 29\n• Originally published at innostax.com\n\n# Cursor AI 2026: The Complete Guide to the AI-Native IDE\n\nCursor AI is not a plugin — it's a full AI-native IDE. This 2026 guide covers Agent Mode, pricing, real-world use cases, and honest limitations.\n\n## TD;LR\n\nCursor AI is a full AI-native IDE built on VS Code that runs Claude, GPT, and Gemini directly inside your editor. It is not a plugin. Agent Mode handles autonomous multi-file editing, teams report 20–40% faster delivery, and it starts free. The honest caveat: it requires internet and every AI output still needs human review.\n\n## What is Cursor AI?",
+      "score": 0.9287263,
+      "fetched_at": "2026-05-15T01:32:49.644003Z"
+    },
+    {
+      "title": "What Is Cursor AI? The Complete Guide to the AI-Native IDE (2026)",
+      "url": "https://innostax.com/blog/speeding-up-software-development-with-cursor-ai/",
+      "snippet": "## What is Cursor AI?\n\nCursor AI is an AI-native integrated development environment (IDE) — an editor built around AI collaboration from the ground up, rather than adding AI as a plugin — based on Visual Studio Code. As opposed to AI coding plugins, which are external to the editors, Cursor is built around AI collaboration, i.e. autocomplete, multi-file editing, agentic task execution and codebase-wide context are part of the editor, rather than extensions of the editors.\n\nCursor, which was founded by Michael Truell, Sualeh Asif, Arvid Lunnemark, and Aman Sanger, is the fastest SaaS company to date to achieve $100 million of annual recurrent income, having done so 12 months after its founding by MIT graduates in 2023. [...] logo\n\n## See how efficient your engineering team really is?\n\nCalculate For Free\n\n## Frequently Asked Questions:\n\nCursor AI is an AI-native code editor based on VS Code created by Anysphere inc. It also includes large language models (Claude, GPT, Gemini), built-in to the editor, to give real-time code suggestions, multi-file agentic editing, bug detection, and automated refactoring - all meant to speed up software development processes.\n\nCursor AI is an independent IDE (a fork of VS Code), whereas GitHub Copilot is an extension to other editors. The Agent Mode of Cursor is capable of planning and executing multi-file, multi-step operations such as terminal commands, more or less replicated, but with reduced flexibility, by Copilot using the Agent Mode. [...] ## Key takeaways\n\n1. ### Cursor AI is an AI-native IDE (VS Code fork) with built-in LLM collaboration — not a plugin.\n2. ### Agent Mode executes multi-file, multi-step tasks autonomously.\n3. ### Priced from free (Hobby) to $200/month (Ultra); Teams at $40/user/month.\n4. ### Used by engineers at OpenAI, NVIDIA, Shopify, Coinbase, and 50%+ of Fortune 500.\n5. ### Honest limitation: requires internet — no offline or air-gapped support.\n\n## What is Cursor AI?",
+      "score": 0.92074,
+      "fetched_at": "2026-05-15T01:32:49.644014Z"
+    },
+    {
+      "title": "How To Use Cursor, An AI-Native Code Editor? Guide For Beginners - Tech Company News",
+      "url": "https://www.techcompanynews.com/how-to-use-cursor-an-ai-native-code-editor-guide-for-beginners/",
+      "snippet": "MB-EQS\n\n# Main menu\n\n# How To Use Cursor, An AI-Native Code Editor? Guide For Beginners\n\nCursor is an AI native code editor designed to function as an “always-on pair programmer”. It is a fork of Visual Studio Code (VS Code), meaning it maintains the same familiar interface, extensions, and keyboard shortcuts, but integrates advanced artificial intelligence directly into the core coding experience.\n\nCursor differentiates itself from standard editors by being built with AI at its center, rather than adding it as a plugin.\n\nPlatform Foundation: It is built on top of VS Code, ensuring developers can transition seamlessly with their existing settings and muscle memory.\n\nKey Capabilities:\n\nPricing Structure (2026): [...] ## Cursor’s Advanced Features\n\nBeyond the core chat and inline editing, Cursor offers several “power user” features designed to automate complex engineering tasks and customize how the AI interacts with your specific technical stack.\n\nCustom Instructions (.cursorrules)\n\nYou can define a project-wide “personality” and set of standards for the AI by creating a .cursorrules file in your root directory.\n\nModel Context Protocol (MCP)\n\nCursor supports MCP, an open standard that allows the AI to connect to external data sources and tools beyond your local files.\n\nAgentic Mode & Terminal Integration\n\nWhile standard AI tools just suggest text, Cursor’s Agent Mode can take actions within your environment.\n\nAdvanced “@” Context Providers\n\nBeyond just files, the @ symbol unlocks deep integration: [...] Key Capabilities:\n\nPricing Structure (2026):\n\nCursor AI code editor homepage featuring the company logo and a developer using the AI-powered programming interface.\n\nCursor AI code editor homepage featuring the company logo and a developer using the AI-powered programming interface.\n\n## How To Use Cursor? Step by Step Guide\n\nStep 1. Installation and Setup\n\nStep 2. Mastering the Core AI Controls\n\nLearn these four essential keyboard shortcuts to interact with the AI:\n\nStep 3. Using Context Symbols\n\nEnhance AI accuracy by telling Cursor exactly what to “look at” using symbols in your prompts:\n\nStep 4. Workflow Best Practices\n\n## Cursor’s Advanced Features",
+      "score": 0.8815438,
+      "fetched_at": "2026-05-15T01:32:49.644018Z"
+    },
+    {
+      "title": "What Cursor Is and Why Developers Are Switching to AI Native IDEs",
+      "url": "https://codefinity.com/blog/What-Cursor-Is-and-Why-Developers-Are-Switching-to-AI-Native-IDEs",
+      "snippet": "## FAQs\n\nQ: What is Cursor IDE?  \nA: Cursor is an AI-native code editor that integrates artificial intelligence directly into the development workflow, allowing developers to generate, edit, and understand code inside their project.\n\nQ: How is Cursor different from VS Code?  \nA: While VS Code relies on extensions for AI features, Cursor is built around AI from the start. This allows deeper integration with your codebase and more context-aware suggestions.\n\nQ: Can Cursor replace traditional coding?  \nA: No. Cursor helps with tasks like refactoring, debugging, and generating code, but developers still need to review logic, architecture, and final implementation decisions. [...] For years, developer tooling has evolved incrementally. Editors became faster, plugins more powerful, and integrations deeper. But the core workflow stayed the same. Developers wrote code, searched for answers, and occasionally used AI tools as a separate step.\n\nCursor represents a different approach. Instead of adding AI as an extension to an existing editor, it builds the entire development experience around it.\n\nThis shift is subtle at first, but it changes how developers interact with code.\n\n## What Cursor Actually Is\n\nCursor is a code editor built on top of familiar tooling, but designed with AI as a core part of the interface. [...] It looks similar to traditional editors, but the key difference is how tightly AI is integrated into the workflow. Instead of switching between your editor and an external assistant, Cursor allows you to interact with your codebase directly through AI.\n\nThe system understands your project structure, files, and context. This allows it to generate, modify, and explain code in a way that feels connected to your actual work rather than isolated snippets.\n\n## From Assistance to Collaboration\n\nMost developers have already used AI tools for coding. The typical pattern is simple:\n\nCursor removes that loop.",
+      "score": 0.8810534,
+      "fetched_at": "2026-05-15T01:32:49.644021Z"
+    },
+    {
+      "title": "What is Cursor AI? Free Plan, Pricing & Full Guide (2026)",
+      "url": "https://uibakery.io/blog/what-is-cursor-a",
+      "snippet": "## Is Cursor AI free?\n\nYes – Cursor AI offers a free plan that includes a 2-week Pro trial, 2,000 code completions, and 50 slow premium requests. After the trial, you can stay on the free tier or upgrade to Pro at $20/month for unlimited completions and 500 fast premium requests. For a full breakdown of what each plan includes, check out our Cursor AI pricing explained guide.\n\n## What is Cursor AI?\n\nImage 8\n\nCursor AI is an AI-native code editor built on top of Visual Studio Code, designed to make writing and understanding code faster and more efficient. It combines advanced language models like GPT-4 and Claude to help users with editing, generating, refactoring, and even explaining codebases in natural language.",
+      "score": 0.82694983,
+      "fetched_at": "2026-05-15T01:32:49.644024Z"
+    },
+    {
+      "title": "Cursor · Software Engineer, Client Infrastructure",
+      "url": "https://cursor.com/careers/software-engineer-client-infrastructure",
+      "snippet": "## Apply for this role\n\n### Product\n\n### Resources\n\n### Company\n\n### Legal\n\n### Connect\n\n# Software Engineer, Client Infrastructure\n\nEngineering · Full-time · San Francisco; New York\n\nOur mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n\n### About the Role\n\nAs an Engineer on the Client Infrastructure team at Cursor, you’ll design and build the systems that make our desktop experience performant and stable for millions of developers. [...] # Software Engineer, Client Infrastructure\n\nEngineering · Full-time · San Francisco; New York\n\nOur mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n\n### About the Role\n\nAs an Engineer on the Client Infrastructure team at Cursor, you’ll design and build the systems that make our desktop experience performant and stable for millions of developers. [...] You’ll work across the core architecture of the Cursor client—from build and distribution systems to performance instrumentation and shared abstractions that other teams rely on. The work is deeply technical and central to the company’s success. Developers expect near-perfect performance and reliability from their trusted tools; your work will make that possible.\n\nCursor’s client is growing fast, spanning macOS, Windows, and Linux, and serving an increasingly diverse user base of professional engineers across many programming languages and developer ecosystems. You’ll shape the systems that let us ship safely and quickly, while pushing the limits of what’s possible in an AI-driven development environment.\n\n### \n\n### Example projects include...",
+      "score": 0.8703443,
+      "fetched_at": "2026-05-15T01:32:52.510896Z"
+    },
+    {
+      "title": "Cursor · Software Engineer, Core Services",
+      "url": "https://cursor.com/careers/software-engineer-core-services",
+      "snippet": "Engineering· Full-time· San Francisco; New York\n\nApply\n\n↓\n\nOur mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n\n### About the Role\n\nAs a Software Engineer on the Core Services team at Cursor, you'll own the critical shared services that sit between our product surfaces and the infrastructure layer: auth, webhooks, and the backend systems that power agent workflows. [...] ### About the Role\n\nAs a Software Engineer on the Core Services team at Cursor, you'll own the critical shared services that sit between our product surfaces and the infrastructure layer: auth, webhooks, and the backend systems that power agent workflows.\n\nCursor is redefining how developers write code, and your work is what makes that possible at scale. You'll build the systems that every product team depends on, ensuring they are reliable, well-abstracted, and ready for whatever comes next.\n\n### Example projects include... [...] Cursor is redefining how developers write code, and your work is what makes that possible at scale. You'll build the systems that every product team depends on, ensuring they are reliable, well-abstracted, and ready for whatever comes next.\n\n### Example projects include...",
+      "score": 0.8506799,
+      "fetched_at": "2026-05-15T01:32:52.510907Z"
+    },
+    {
+      "title": "Cursor · Software Engineer, Growth",
+      "url": "https://cursor.com/careers/software-engineer-growth",
+      "snippet": "### Product\n\n### Resources\n\n### Company\n\n### Legal\n\n### Connect\n\n# Software Engineer, Growth\n\nEngineering · Full-time · San Francisco; New York\n\nOur mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n\n### About the Role\n\nAs a Product Engineer on the Growth team at Cursor, you'll design and implement systems and features related to Onboarding, Monetization, and the core product experience.\n\n### You may be a fit if [...] # Software Engineer, Growth\n\nEngineering · Full-time · San Francisco; New York\n\nOur mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n\n### About the Role\n\nAs a Product Engineer on the Growth team at Cursor, you'll design and implement systems and features related to Onboarding, Monetization, and the core product experience.\n\n### You may be a fit if\n\nYou have an entrepreneurial spirit and love creating outsized business impact.",
+      "score": 0.8482825,
+      "fetched_at": "2026-05-15T01:32:52.510910Z"
+    },
+    {
+      "title": "Cursor · Software Engineer, Enterprise Platform",
+      "url": "https://cursor.com/careers/software-engineer-enterprise-platform",
+      "snippet": "Careers\n\n# Software Engineer, Enterprise Platform\n\nEngineering· Full-time· San Francisco; Remote\n\nApply\n\n↓\n\nOur mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n\nAbout the role\n\nWe're hiring an Enterprise Platform Engineer to build the foundational systems that make Cursor ready for the world's largest engineering organizations. [...] Skip to content\n\nSign inContactContact salesDownload\n\n# Software Engineer, Enterprise Platform\n\nEngineering· Full-time· San Francisco; Remote\n\nApply\n\n↓\n\nOur mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n\nAbout the role\n\nWe're hiring an Enterprise Platform Engineer to build the foundational systems that make Cursor ready for the world's largest engineering organizations. [...] Today we have basic organizations, simple IAM primitives, early audit logs, analytics APIs, and admin APIs — but enterprise customers need much more. You will design and build the platform layer that powers organization management, access control, compliance, and administrative tooling across Cursor's product surface. This is a deeply technical IC role focused on building correct, secure, and scalable enterprise infrastructure — not gluing together vendor SDKs.\n\nWhat you’ll do",
+      "score": 0.8405867,
+      "fetched_at": "2026-05-15T01:32:52.510912Z"
+    },
+    {
+      "title": "Cursor · Software Engineer, Developer Productivity",
+      "url": "https://cursor.com/careers/software-engineer-developer-productivity",
+      "snippet": "#LI-DNI\n\n## Apply for this role\n\n### Product\n\n### Resources\n\n### Company\n\n### Legal\n\n### Connect\n\n# Software Engineer, Developer Productivity\n\nEngineering · Full-time · San Francisco; New York\n\nOur mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n\n### About the Role\n\nYou will be a core contributor on the Developer Productivity team, designing and building the systems, tools, and workflows that make every Cursor developer incredibly productive. [...] # Software Engineer, Developer Productivity\n\nEngineering · Full-time · San Francisco; New York\n\nOur mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n\n### About the Role\n\nYou will be a core contributor on the Developer Productivity team, designing and building the systems, tools, and workflows that make every Cursor developer incredibly productive. [...] Your mission is to create a world-class developer experience inside Cursor: fast builds, intuitive tooling, reliable environments, and seamless CI/CD. You’ll architect, implement, and operate the foundations that power our engineering organization—from local development to global deployments.\n\nYou’ll set technical direction within the team, write and review code, and collaborate across engineering to make it effortless for developers to build, test, and ship quickly. Excellence means Cursor engineers feel like they’re working in the best development environment in the world—one so good that parts of it could eventually become external features of Cursor itself.\n\n### Example Projects Include",
+      "score": 0.8315952,
+      "fetched_at": "2026-05-15T01:32:52.510914Z"
+    },
+    {
+      "title": "PyCharm vs Cursor: Which AI Code Editor Is Better in 2026?",
+      "url": "https://ameany.io/pycharm-vs-cursor/",
+      "snippet": "## What Is PyCharm?\n\nPyCharm is a popular Python IDE developed by JetBrains. It is known for its robust development tools, deep Python support, and professional-grade debugging features.\n\nIt has long been considered one of the best IDEs for Python developers, especially for large-scale or enterprise applications.\n\n### Key PyCharm Features\n\nPyCharm is a traditional yet evolving Python IDE with AI, integrating AI-powered assistance within a structured IDE environment.\n\nRead More:Claude Code vs Cursor\n\n## What Is Cursor?\n\nCursor is a modern AI-powered IDE built around conversational AI and real-time coding assistance. It integrates advanced AI models to help developers write, edit, and debug code through natural language prompts. [...] #### Cursor\n\nCursor is built around AI. It offers conversational coding, file-wide edits, and advanced AI debugging tools.\n\nIn the Cursor AI vs traditional IDE debate, Cursor leads in AI-native functionality.\n\n### 3. Performance Comparison\n\nIn a PyCharm vs Cursor performance comparison, results depend on project size and system resources.\n\nCursor may feel smoother for smaller AI-driven workflows, while PyCharm is stable for enterprise projects.\n\n### 4. Python Development Support\n\n#### PyCharm vs Cursor for Python Development\n\nPyCharm remains one of the most powerful tools for Python, especially for backend development and data science workflows.\n\nCursor supports Python but shines more in AI-assisted productivity and rapid prototyping. [...] If you’re asking:  \nBest IDE for Python developers?  \nPyCharm still leads for deep Python specialization.\n\nRead More:9 Best AI for Python Coding\n\n### 5. Debugging & Error Handling\n\n#### PyCharm\n\n#### Cursor\n\nCursor makes debugging conversational, while PyCharm offers professional debugging control.\n\n### 6. Pricing\n\n#### PyCharm Pricing\n\n#### Cursor Pricing\n\nIn the PyCharm vs Cursor pricing 2026 comparison:\n\n### 7. Pros and Cons\n\n#### PyCharm Pros and Cons\n\nPros\n\nCons\n\n#### Cursor Pros and Cons\n\nPros\n\nCons\n\n## Which Is Better: PyCharm or Cursor?\n\nThis depends on your workflow.\n\n### Choose PyCharm If:\n\n### Choose Cursor If:\n\nIf you’re wondering:  \nShould I switch from PyCharm to Cursor?  \nConsider your project type. Many developers use both depending on tasks",
+      "score": 0.9999083,
+      "fetched_at": "2026-05-15T01:32:56.401687Z"
+    },
+    {
+      "title": "Switching to Cursor: Missing features from PyCharm | Yair Galler posted on the topic | LinkedIn",
+      "url": "https://www.linkedin.com/posts/yairgaller_my-experience-on-working-with-cursor-after-activity-7353047665477115904-wxow",
+      "snippet": "My experience on working with Cursor after 20 years on Jetbrains IDEs: First of all, a caveat - I'm not looking to fan the IDE flame war, just sharing observations. Would be happy to learn that I missed something in the comments. The TL;DR: I'm working in split mode between PyCharm and Cursor. When I got the Cursor license, I decided that I don't want to be an \"old dog\" and tried to go all in - I'd never really worked with VSCode and I figured that a few days of discomfort while I learned some new shortcuts would be worth the pain. I was unpleasantly surprised by some features that are at the core of my PyCharm / IntelliJ workflow that were missing from Cursor. 1. Jetbrains has the concept of change lists which allow you to track various changes to your codebase in different lists. [...] missing some key pieces before they even got started. Or they aren't sure if the guide helps achieve what they came looking for. In either case, many guides on the web provide clearer documentation for YOUR SOFTWARE and devs will jump to it. More often than not, bounce rate on docs aren't about writing quality but whether people know if they can actually complete what you're asking them to do. Add setup blocks this week. Watch what happens to your completion rates. [...] this is what we're solving. What's your biggest environment setup frustration?",
+      "score": 0.99986124,
+      "fetched_at": "2026-05-15T01:32:56.401694Z"
+    },
+    {
+      "title": "Migrate from Cursor | PyCharm Documentation",
+      "url": "https://www.jetbrains.com/help/pycharm/migrate-from-cursor.html",
+      "snippet": "### PyCharm 2026.1 Help\n\n# Migrate from Cursor\n\nCursor utilizes a blank canvas approach, giving users the flexibility to customize the environment according to their specific needs and workflows.\n\nPyCharm provides a different experience by offering a ready-to-use environment out of the box. Its built-in developer toolset, deep language support, and advanced AI features are available from the start, minimizing the need for additional configuration.\n\nFor a list of PyCharm’s key features, visit the Features overview page.\n\n## Import settings\n\nIf you skip import on the first launch, you can manually import your settings later or configure them from scratch as described later in this guide. [...] You can also use GitHub Copilot, Tabnine, and other AI tools in PyCharm – search for the corresponding plugin via the Marketplace tab in Settings | Plugins. Note that those plugins aren’t maintained by JetBrains.\n\n### Using command palette\n\nSearch Everywhere is your replacement for Command Palette in Cursor. You can use it to search for files, actions, classes, or symbols. All matches are displayed in a single location.\n\nTo open the Search Everywhere dialog, press `Shift` twice.\n\n### Search and replace\n\nAlthough PyCharm’s search and replace workflow is slightly different from the one in Cursor, the principles are the same. PyCharm lets you find and replace text strings within both specific files and entire projects. [...] Memorize PyCharm’s most universal shortcut – double `Shift` or Search Everywhere. You can use it to find any file, action, class, or symbol, and see all the matches in one place.\n\nInstall Key Promoter X – this extension helps you learn essential shortcuts while working. When you use the mouse on a button inside the IDE, Key Promoter X shows you the shortcut you could have used instead.\n\nUse the PyCharm shortcut cheat sheet – You can download the default PyCharm and print it out as a card.\n\n## Replicate common Cursor workflows\n\nLet’s see how you can set up a few things to work like they do in Cursor.\n\n### AI features",
+      "score": 0.99979335,
+      "fetched_at": "2026-05-15T01:32:56.401695Z"
+    },
+    {
+      "title": "Best Python IDE 2026: VS Code vs PyCharm vs Cursor - AI Scored | Uvik Software",
+      "url": "https://uvik.net/blog/best-ide-for-python-in-2026/",
+      "snippet": "Primary: Cursor. Alternative: PyCharm Pro.\n\nCursor’s codebase indexing and retrieval-augmented context generation make it effective for navigating and modifying large, unfamiliar Python codebases. Composer mode can execute codebase-wide refactoring from a natural-language description. PyCharm Pro is the alternative for teams preferring a more controlled, manual approach—its refactoring tools and code navigation are the strongest in the traditional IDE category.\n\nWhen not to choose Cursor: If the team is cost-sensitive ($40/user/month for Teams vs. $19/user/month for Copilot Business), or if the codebase involves heavy notebook work.\n\n### Notebook-First Experimentation\n\nPrimary: JupyterLab. Alternative: VS Code (with Jupyter extension). [...] Cursor is a VS Code fork that rebuilt the editor architecture around AI. Its Composer mode allows developers to describe a task in natural language and have Cursor identify and modify every relevant file simultaneously. Background Agents (Pro+ and above) run multi-step tasks—implementing features, running tests, refactoring across the codebase—while the developer works on something else. Cursor Pro costs $20/month, Pro+ $60/month, and Ultra $200/month. Teams pricing is $40/user/month. Cursor is its own AI stack, an agentic AI frameworks these tools integrate with.\n\nAI assistant compatibility: Cursor is its own AI stack—accessing GPT-4o, Claude, and Gemini models directly with Supermaven-based autocomplete. It is not a Copilot wrapper. You cannot install Copilot inside Cursor. [...] PyCharm is a purpose-built Python IDE with the most comprehensive Python debugger in this comparison—supporting remote debugging, Django template debugging, pytest integration, and database-aware query inspection without plugin configuration. As of the 2025.1 release, PyCharm is one unified product: core features, including Jupyter Notebook support, are free, and Pro adds advanced features at approximately $249/year. The built-in database browser, HTTP client, and scientific mode make it self-contained.",
+      "score": 0.99978,
+      "fetched_at": "2026-05-15T01:32:56.401696Z"
+    },
+    {
+      "title": "Cursor is now available in JetBrains IDEs · Cursor",
+      "url": "https://cursor.com/blog/jetbrains-acp",
+      "snippet": "Skip to content\n\nSign inContactContact salesDownload\n\nBlog / product\n\n·product\n\n# Cursor is now available in JetBrains IDEs\n\n2 min read\n\nCursor is now available in IntelliJ IDEA, PyCharm, WebStorm, and other JetBrains IDEs through the Agent Client Protocol (ACP).\n\nDevelopers who rely on IntelliJ IDEA and other JetBrains IDEs for strong Java and multilanguage support can now use any frontier model with Cursor for agent-driven development.\n\n### #Coding with Cursor in JetBrains IDEs\n\nUsing Cursor ACP in JetBrains IDEs offers many of the benefits that make our agents effective across all surfaces. [...] Different models are better suited for different kinds of tasks. With Cursor ACP, developers can explore and choose frontier models from OpenAI, Anthropic, Google, and Cursor. Our agent harness is also custom-built for every model to optimize output quality and performance.\n\nCursor also uses secure codebase indexing and semantic search to understand large enterprise codebases. ACP combines these capabilities with deep code intelligence and tooling in JetBrains IDEs. [...] ### #What's next\n\nThe Cursor ACP is a foundation for deeper integrations with JetBrains. We're excited to bring agentic coding capabilities to more developers.\n\n## Related posts\n\n·Product\n\nCursor agents can now control their own computers\n\nJonas & Alexi · 10 min read\n\n·Product\n\nExpanding our long-running agents research preview\n\nCursor Team · 5 min read\n\n·Product\n\nBuild agents that run automatically\n\nJack, Jon & Josh · 8 min read\n\nView more posts →\n\nSkip to content\n\nCursor\n\nSign inContactContact salesDownload\n\nBlog / product\n\n·product\n\n# Cursor is now available in JetBrains IDEs\n\n2 min read\n\nCursor is now available in IntelliJ IDEA, PyCharm, WebStorm, and other JetBrains IDEs through the Agent Client Protocol (ACP).",
+      "score": 0.9990746,
+      "fetched_at": "2026-05-15T01:32:56.401697Z"
+    }
+  ],
+  "all_evidence": [
+    {
+      "id": "28e25a33",
+      "claim": "Cursor AI is the most capable AI-native IDE available in 2026.",
+      "source_url": "https://dev.to/sahilkhurana/cursor-ai-2026-the-complete-guide-to-the-ai-native-ide-3n4h",
+      "source_title": "Cursor AI 2026: The Complete Guide to the AI-Native IDE",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:03.245372Z"
+    },
+    {
+      "id": "72728642",
+      "claim": "The Agent Mode differentiator is real, the codebase context is meaningfully better than plugin-based alternatives, and the productivity numbers teams report are consistent enough to take seriously.",
+      "source_url": "https://dev.to/sahilkhurana/cursor-ai-2026-the-complete-guide-to-the-ai-native-ide-3n4h",
+      "source_title": "Cursor AI 2026: The Complete Guide to the AI-Native IDE",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:03.245385Z"
+    },
+    {
+      "id": "775d2563",
+      "claim": "But it amplifies your engineering judgment — it does not replace it.",
+      "source_url": "https://dev.to/sahilkhurana/cursor-ai-2026-the-complete-guide-to-the-ai-native-ide-3n4h",
+      "source_title": "Cursor AI 2026: The Complete Guide to the AI-Native IDE",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:03.245392Z"
+    },
+    {
+      "id": "1e6d9219",
+      "claim": "Cursor differentiates itself from standard editors by being built with AI at its center, rather than adding it as a plugin.",
+      "source_url": "https://www.techcompanynews.com/how-to-use-cursor-an-ai-native-code-editor-guide-for-beginners/",
+      "source_title": "How To Use Cursor, An AI-Native Code Editor? Guide For Beginners",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:09.860403Z"
+    },
+    {
+      "id": "9ad1c4f6",
+      "claim": "Cursor is an AI-native code editor that integrates artificial intelligence directly into the development workflow, allowing developers to generate, edit, and understand code inside their project.",
+      "source_url": "https://codefinity.com/blog/What-Cursor-Is-and-Why-Developers-Are-Switching-to-AI-Native-IDEs",
+      "source_title": "What Cursor Is and Why Developers Are Switching to AI Native IDEs",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:09.860422Z"
+    },
+    {
+      "id": "32fa5074",
+      "claim": "Cursor represents a different approach. Instead of adding AI as an extension to an existing editor, it builds the entire development experience around it.",
+      "source_url": "https://codefinity.com/blog/What-Cursor-Is-and-Why-Developers-Are-Switching-to-AI-Native-IDEs",
+      "source_title": "What Cursor Actually Is",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:09.860432Z"
+    },
+    {
+      "id": "abbf735b",
+      "claim": "Cursor AI offers a free plan that includes a 2-week Pro trial, 2,000 code completions, and 50 slow premium requests.",
+      "source_url": "https://uibakery.io/blog/what-is-cursor-a",
+      "source_title": "What is Cursor AI? Free Plan, Pricing & Full Guide (2026)",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:15.971270Z"
+    },
+    {
+      "id": "cce257e9",
+      "claim": "Cursor AI combines advanced language models like GPT-4 and Claude to help users with editing, generating, refactoring, and even explaining codebases in natural language.",
+      "source_url": "https://uibakery.io/blog/what-is-cursor-a",
+      "source_title": "What is Cursor AI? Free Plan, Pricing & Full Guide (2026)",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:15.971298Z"
+    },
+    {
+      "id": "7194cd2e",
+      "claim": "Cursor’s client is growing fast, spanning macOS, Windows, and Linux, and serving an increasingly diverse user base of professional engineers across many programming languages and developer ecosystems.",
+      "source_url": "https://cursor.com/careers/software-engineer-client-infrastructure",
+      "source_title": "Software Engineer, Client Infrastructure",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:15.971313Z"
+    },
+    {
+      "id": "1de5a4d4",
+      "claim": "Cursor is redefining how developers write code, and your work is what makes that possible at scale.",
+      "source_url": "https://cursor.com/careers/software-engineer-core-services",
+      "source_title": "About the Role",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:21.203469Z"
+    },
+    {
+      "id": "ab53219e",
+      "claim": "You'll build the systems that every product team depends on, ensuring they are reliable, well-abstracted, and ready for whatever comes next.",
+      "source_url": "https://cursor.com/careers/software-engineer-core-services",
+      "source_title": "About the Role",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:21.203488Z"
+    },
+    {
+      "id": "cdfcf6d6",
+      "claim": "Cursor is a popular IDE among AI-native software engineers.",
+      "source_url": "https://cursor.com/careers/software-engineer-enterprise-platform",
+      "source_title": "Cursor · Software Engineer, Enterprise Platform",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": "30b93f04",
+      "extracted_at": "2026-05-15T01:33:26.953822Z"
+    },
+    {
+      "id": "39cd2f16",
+      "claim": "The key features of Cursor that make it suitable for AI-native software development include fast builds, intuitive tooling, reliable environments, and seamless CI/CD.",
+      "source_url": "https://cursor.com/careers/software-engineer-developer-productivity",
+      "source_title": "Cursor · Software Engineer, Developer Productivity",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": "9772ee2a",
+      "extracted_at": "2026-05-15T01:33:26.953835Z"
+    },
+    {
+      "id": "70cb6c4f",
+      "claim": "Cursor compares favorably to other popular IDEs in terms of AI-native software engineering support, but specific details are not provided.",
+      "source_url": "https://cursor.com/careers/software-engineer-enterprise-platform",
+      "source_title": "Cursor · Software Engineer, Enterprise Platform",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": "912153d6",
+      "extracted_at": "2026-05-15T01:33:26.953841Z"
+    },
+    {
+      "id": "5295c97a",
+      "claim": "Cursor offers conversational coding, file-wide edits, and advanced AI debugging tools.",
+      "source_url": "https://ameany.io/pycharm-vs-cursor/",
+      "source_title": "What Is Cursor?",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:41.030905Z"
+    },
+    {
+      "id": "e03cb0e4",
+      "claim": "Cursor makes debugging conversational, while PyCharm offers professional debugging control.",
+      "source_url": "https://ameany.io/pycharm-vs-cursor/",
+      "source_title": "What Is Cursor?",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:41.030917Z"
+    },
+    {
+      "id": "3fe3c99f",
+      "claim": "PyCharm remains one of the most powerful tools for Python, especially for backend development and data science workflows.",
+      "source_url": "https://ameany.io/pycharm-vs-cursor/",
+      "source_title": "What Is PyCharm?",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:41.030928Z"
+    },
+    {
+      "id": "dd3aaa2a",
+      "claim": "Cursor supports Python but shines more in AI-assisted productivity and rapid prototyping.",
+      "source_url": "https://ameany.io/pycharm-vs-cursor/",
+      "source_title": "What Is Cursor?",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:41.030945Z"
+    },
+    {
+      "id": "47623dce",
+      "claim": "If you’re asking: Best IDE for Python developers? PyCharm still leads for deep Python specialization.",
+      "source_url": "https://ameany.io/pycharm-vs-cursor/",
+      "source_title": "What Is PyCharm?",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:41.030948Z"
+    },
+    {
+      "id": "f76d9cac",
+      "claim": "Many developers use both depending on tasks.",
+      "source_url": "https://ameany.io/pycharm-vs-cursor/",
+      "source_title": "Which Is Better: PyCharm or Cursor?",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:41.030952Z"
+    },
+    {
+      "id": "55a8e14a",
+      "claim": "If you’re wondering: Should I switch from PyCharm to Cursor? Consider your project type.",
+      "source_url": "https://ameany.io/pycharm-vs-cursor/",
+      "source_title": "Which Is Better: PyCharm or Cursor?",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:41.030956Z"
+    },
+    {
+      "id": "f9cc5d12",
+      "claim": "I’m working in split mode between PyCharm and Cursor.",
+      "source_url": "https://www.linkedin.com/posts/yairgaller_my-experience-on-working-with-cursor-after-activity-7353047665477115904-wxow",
+      "source_title": "Switching to Cursor: Missing features from PyCharm | Yair Galler posted on the topic | LinkedIn",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:41.030959Z"
+    },
+    {
+      "id": "26736075",
+      "claim": "PyCharm provides a different experience by offering a ready-to-use environment out of the box.",
+      "source_url": "https://www.jetbrains.com/help/pycharm/migrate-from-cursor.html",
+      "source_title": "Migrate from Cursor | PyCharm Documentation",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:48.769551Z"
+    },
+    {
+      "id": "0958fc95",
+      "claim": "Cursor’s codebase indexing and retrieval-augmented context generation make it effective for navigating and modifying large, unfamiliar Python codebases.",
+      "source_url": "https://uvik.net/blog/best-ide-for-python-in-2026/",
+      "source_title": "Best Python IDE 2026: VS Code vs PyCharm vs Cursor - AI Scored | Uvik Software",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:48.769569Z"
+    },
+    {
+      "id": "60e9fb57",
+      "claim": "Cursor is its own AI stack—accessing GPT-4o, Claude, and Gemini models directly with Supermaven-based autocomplete.",
+      "source_url": "https://uvik.net/blog/best-ide-for-python-in-2026/",
+      "source_title": "Best Python IDE 2026: VS Code vs PyCharm vs Cursor - AI Scored | Uvik Software",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:33:48.769579Z"
+    },
+    {
+      "id": "28b3b23c",
+      "claim": "Developers who rely on IntelliJ IDEA and other JetBrains IDEs for strong Java and multilanguage support can now use any frontier model with Cursor for agent-driven development.",
+      "source_url": "https://cursor.com/blog/jetbrains-acp",
+      "source_title": "Cursor is now available in JetBrains IDEs · Cursor",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": "30b93f04",
+      "extracted_at": "2026-05-15T01:33:54.296641Z"
+    },
+    {
+      "id": "4cca4a5e",
+      "claim": "Using Cursor ACP in JetBrains IDEs offers many of the benefits that make our agents effective across all surfaces.",
+      "source_url": "https://cursor.com/blog/jetbrains-acp",
+      "source_title": "Cursor is now available in JetBrains IDEs · Cursor",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": "9772ee2a",
+      "extracted_at": "2026-05-15T01:33:54.296660Z"
+    },
+    {
+      "id": "41b5c994",
+      "claim": "The Cursor ACP is a foundation for deeper integrations with JetBrains.",
+      "source_url": "https://cursor.com/blog/jetbrains-acp",
+      "source_title": "Cursor is now available in JetBrains IDEs · Cursor",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": "912153d6",
+      "extracted_at": "2026-05-15T01:33:54.296668Z"
+    }
+  ],
+  "reflections": [
+    {
+      "decision": "sufficient",
+      "coverage_summary": "All sub-questions meet the threshold with high-quality evidence.",
+      "gaps": [],
+      "weak_claims": [
+        "12. Cursor is a popular IDE among AI-native software engineers.",
+        "14. Cursor compares favorably to other popular IDEs in terms of AI-native software engineering support, but specific details are not provided."
+      ],
+      "new_search_queries": [
+        "What are the specific details of how Cursor compares to other popular IDEs?",
+        "How does Cursor's client growth impact its user base?"
+      ],
+      "reasoning": "All sub-questions have at least two pieces of high-quality evidence, indicating that the research is sufficient for answering the questions."
+    }
+  ],
+  "iteration_summaries": [
+    {
+      "iteration": 1,
+      "queries_used": [
+        "Cursor AI native",
+        "Cursor software engineer",
+        "Cursor vs PyCharm"
+      ],
+      "sources_found": 15,
+      "evidence_extracted": 28,
+      "reflection_decision": "sufficient",
+      "gaps_identified": [],
+      "duration_seconds": 0.0
+    }
+  ],
+  "report": {
+    "title": "Cursor as the Default IDE for AI-Native Software Engineers",
+    "executive_summary": "Cursor is a popular choice among AI-native software engineers due to its unique features, such as fast builds, intuitive tooling, and reliable environments. With its built-in AI capabilities, Cursor offers conversational coding, file-wide edits, and advanced AI debugging tools. While PyCharm remains a powerful tool for Python developers, especially in backend development and data science workflows, Cursor shines more in AI-assisted productivity and rapid prototyping.",
+    "key_findings": [
+      "Cursor is a popular choice among AI-native software engineers due to its unique features, such as fast builds, intuitive tooling, and reliable environments. [E13]",
+      "With its built-in AI capabilities, Cursor offers conversational coding, file-wide edits, and advanced AI debugging tools. [E15]"
+    ],
+    "evidence_table": [
+      {
+        "id": "28e25a33",
+        "claim": "Cursor AI is the most capable AI-native IDE available in 2026.",
+        "source_url": "https://dev.to/sahilkhurana/cursor-ai-2026-the-complete-guide-to-the-ai-native-ide-3n4h",
+        "source_title": "Cursor AI 2026: The Complete Guide to the AI-Native IDE",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:03.245372Z"
+      },
+      {
+        "id": "72728642",
+        "claim": "The Agent Mode differentiator is real, the codebase context is meaningfully better than plugin-based alternatives, and the productivity numbers teams report are consistent enough to take seriously.",
+        "source_url": "https://dev.to/sahilkhurana/cursor-ai-2026-the-complete-guide-to-the-ai-native-ide-3n4h",
+        "source_title": "Cursor AI 2026: The Complete Guide to the AI-Native IDE",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:03.245385Z"
+      },
+      {
+        "id": "775d2563",
+        "claim": "But it amplifies your engineering judgment — it does not replace it.",
+        "source_url": "https://dev.to/sahilkhurana/cursor-ai-2026-the-complete-guide-to-the-ai-native-ide-3n4h",
+        "source_title": "Cursor AI 2026: The Complete Guide to the AI-Native IDE",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:03.245392Z"
+      },
+      {
+        "id": "1e6d9219",
+        "claim": "Cursor differentiates itself from standard editors by being built with AI at its center, rather than adding it as a plugin.",
+        "source_url": "https://www.techcompanynews.com/how-to-use-cursor-an-ai-native-code-editor-guide-for-beginners/",
+        "source_title": "How To Use Cursor, An AI-Native Code Editor? Guide For Beginners",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:09.860403Z"
+      },
+      {
+        "id": "9ad1c4f6",
+        "claim": "Cursor is an AI-native code editor that integrates artificial intelligence directly into the development workflow, allowing developers to generate, edit, and understand code inside their project.",
+        "source_url": "https://codefinity.com/blog/What-Cursor-Is-and-Why-Developers-Are-Switching-to-AI-Native-IDEs",
+        "source_title": "What Cursor Is and Why Developers Are Switching to AI Native IDEs",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:09.860422Z"
+      },
+      {
+        "id": "32fa5074",
+        "claim": "Cursor represents a different approach. Instead of adding AI as an extension to an existing editor, it builds the entire development experience around it.",
+        "source_url": "https://codefinity.com/blog/What-Cursor-Is-and-Why-Developers-Are-Switching-to-AI-Native-IDEs",
+        "source_title": "What Cursor Actually Is",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:09.860432Z"
+      },
+      {
+        "id": "abbf735b",
+        "claim": "Cursor AI offers a free plan that includes a 2-week Pro trial, 2,000 code completions, and 50 slow premium requests.",
+        "source_url": "https://uibakery.io/blog/what-is-cursor-a",
+        "source_title": "What is Cursor AI? Free Plan, Pricing & Full Guide (2026)",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:15.971270Z"
+      },
+      {
+        "id": "cce257e9",
+        "claim": "Cursor AI combines advanced language models like GPT-4 and Claude to help users with editing, generating, refactoring, and even explaining codebases in natural language.",
+        "source_url": "https://uibakery.io/blog/what-is-cursor-a",
+        "source_title": "What is Cursor AI? Free Plan, Pricing & Full Guide (2026)",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:15.971298Z"
+      },
+      {
+        "id": "7194cd2e",
+        "claim": "Cursor’s client is growing fast, spanning macOS, Windows, and Linux, and serving an increasingly diverse user base of professional engineers across many programming languages and developer ecosystems.",
+        "source_url": "https://cursor.com/careers/software-engineer-client-infrastructure",
+        "source_title": "Software Engineer, Client Infrastructure",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:15.971313Z"
+      },
+      {
+        "id": "1de5a4d4",
+        "claim": "Cursor is redefining how developers write code, and your work is what makes that possible at scale.",
+        "source_url": "https://cursor.com/careers/software-engineer-core-services",
+        "source_title": "About the Role",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:21.203469Z"
+      },
+      {
+        "id": "ab53219e",
+        "claim": "You'll build the systems that every product team depends on, ensuring they are reliable, well-abstracted, and ready for whatever comes next.",
+        "source_url": "https://cursor.com/careers/software-engineer-core-services",
+        "source_title": "About the Role",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:21.203488Z"
+      },
+      {
+        "id": "cdfcf6d6",
+        "claim": "Cursor is a popular IDE among AI-native software engineers.",
+        "source_url": "https://cursor.com/careers/software-engineer-enterprise-platform",
+        "source_title": "Cursor · Software Engineer, Enterprise Platform",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": "30b93f04",
+        "extracted_at": "2026-05-15T01:33:26.953822Z"
+      },
+      {
+        "id": "39cd2f16",
+        "claim": "The key features of Cursor that make it suitable for AI-native software development include fast builds, intuitive tooling, reliable environments, and seamless CI/CD.",
+        "source_url": "https://cursor.com/careers/software-engineer-developer-productivity",
+        "source_title": "Cursor · Software Engineer, Developer Productivity",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": "9772ee2a",
+        "extracted_at": "2026-05-15T01:33:26.953835Z"
+      },
+      {
+        "id": "70cb6c4f",
+        "claim": "Cursor compares favorably to other popular IDEs in terms of AI-native software engineering support, but specific details are not provided.",
+        "source_url": "https://cursor.com/careers/software-engineer-enterprise-platform",
+        "source_title": "Cursor · Software Engineer, Enterprise Platform",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": "912153d6",
+        "extracted_at": "2026-05-15T01:33:26.953841Z"
+      },
+      {
+        "id": "5295c97a",
+        "claim": "Cursor offers conversational coding, file-wide edits, and advanced AI debugging tools.",
+        "source_url": "https://ameany.io/pycharm-vs-cursor/",
+        "source_title": "What Is Cursor?",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:41.030905Z"
+      },
+      {
+        "id": "e03cb0e4",
+        "claim": "Cursor makes debugging conversational, while PyCharm offers professional debugging control.",
+        "source_url": "https://ameany.io/pycharm-vs-cursor/",
+        "source_title": "What Is Cursor?",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:41.030917Z"
+      },
+      {
+        "id": "3fe3c99f",
+        "claim": "PyCharm remains one of the most powerful tools for Python, especially for backend development and data science workflows.",
+        "source_url": "https://ameany.io/pycharm-vs-cursor/",
+        "source_title": "What Is PyCharm?",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:41.030928Z"
+      },
+      {
+        "id": "dd3aaa2a",
+        "claim": "Cursor supports Python but shines more in AI-assisted productivity and rapid prototyping.",
+        "source_url": "https://ameany.io/pycharm-vs-cursor/",
+        "source_title": "What Is Cursor?",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:41.030945Z"
+      },
+      {
+        "id": "47623dce",
+        "claim": "If you’re asking: Best IDE for Python developers? PyCharm still leads for deep Python specialization.",
+        "source_url": "https://ameany.io/pycharm-vs-cursor/",
+        "source_title": "What Is PyCharm?",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:41.030948Z"
+      },
+      {
+        "id": "f76d9cac",
+        "claim": "Many developers use both depending on tasks.",
+        "source_url": "https://ameany.io/pycharm-vs-cursor/",
+        "source_title": "Which Is Better: PyCharm or Cursor?",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:41.030952Z"
+      },
+      {
+        "id": "55a8e14a",
+        "claim": "If you’re wondering: Should I switch from PyCharm to Cursor? Consider your project type.",
+        "source_url": "https://ameany.io/pycharm-vs-cursor/",
+        "source_title": "Which Is Better: PyCharm or Cursor?",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:41.030956Z"
+      },
+      {
+        "id": "f9cc5d12",
+        "claim": "I’m working in split mode between PyCharm and Cursor.",
+        "source_url": "https://www.linkedin.com/posts/yairgaller_my-experience-on-working-with-cursor-after-activity-7353047665477115904-wxow",
+        "source_title": "Switching to Cursor: Missing features from PyCharm | Yair Galler posted on the topic | LinkedIn",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:41.030959Z"
+      },
+      {
+        "id": "26736075",
+        "claim": "PyCharm provides a different experience by offering a ready-to-use environment out of the box.",
+        "source_url": "https://www.jetbrains.com/help/pycharm/migrate-from-cursor.html",
+        "source_title": "Migrate from Cursor | PyCharm Documentation",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:48.769551Z"
+      },
+      {
+        "id": "0958fc95",
+        "claim": "Cursor’s codebase indexing and retrieval-augmented context generation make it effective for navigating and modifying large, unfamiliar Python codebases.",
+        "source_url": "https://uvik.net/blog/best-ide-for-python-in-2026/",
+        "source_title": "Best Python IDE 2026: VS Code vs PyCharm vs Cursor - AI Scored | Uvik Software",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:48.769569Z"
+      },
+      {
+        "id": "60e9fb57",
+        "claim": "Cursor is its own AI stack—accessing GPT-4o, Claude, and Gemini models directly with Supermaven-based autocomplete.",
+        "source_url": "https://uvik.net/blog/best-ide-for-python-in-2026/",
+        "source_title": "Best Python IDE 2026: VS Code vs PyCharm vs Cursor - AI Scored | Uvik Software",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:33:48.769579Z"
+      },
+      {
+        "id": "28b3b23c",
+        "claim": "Developers who rely on IntelliJ IDEA and other JetBrains IDEs for strong Java and multilanguage support can now use any frontier model with Cursor for agent-driven development.",
+        "source_url": "https://cursor.com/blog/jetbrains-acp",
+        "source_title": "Cursor is now available in JetBrains IDEs · Cursor",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": "30b93f04",
+        "extracted_at": "2026-05-15T01:33:54.296641Z"
+      },
+      {
+        "id": "4cca4a5e",
+        "claim": "Using Cursor ACP in JetBrains IDEs offers many of the benefits that make our agents effective across all surfaces.",
+        "source_url": "https://cursor.com/blog/jetbrains-acp",
+        "source_title": "Cursor is now available in JetBrains IDEs · Cursor",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": "9772ee2a",
+        "extracted_at": "2026-05-15T01:33:54.296660Z"
+      },
+      {
+        "id": "41b5c994",
+        "claim": "The Cursor ACP is a foundation for deeper integrations with JetBrains.",
+        "source_url": "https://cursor.com/blog/jetbrains-acp",
+        "source_title": "Cursor is now available in JetBrains IDEs · Cursor",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": "912153d6",
+        "extracted_at": "2026-05-15T01:33:54.296668Z"
+      }
+    ],
+    "strong_evidence": [
+      "E1: Cursor AI is the most capable AI-native IDE available in 2026.",
+      "E4: Cursor differentiates itself from standard editors by being built with AI at its center, rather than adding it as a plugin."
+    ],
+    "weak_evidence": [
+      "E12: Cursor is a popular IDE among AI-native software engineers.",
+      "E14: Cursor compares favorably to other popular IDEs in terms of AI-native software engineering support, but specific details are not provided."
+    ],
+    "open_questions": [
+      "How does Cursor compare to other popular IDEs in terms of AI-native software engineering support for non-Python languages?"
+    ],
+    "sources": [
+      "https://dev.to/sahilkhurana/cursor-ai-2026-the-complete-guide-to-the-ai-native-ide-3n4h",
+      "https://www.techcompanynews.com/how-to-use-cursor-an-ai-native-code-editor-guide-for-beginners/",
+      "https://codefinity.com/blog/What-Cursor-Is-and-Why-Developers-Are-Switching-to-AI-Native-IDEs"
+    ],
+    "generated_at": "2026-05-15T01:34:06.588202Z"
+  },
+  "current_iteration": 1,
+  "total_sources": 15,
+  "queries_log": [
+    "Cursor AI native",
+    "Cursor software engineer",
+    "Cursor vs PyCharm"
+  ],
+  "stop_reason": "sufficient_evidence"
+}

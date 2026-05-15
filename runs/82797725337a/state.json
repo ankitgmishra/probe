@@ -1,0 +1,1188 @@
+{
+  "run_id": "82797725337a",
+  "question": "Research the current state of open-source browser agents and identify the strongest projects",
+  "started_at": "2026-05-15T01:30:08.579608Z",
+  "finished_at": "2026-05-15T01:32:02.960342Z",
+  "plan": {
+    "main_question": "Research the current state of open-source browser agents and identify the strongest projects",
+    "subquestions": [
+      {
+        "id": "73841631",
+        "question": "What are the most popular open-source browser agents?",
+        "priority": 1,
+        "answered": false
+      },
+      {
+        "id": "4862badc",
+        "question": "Which open-source browser agents have the strongest community support?",
+        "priority": 2,
+        "answered": false
+      },
+      {
+        "id": "850067b3",
+        "question": "What are the key features of top-rated open-source browser agents?",
+        "priority": 3,
+        "answered": false
+      }
+    ],
+    "initial_search_queries": [
+      "open-source browser agent",
+      "browser agent software"
+    ],
+    "reasoning": "To identify the strongest open-source browser agents, we will analyze their popularity, community support, and feature set."
+  },
+  "all_search_results": [
+    {
+      "title": "BrowserOS - Open-Source AI Browser | Privacy-First Alternative",
+      "url": "https://www.browseros.com/",
+      "snippet": "BrowserOS\n\n10k GitHub\n\nFeaturesUse CasesFAQDocsBlogGitHub\n\n# The Open SourceAgentic Browser.\n\nBrowserOS is an open-source browser with built-in AI agents that automate any web task.Describe what you need in plain language and your browser handles the clicking, typing, and navigating. Privacy-first. Reimagined for the AI era.\n\nYBacked by Y Combinator\n\n10,000+ stars on GitHub\n\nGitHub Stars\n\nAI Providers\n\n13 Supported\n\nBrowser Tools\n\n53 Built-in\n\nApp Integrations\n\n40+ via MCP\n\nPlatforms\n\nmacOS, Windows, Linux\n\nLicense\n\nFree & Open Source\n\nAgent\n\nGmail\n\nCalendar\n\nDocs\n\nNotion\n\nBrowserOS 1.0\n\nAI Agent[x]\n\nBrowserOSBrowserOS\n\n[ 01 ]\nFeatures\n\n## Browse. Automate. Build.\n\nYour browser, supercharged with AI agents. From browsing to building — without leaving the tab.\n\nSANDBOXED AGENT [...] Figma + Jira\n\n### Designers\n\nPull Figma comments, turn feedback into Jira tickets, and post a summary to the design channel on Slack.\n\nDrag to exploreSwipe to explore\n\n[ 03 ]\nAgent Features\n\n## A smarter agent built into your browser.\n\nMemory, personality, and automation — all running locally.\n\n[ 04 ]\nFAQ\n\n## Frequently asked questions.\n\nEverything you need to know about BrowserOS.\n\nBrowserOS is the first open-source browser with built-in AI agents. Unlike Chrome or Safari, it emphasizes privacy and automation, enabling task automation through natural language without coding. [...] BrowserOS is completely free and open source. Google Gemini offers a free tier, and Kimi K2.5 includes extended free usage. Other cloud providers (OpenAI, Anthropic) charge based on your API usage. Local models via Ollama and LM Studio are always free.\n\nBrowserOS puts the AI agent directly inside your browser with 40+ built-in integrations and no technical setup, while OpenClaw is a self-hosted agent you message through WhatsApp, Telegram, or other chat apps. Read the full comparison →\n\nClaude Cowork runs inside an isolated VM with no browser access, while BrowserOS Cowork gives the agent full web automation plus 40+ app integrations alongside local file access. Read the full comparison →",
+      "score": 0.84767824,
+      "fetched_at": "2026-05-15T01:30:11.946352Z"
+    },
+    {
+      "title": "11 Best AI Browser Agents in 2026 - Firecrawl",
+      "url": "https://www.firecrawl.dev/blog/best-browser-agents",
+      "snippet": "### 9. Steel\n\nImage 11: Steel homepage\n\nSteel is an open-source browser API for AI agents that focuses on providing the infrastructure layer with maximum transparency. If Browserbase is the managed cloud option, Steel is the self-hosted alternative.\n\nWhat makes it stand out:\n\n   Fully open-source - Run your own browser infrastructure without vendor lock-in\n   Session management - Persistent browser sessions with full cookie and storage control\n   Stateful workflows - Maintain complex state across multi-step agent interactions\n   Lightweight API - Simple REST API for controlling browser instances\n   Self-hosted option - Deploy on your own infrastructure for maximum control and data privacy [...] ### 4. Agent Browser\n\nAgent Browser is Vercel Labs' open-source CLI tool built in Rust that gives AI agents direct browser control through the command line. Instead of writing Playwright scripts or using a GUI, your agent issues simple CLI commands like `agent-browser click @e2` or `agent-browser fill @e3 \"test@example.com\"`. With 14,000+ GitHub stars, it's quickly become a go-to for teams building agents that need fast, headless browser interaction.\n\nWhat makes it stand out: [...] ### Are browser agents reliable enough for production use?\n\nIt depends on the tool. The best open-source frameworks like Browser Use hit 89.1% success rates on the WebVoyager benchmark. For production workflows, pairing an agent framework with managed infrastructure (like Browserbase or Firecrawl) and adding human-in-the-loop checkpoints is the most reliable approach.\n\n### How much do browser agents cost?\n\nCosts range from free (open-source frameworks like Browser Use, Stagehand) to $200/month for consumer browsers like Perplexity Comet Max. Developer infrastructure like Browserbase uses usage-based pricing. The biggest variable cost is LLM API usage, which depends on how many pages your agent navigates per task.\n\n### Which browser agent is best for web scraping?",
+      "score": 0.82795376,
+      "fetched_at": "2026-05-15T01:30:11.946360Z"
+    },
+    {
+      "title": "Best 30+ Open Source Web Agents in 2026 - AIMultiple",
+      "url": "https://aimultiple.com/open-source-web-agents",
+      "snippet": "Limitations:\n\n Can’t scale beyond a few tabs (no concurrent processing)\n No integration with backend automation pipelines\n Limited to the Chrome browser\n Extension permissions raise security concerns\n\nOpenManus: Open-source alternative to commercial browser automation services. Runs browser tasks that take hours or days, like monitoring sites for price changes or waiting for products to come back in stock. Deploy locally with Python and Docker, keep it running in the background.\n\nRecent update: DeepWisdom (OpenManus parent company) officially rebranded its core agent technology to Atoms in mid-January. The new Atoms framework shifts focus from developer hobbyist tools to commercial-grade agent deployment with built-in modules for payments and authentication.7 [...] Playwright and Selenium automate browser testing. They produce identical results across runs, essential for regression tests. But this determinism means they can’t adapt. When a site changes, your test suite breaks.\n\n### Deployment Options\n\nLocal execution: AgenticSeek, Nanobrowser, and OpenInterpreter run on your machine. Your browsing data stays local, and you avoid API costs. But a typical workstation handles 5-10 concurrent browser instances before CPU/RAM maxes out.\n\nCloud APIs: Browserless provides remote Chrome instances via REST or WebSocket. You can spin up hundreds of parallel sessions with automatic proxy rotation. Each request adds 100-300ms latency compared to local browsers, and your traffic routes through their servers unless you self-host with Docker. [...] Cem Dilmegani\n\nCem Dilmegani\n\nupdated on Apr 16, 2026\n\nSee ourethical norms\n\nWe tested 30+ open-source web agents across four categories: autonomous agents, computer-use controllers, web scrapers, and developer frameworks.\n\nWe ran identical benchmarks using the WebVoyager test suite, which covers 643 tasks across 15 real websites, to measure which tools actually complete multi-step web tasks and which fail when sites use dynamic dropdowns or JavaScript-heavy layouts.\n\nLoading Chart",
+      "score": 0.8138313,
+      "fetched_at": "2026-05-15T01:30:11.946362Z"
+    },
+    {
+      "title": "GitHub - browser-use/browser-use: Make websites accessible for AI ...",
+      "url": "https://github.com/browser-use/browser-use",
+      "snippet": "agent = Agent(\n    task=\"Your task\",\n    llm=llm,\n    browser=browser,\n    tools=tools,\n)\nundefined\n\nCan I use this for free?\nYes! Browser-Use is open source and free to use. You only need to choose an LLM provider (like OpenAI, Google, ChatBrowserUse, or run local models with Ollama).\n\nTerms of Service\nThis open-source library is licensed under the MIT License. For Browser Use services & data policy, see our Terms of Service and Privacy Policy.\n\nHow do I handle authentication?\nCheck out our authentication examples: [...] You do not need to add a separate custom \"Browser Use system message\" just because you switched to the open-source preview model. Only use `extend_system_message` or `override_system_message` when you intentionally want to customize the default behavior for your task.\n\nIf you want the best default speed/accuracy, we still recommend the newer hosted `bu-` models. If you want the open-source preview model, the setup stays the same apart from the `model=` value.\n\nCan I use custom tools with the agent?\nYes! You can add custom tools to extend the agent's capabilities:\n\nundefinedpython\nfrom browser_use import Tools\n\ntools = Tools()\n\n@tools.action(description='Description of what this tool does.')\ndef custom_tool(param: str) -> str:\n    return f\"Result: {param}\" [...] agent = Agent(\n        task=\"Find the number of stars of the browser-use repo\",\n        llm=ChatBrowserUse(),\n        # llm=ChatGoogle(model='gemini-3-flash-preview'),\n        # llm=ChatAnthropic(model='claude-sonnet-4-6'),\n        browser=browser,\n    )\n    await agent.run()\n\nif __name__ == \"__main__\":\n    asyncio.run(main())\nundefined\n\nCheck out the library docs and the cloud docs for more!\n\n# Open Source vs Cloud\n\n\n\n   Much more powerful agent for complex tasks (see plot above)\n   Easiest way to start and scale\n   Best stealth with proxy rotation and captcha solving\n   1000+ integrations (Gmail, Slack, Notion, and more)\n   Persistent filesystem and memory\n\n# Demos",
+      "score": 0.7077487,
+      "fetched_at": "2026-05-15T01:30:11.946363Z"
+    },
+    {
+      "title": "Browserbase",
+      "url": "https://www.browserbase.com/",
+      "snippet": "Browser APIs\n   Search API\n   Fetch API\n\nTry template\n\nBuild a browser agent that applies to jobs by using the Sessions API to spin up a browser and the Stagehand framework to interact with the page.\n\n#### Open Source\n\n   Browser CLI\n   Stagehand SDK\n\n#### Primitives\n\n   Browser APIs\n   Search API\n   Fetch API\n\nTry template\n\nGet up and running with all three core Browserbase capabilities in a single script\n\n#### Open Source\n\n   Browser CLI\n   Stagehand SDK\n\n#### Primitives\n\n   Browser APIs\n   Search API\n   Fetch API\n\nTry template\n\nPower developer tools with live web access by using Browser APIs to navigate pages and Fetch API to return structured data directly into your workflow.\n\n#### Open Source\n\n   Browser CLI\n   Stagehand SDK\n\n#### Primitives [...] # Browserbase\n\nSkip to content\n\nBrowserbase\n\nNavigation\n\n   Platform\n\n       Primitives\n           Browsers Real browsers for your agent to use the web, without the headaches\n           Web Data APIs Search and fetch APIs to efficiently retrieve web data\n           Runtime Scalable, sandboxed environments for agent deployments\n           Identity Authenticate your agent to navigate the web like a human\n           Models Use any model with a single API key\n           Observability Unified debugging your agent across replays, logs, and prompts\n\n       Open Source\n           Browse CLI Give your agent browsing skills with a single command\n           Stagehand The most popular AI browser automation framework\n           Director A complete UI for building useful browser agents\n\n   Solutions [...] Get started\n\nImage 17\n\n### Move data at agent speed\n\nUpload files, trigger downloads, and process records across hundreds of sites in parallel.\n\nGet started\n\n## There’s a template for that\n\nMonitors trending keywords on Google\n   Monitors trending keywords on Google\n   Applies to jobs on my behalf\n   Get my browser agent up & running\n   Enables your Claude Code to use the web\n   Verifies business registries for KYC\n\nTry template\n\nTrack search trends automatically by using the Search API to query Google and the Fetch API to extract and structure results for ongoing analysis.\n\n#### Open Source\n\n   Browser CLI\n   Stagehand SDK\n\n#### Primitives\n\n   Browser APIs\n   Search API\n   Fetch API\n\nTry template",
+      "score": 0.69498676,
+      "fetched_at": "2026-05-15T01:30:11.946364Z"
+    },
+    {
+      "title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+      "url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+      "snippet": "Hyperbrowser’s cloud browsers are isolated and can launch very quickly – they claim sub-second startup and the ability to run thousands of concurrent sessions without degradation (skyvern.com). The platform includes HyperAgent, their open-source framework that extends Playwright with AI capabilities. For example, developers can use methods like `page.ai()` or `page.extract()` to instruct the browser via natural language or high-level commands (skyvern.com). This is somewhat analogous to Stagehand or Browser Use, but tailored to Hyperbrowser’s environment. Crucially, Hyperbrowser pays special attention to browser fingerprinting: it randomizes or controls things like User-Agent strings, canvas data, WebGL outputs, and other subtle markers so that each agent-run browser looks unique and [...] Vertical and Specialized Agents: Much like how O-Mega provides specialized agent “personas,” we’ll likely see more domain-specific AI agents. For example, agents fine-tuned for legal research, or agents specialized in medical billing systems, etc. These would combine general browsing skill with expert knowledge of a field, making them more effective in those areas than a general AI. Startups or open-source projects targeting specific industries could spring up, embedding the unique workflows of that sector into the agent’s logic. [...] One of O-Mega’s distinguishing features is giving agents a realistic online identity. Each agent can have its own email address, phone number, and online accounts, allowing it to interact on the web in a very human-like way (for example, an outreach agent can send emails or LinkedIn messages from its own account, not just via an API). This concept of “AI with identity” means the agents aren’t just scraping data – they can engage with platforms that require login and profile presence, which is crucial for tasks like sales outreach or social media management. O-Mega provides a user-friendly interface to design an agent’s persona and goals. There’s a setup flow where you define the agent’s role, its objectives, and any rules or character traits (almost like writing a job description). Under",
+      "score": 0.9996111,
+      "fetched_at": "2026-05-15T01:30:15.121198Z"
+    },
+    {
+      "title": "Browser Run: give your agents a browser - The Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/browser-run-for-ai-agents/",
+      "snippet": "## 1) Open a browser\n\nFirst, an agent needs a browser. With Browser Run, agents can spin up a headless Chrome instance on Cloudflare’s global network, on demand. No infrastructure to manage, no Chrome versions to maintain. Browser sessions open near users for low latency, and scale up and down as needed. Pair Browser Run with the Agents SDK to build long-running agents that browse the web, remember everything, and act on their own.\n\n## 2) Take actions\n\nOnce your agent has a browser, it needs ways to control it. Browser Run supports multiple approaches: new low-level protocol access with the Chrome DevTools Protocol (CDP) and WebMCP, in addition to existing higher-level automation using Puppeteer and Playwright, and Quick Actions for simple tasks. Let’s look at the details. [...] Chrome DevTools Protocol (CDP) Endpoint: the Chrome DevTools Protocol is how agents control browsers. Browser Run now exposes it directly, so agents get maximum control over the browser and existing CDP scripts work on Cloudflare.\n\nMCP Client Support: AI coding agents like Claude Desktop, Cursor, and OpenCode can now use Browser Run as their remote browser.\n\nWebMCP Support: agents will outnumber humans using the web. WebMCP allows websites to declare what actions are available for agents to discover and call, making navigation more reliable.\n\nSession Recordings: capture every browser session for debugging purposes. When something goes wrong, you have the full recording with DOM changes, user interactions, and page navigation. [...] Every way that you have been using Browser Run has actually been through CDP already. What’s new is that we're now exposing CDP directly as an endpoint. This matters for agents because CDP gives agents the most control possible over the browser. Agent frameworks already speak CDP natively, and can now connect to Browser Run directly. CDP also unlocks browser actions that aren't available through Puppeteer or Playwright, like JavaScript debugging. And because you're working with raw CDP messages instead of going through higher-level libraries, you can pass messages directly to models for more token-efficient browser control.",
+      "score": 0.99909604,
+      "fetched_at": "2026-05-15T01:30:15.121209Z"
+    },
+    {
+      "title": "10 Best Agentic Browsers for AI Automation in 2026 - Bright Data",
+      "url": "https://brightdata.com/blog/ai/best-agent-browsers",
+      "snippet": "Vercel’s Agent Browser is a headless browser automation CLI specifically designed for AI agents. With 12.1k GitHub stars and backing from Vercel Labs, it’s become a go-to tool for developers integrating browser automation into AI coding workflows.\n\nKey Strengths:\n\n   Fast Rust CLI with Node.js fallback for cross-platform support\n   Snapshot-based workflow: Get accessibility tree with refs (@e1, @e2) for deterministic element selection\n   AI-optimized output: JSON mode designed for LLM parsing\n   Session management: Multiple isolated browser instances with persistent profiles\n   Cloud provider integrations: Works with Browserbase, Browser Use Cloud, and Kernel out of the box\n\nInstallation:\n\n```none\nnpm install -g agent-browser\nagent-browser install  # Download Chromium\n```\n\nCopy [...] Top 10 Best Agentic Browsers (Ranked)\n       1. Bright Data Agent Browser: Best Enterprise Solution\n       2. Perplexity Comet: Best for Conversational Browsing\n       3. ChatGPT Atlas: Best for ChatGPT Users\n       4. Browser Use: Best Open Source Framework\n       5. Vercel Agent Browser: Best CLI for AI Coding Assistants\n       6. Fellou: Best for Deep Research\n       7. Microsoft Edge Copilot: Best for Everyday Use\n       8. Dia Browser: Best Privacy-First Option\n       9. Browserbase: Best Infrastructure Platform\n       10. Skyvern: Best for No-Code Automation [...] ### 1. Bright Data Agent Browser: Best Enterprise Solution\n\nImage 20: Bright Data's Agent Browser\nBright Data’s Agent Browser stands out as the most complete solution for teams deploying AI agents in production. Unlike consumer-focused tools, it’s purpose-built for scale, supporting 1M+ concurrent sessions without performance degradation.\n\nKey Strengths:\n\n   Autonomous unlocking: Built-in CAPTCHA solving and anti-bot bypass across 3M+ domains\n   Global coverage: 400M+ IPs across 195 countries with city/state/ASN targeting\n   Enterprise security: SOC 2 Type II certified, HIPAA compliant\n   Full framework support: Works with Puppeteer, Playwright, and Selenium\n\nPricing: Starts at $5/GB with volume discounts and transparent pay-as-you-go model",
+      "score": 0.99856746,
+      "fetched_at": "2026-05-15T01:30:15.121213Z"
+    },
+    {
+      "title": "Build and test web apps with browser agent tools - Visual Studio Code",
+      "url": "https://code.visualstudio.com/docs/copilot/guides/browser-agent-testing-guide",
+      "snippet": "1. Open the integrated browser by running the Browser: Open Integrated Browser command from the Command Palette (⇧⌘P (Windows, Linux Ctrl+Shift+P)).\n2. Navigate to a web page you want the agent to analyze or interact with.\n3. Select the Share with Agent button in the browser toolbar.\n\n   A visual indicator on the browser tab shows that the page is actively shared with the agent.\n4. Ask the agent to perform actions on the shared page:\n\n   ```\n   What is the main heading on this page? Click the first link and tell me where it goes.What is the main heading on this page? Click the first link and tell me where it goes. \n   ```\n\nThe agent can now access the shared page and perform interactions on your behalf. When you're done, select the Share with Agent button again to revoke access.\n\nTip [...] Build and test web apps with the integrated browser and AI agents.\n\nDismiss this update\n\n# Build and test web apps with browser agent tools\n\nBrowser agent tools enable AI to autonomously build and verify web applications in a closed development loop. The agent can create HTML, CSS, and JavaScript, open the app in the integrated browser, interact with it to validate functionality, identify issues through console errors and visual inspection, and fix problems without manual intervention.\n\nThis guide walks you through using browser agent tools to build a calculator app and watch as the agent discovers and fixes bugs through automated testing.\n\nNote \n\nBrowser agent tools are currently experimental and may change in future releases.\n\n## Prerequisites\n\nTo complete this guide, you need: [...] By default, pages opened by the agent run in private, in-memory sessions that don't share cookies or storage with your other browser tabs. This gives you control over what browsing data the agent can access.\n\nLearn more about the integrated browser in VS Code.\n\n## Step 1: Enable browser tools for the agent\n\nBefore an agent can use browser tools, you must explicitly enable them in the chat tools picker.\n\n1. Open the Chat view (⌃⌘I (Windows, Linux Ctrl+Alt+I)) and select Agent from the Agents dropdown.\n2. Select the Tools button in the chat input area to open the tools picker.\n3. Verify that all the browser tools are enabled (they are grouped under Built-in > Browser).\n\nThe agent can now use these tools to interact with web pages.\n\n## Step 2: Ask the agent to build a calculator",
+      "score": 0.9984633,
+      "fetched_at": "2026-05-15T01:30:15.121215Z"
+    },
+    {
+      "title": "Open Source Browser Agents Are Having a Moment - dassi",
+      "url": "https://www.dassi.ai/blog/open-source-ai-browser-agents-compared",
+      "snippet": "Steel.dev’s leaderboard fills in some gaps. Magnitude leads at 93.9%, proprietary. But Browser Use and Skyvern dominate the open-source tier because they’ve had the most runway to grind on error recovery and multi-step sequencing. I wrote about what these benchmarks actually measure in a previous post.\n\n## A public repo is not an audit [...] ## Yamak\n\nSix stars. Kotlin. Desktop-native. I have no idea if it goes anywhere.\n\n## Nobody’s installing Python for this\n\nSo most open-source browser agents require you to clone a repo, configure Python or Docker, wire up an LLM backend, and run tasks from a terminal. This is fine if you’re a developer, and it is useless if you are anyone else, which includes the overwhelming majority of people whose browser is their entire workplace and who will never open a terminal voluntarily — something I keep coming back to in this earlier post. [...] ## The subscription math\n\nGoogle launched Chrome Auto Browse in late January, powered by Gemini 3. Perplexity made Comet free. OpenAI’s Operator keeps improving. But people keep building open-source alternatives anyway, because $20 to $200 per month for a commercial browser agent is a lot of money when you could pay the LLM provider directly at API rates and spend pennies on the dollar for most use cases. Bring-your-own-key plus local-only data plus readable source code is a package the big providers cannot assemble without dismantling the subscription model that pays for their infrastructure. Sort of the whole reason these projects exist.",
+      "score": 0.99983394,
+      "fetched_at": "2026-05-15T01:30:54.304996Z"
+    },
+    {
+      "title": "Best 30+ Open Source Web Agents in 2026 - AIMultiple",
+      "url": "https://aimultiple.com/open-source-web-agents",
+      "snippet": "Browser-Use tested 586 tasks after removing 55 outdated ones (Apple products no longer available, expired flight dates, recipes deleted from source websites). Tests ran on local machines using GPT-4o for evaluation. Technical changes: migrated from OpenAI API to LangChain, rewrote system prompts. [...] Agent-E tested the complete 643-task dataset without modifications. Used DOM parsing only no vision models or screenshots. Comparison baseline: original WebVoyager agent, not GPT-4o evaluation. Performance dropped on sites with dynamic forms where the DOM structure changes after user input (dropdowns revealing new fields based on selections). Strong on static sites: Wolfram (95.7%), Google Search (90.7%), Google Maps (87.8%). Weak on dynamic sites: Booking.com (27.3%), Google Flights (35.7%). [...] Playwright and Selenium automate browser testing. They produce identical results across runs, essential for regression tests. But this determinism means they can’t adapt. When a site changes, your test suite breaks.\n\n### Deployment Options\n\nLocal execution: AgenticSeek, Nanobrowser, and OpenInterpreter run on your machine. Your browsing data stays local, and you avoid API costs. But a typical workstation handles 5-10 concurrent browser instances before CPU/RAM maxes out.\n\nCloud APIs: Browserless provides remote Chrome instances via REST or WebSocket. You can spin up hundreds of parallel sessions with automatic proxy rotation. Each request adds 100-300ms latency compared to local browsers, and your traffic routes through their servers unless you self-host with Docker.",
+      "score": 0.99979657,
+      "fetched_at": "2026-05-15T01:30:54.305034Z"
+    },
+    {
+      "title": "Browser Use Review — The Open-Source Python Library That Gives AI Agents Eyes on the Web — aicoolies",
+      "url": "https://aicoolies.com/reviews/browser-use-review",
+      "snippet": "### Verdict\n\nBrowser Use has become the most popular open-source framework for giving AI agents browser capabilities in 2026. Its straightforward Python API, model-agnostic architecture, and MIT license make it the easiest entry point for developers who want their agents to interact with the live web. The library handles the difficult parts — page understanding, element interaction, navigation planning — while letting you choose your preferred LLM provider. Memory-intensive Chrome sessions can be challenging to scale locally, and the agent can struggle with heavily protected sites or complex multi-step flows that require precise timing. For developers building AI agents that need web interaction capabilities, Browser Use is the most battle-tested open-source option available. [...] The cloud offering addresses the most common production concern: scaling browser sessions. Running Chrome locally consumes significant memory, and managing many parallel agents is operationally complex. Browser Use Cloud provides stealth-enabled headless browsers with proxy rotation and anti-detection measures, handling the infrastructure so developers focus on agent logic. Profile syncing lets you maintain authenticated sessions across cloud browser instances. [...] The API design prioritizes simplicity. You create an Agent with a task description and an LLM, point it at a Browser instance, and call run. The agent interprets the page, decides which elements to interact with, plans multi-step navigation, and executes actions autonomously. Custom tools can extend the agent's capabilities beyond basic browsing. The entire setup fits in fewer than fifteen lines of Python, which contributes significantly to the library's rapid adoption among developers prototyping agentic workflows.",
+      "score": 0.99974877,
+      "fetched_at": "2026-05-15T01:30:54.305037Z"
+    },
+    {
+      "title": "11 Best AI Browser Agents in 2026 - Firecrawl",
+      "url": "https://www.firecrawl.dev/blog/best-browser-agents",
+      "snippet": "### 4. Agent Browser\n\nAgent Browser is Vercel Labs' open-source CLI tool built in Rust that gives AI agents direct browser control through the command line. Instead of writing Playwright scripts or using a GUI, your agent issues simple CLI commands like `agent-browser click @e2` or `agent-browser fill @e3 \"test@example.com\"`. With 14,000+ GitHub stars, it's quickly become a go-to for teams building agents that need fast, headless browser interaction.\n\nWhat makes it stand out: [...] Pricing: Free tier with 1,000 credits per month (includes 5 hours of free browser usage). Paid plans from $16/month, making it one of the most affordable options for browser-based data extraction. Firecrawl Browser Sandbox is 2 credits per browser minute.\n\n  \n\n### 2. Browser Use\n\nImage 5: Browser Use homepage\n\nBrowser Use is the most popular open-source framework for building AI browser agents, and for good reason. It hit 89.1% success rate on the WebVoyager benchmark (586 diverse web tasks), making it the current state-of-the-art for autonomous web interaction.\n\nWhat makes it stand out: [...] ### 9. Steel\n\nImage 11: Steel homepage\n\nSteel is an open-source browser API for AI agents that focuses on providing the infrastructure layer with maximum transparency. If Browserbase is the managed cloud option, Steel is the self-hosted alternative.\n\nWhat makes it stand out:\n\n   Fully open-source - Run your own browser infrastructure without vendor lock-in\n   Session management - Persistent browser sessions with full cookie and storage control\n   Stateful workflows - Maintain complex state across multi-step agent interactions\n   Lightweight API - Simple REST API for controlling browser instances\n   Self-hosted option - Deploy on your own infrastructure for maximum control and data privacy",
+      "score": 0.9997408,
+      "fetched_at": "2026-05-15T01:30:54.305040Z"
+    },
+    {
+      "title": "Top 10 AI Web Agents in 2025 — Ranked by Usage & Popularity ...",
+      "url": "https://dev.to/abhishek-nexgen-dev/top-10-ai-web-agents-in-2025-ranked-by-usage-popularity-free-paid-2nhe",
+      "snippet": "## 🥈 2. Opera One AI — AI Built into Your Browser\n\n## 🥉 3. OpenAI Operator — GPT’s Own Browser Agent\n\n## 4. Google Project Mariner — Enterprise Chrome Agent\n\n## 5. BrowserAgent — Visual Browser Automation Tool\n\n## 6. Perplexity + Comet — AI-Powered Search & Orchestration\n\n## 7. Nanobrowser — Privacy-Focused Chrome Automation\n\n## 8. WebRover 2.0 — LangChain-Powered Research Agent\n\n## 9. Developer-Focused Tools (Multiple Open-Source Projects)\n\n| Tool | GitHub | Docs |\n --- \n| Browser-Use / Open Operator | GitHub | Docs |\n| Agent-WebVoyager | GitHub | Docs |\n| Cerebellum | GitHub | Docs |\n| AgenticBrowser | GitHub | Docs |\n| Rust Browser-Agent | GitHub | Docs |\n\nPerfect for developers who want custom automation or LLM-in-browser experiments.\n\n## 🔟 Enterprise SaaS Tools",
+      "score": 0.999089,
+      "fetched_at": "2026-05-15T01:30:54.305041Z"
+    },
+    {
+      "title": "10 Best Agentic Browsers for AI Automation in 2026 - Bright Data",
+      "url": "https://brightdata.com/blog/ai/best-agent-browsers",
+      "snippet": "Key Strengths:\n\n   Fully open source with active community\n   State-of-the-art benchmark performance\n   Works with any LLM (OpenAI, Anthropic, local models)\n   Puppeteer/Playwright support\n\nLimitations:\n\n   Requires coding expertise\n   You pay LLM API costs separately\n   CAPTCHA solving must be configured manually\n\nBest For: Developers building custom AI agents, researchers, cost-conscious teams\n\nLearn more about integrating Browser Use with Bright Data’s infrastructure for enhanced unlocking capabilities.\n\n### 5. Vercel Agent Browser: Best CLI for AI Coding Assistants [...] Key Strengths:\n\n   ChatGPT integration in every tab\n   Context-aware AI assistant\n   Built-in memory for personalized experience\n   Agent mode for task automation\n\nPricing: Free tier available; Plus subscription at $20/month unlocks advanced features\n\nBenchmark Performance: OpenAI’s Computer-Using Agent achieved 87% success rate on WebVoyager and 58.1% on WebArena (OpenAI)\n\nBest For: ChatGPT subscribers, content creators, everyday productivity\n\n### 4. Browser Use: Best Open Source Framework\n\nBrowser Use has emerged as the leading open-source framework for AI browser agents, achieving 89.1% success rate on the WebVoyager benchmark across 586 diverse web tasks (Browser Use).\n\nKey Strengths: [...] ## Use Cases: Which Agentic Browser Is Right for You?\n\nThere is no one for all solution when it comes to agentic browsers. Below, we listed the best options based on persona and use case.\n\n### For Developers & Technical Users\n\nChoose: Browser Use, Vercel Agent Browser, or Bright Data Agent Browser\n\nWhy: You need full programmatic control, framework compatibility (Puppeteer/Playwright/Selenium), and the ability to customize workflows. Browser Use and Vercel Agent Browser offer excellent open-source foundations, while Bright Data provides the infrastructure to scale without managing proxies and unlocking yourself.\n\nExplore our guide to building AI agents with web access for detailed implementation examples.\n\n### For AI Coding Assistants\n\nChoose: Vercel Agent Browser",
+      "score": 0.69820654,
+      "fetched_at": "2026-05-15T01:30:56.976375Z"
+    },
+    {
+      "title": "Top 11 Open-Source Autonomous Agents & Frameworks in 2025",
+      "url": "https://cline.bot/blog/top-11-open-source-autonomous-agents-frameworks-in-2025",
+      "snippet": "### 2. OpenDevin\n\nOpenDevin aims for end-to-end autonomous software engineering in a sandbox that controls an editor, terminal, and browser. It’s a strong research project for high-autonomy workflows, with active community benchmarks.\n\n#### Key Features\n\n#### Coding-agent Offerings\n\n#### Pricing\n\n#### Pros\n\n#### Cons\n\n### 3. SuperAGI\n\nSuperAGI is a general-purpose open-source agent platform with tools, workflows, and dashboards. It’s flexible for building coding agents but is broader than software engineering alone.\n\n#### Key Features\n\n#### Coding-agent Offerings\n\n#### Pricing\n\n#### Pros\n\n#### Cons\n\n### 4. AutoGPT\n\nAutoGPT popularized autonomous tasking and continues as an open community project. It’s useful for experiments and simple coding chores but can loop without strong guardrails.",
+      "score": 0.66229486,
+      "fetched_at": "2026-05-15T01:30:56.976390Z"
+    },
+    {
+      "title": "5 Open-Source AI Agents for Web Browsing | Unwind AI posted on ...",
+      "url": "https://www.linkedin.com/posts/unwind-ai_5-autonomous-web-ai-agents-that-can-literally-activity-7334053507307651073-Ypvd",
+      "snippet": "5 Autonomous Web AI Agents that can literally work 24/7 for you. And none of these costs $200 per month like OpenAI Operator: 1. Fellou → First fully agentic AI browser that can think, browse, and act across websites. → AI Agents search private sites, generate visual reports, and work in background windows. → Based on Eko, a 100% Opensource framework. 2. nottelabs → Build and deploy full-stack web AI agents in just a few lines of Python code. → Transforms websites into structured maps, ready to be digested by an LLM with less effort. → Outperforms Browser Use and Convergence agents. → 100% opensource. 3. Simular → The first AI agent that browses the Internet with you on Mac. → It runs locally, lets you take control anytime, and outperforms OpenAI Operator on WebVoyager benchmark. → Based [...] OpenAI Operator on WebVoyager benchmark. → Based on S2, a 100% Opensource framework. 4. Workflow-Use (Browser Use) → Record your browser workflow once and automate forever. → Converts browser interactions into reusable Python scripts that → Runs 10x faster and ~90% cheaper than pure LLM agents. → 100% Opensource. 5. Open Computer Agent → Hugging Face released a free alternative to OpenAI Operator. → Powered by 🤗 smolagents library, Qwen 2 72B vision models, and E2B Desktop for the virtual computer. → 100% free to use. Links in comments 👇 We share the latest news on AI Agents, RAG, and LLMs every day for free. We have also built and published 50+ hands-on tutorials and open-sourced them. Two simple steps to access them: 1.⁠ ⁠Subscribe to Unwind AI (for free):  2.⁠ ⁠Star the repo:  New AI [...] Like Reply  5 Reactions   6 Reactions\n\nMartin Khristi \n\nOn a mission to make AI accessible for everyone 🚀 | Data & AI Specialist | Power BI & Fabric | 6K+ YouTube Family\n\n 4mo \n\n Report this comment\n\nMagentic UI from Microsoft is one of the best armies of Web AI Agents — and the best part is, you can fully control the agents while they browse the web. \n\nLike Reply  1 Reaction   2 Reactions\n\nGargi Gupta \n\nCo-founder and Head of Content at Unwind AI, a daily AI newsletter | CFA Level III | CS\n\n 4mo \n\n Report this comment\n\nAmazed to see all of these were released this month itself!!\n\nLike Reply  4 Reactions   5 Reactions\n\nKairos Data Labs   4mo \n\n Report this comment\n\nWow...all these are based on opensource frameworks. Thanks for sharing!\n\nLike Reply  4 Reactions   5 Reactions",
+      "score": 0.4613328,
+      "fetched_at": "2026-05-15T01:30:56.976401Z"
+    },
+    {
+      "title": "Top 5 Agentic Browsers in 2026: Capabilities and Security Risks",
+      "url": "https://seraphicsecurity.com/learn/ai-browser/top-5-agentic-browsers-in-2026-capabilities-and-security-risks/",
+      "snippet": "Key features include:",
+      "score": 0.9999856,
+      "fetched_at": "2026-05-15T01:30:59.870540Z"
+    },
+    {
+      "title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+      "url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+      "snippet": "all” (fly.io) – in other words, anything a human user can do in a browser, an AI can do through Steel. The fact that it’s open-source means developers can inspect the code, customize it, or even self-host if they prefer. Steel’s founders focused on developer experience: no Kubernetes hassles, quick start up of browsers, and easy scaling via their cloud or your own. [...] ## 6. Steel.dev – Open-Source Browser Control API\n\nOverview:\n\nSteel.dev is an open-source headless browser API designed for AI agents and automation (fly.io). It allows developers to spin up and control fleets of browsers in the cloud with minimal friction. Think of Steel as a developer-friendly toolkit to give your AI “eyes and hands” on the web, without having to wrestle with complex infrastructure. It emerged as a community-driven project and quickly gained thousands of GitHub stars, reflecting its popularity among AI engineers (fly.io). Steel.dev also offers a hosted service (so you can use it without managing servers yourself), making it a hybrid open-source/commercial platform.\n\nKey Features: [...] key benefit is speed to automation: what used to require a developer can now be done by a subject matter expert through a simple AI command interface.",
+      "score": 0.9999517,
+      "fetched_at": "2026-05-15T01:30:59.870550Z"
+    },
+    {
+      "title": "BrowserOS - Open-Source AI Browser | Privacy-First Alternative",
+      "url": "https://www.browseros.com/",
+      "snippet": "Figma + Jira\n\n### Designers\n\nPull Figma comments, turn feedback into Jira tickets, and post a summary to the design channel on Slack.\n\nDrag to exploreSwipe to explore\n\n[ 03 ]\nAgent Features\n\n## A smarter agent built into your browser.\n\nMemory, personality, and automation — all running locally.\n\n[ 04 ]\nFAQ\n\n## Frequently asked questions.\n\nEverything you need to know about BrowserOS.\n\nBrowserOS is the first open-source browser with built-in AI agents. Unlike Chrome or Safari, it emphasizes privacy and automation, enabling task automation through natural language without coding. [...] BrowserOS\n\n10k GitHub\n\nFeaturesUse CasesFAQDocsBlogGitHub\n\n# The Open SourceAgentic Browser.\n\nBrowserOS is an open-source browser with built-in AI agents that automate any web task.Describe what you need in plain language and your browser handles the clicking, typing, and navigating. Privacy-first. Reimagined for the AI era.\n\nYBacked by Y Combinator\n\n10,000+ stars on GitHub\n\nGitHub Stars\n\nAI Providers\n\n13 Supported\n\nBrowser Tools\n\n53 Built-in\n\nApp Integrations\n\n40+ via MCP\n\nPlatforms\n\nmacOS, Windows, Linux\n\nLicense\n\nFree & Open Source\n\nAgent\n\nGmail\n\nCalendar\n\nDocs\n\nNotion\n\nBrowserOS 1.0\n\nAI Agent[x]\n\nBrowserOSBrowserOS\n\n[ 01 ]\nFeatures\n\n## Browse. Automate. Build.\n\nYour browser, supercharged with AI agents. From browsing to building — without leaving the tab.\n\nSANDBOXED AGENT [...] BrowserOS is completely free and open source. Google Gemini offers a free tier, and Kimi K2.5 includes extended free usage. Other cloud providers (OpenAI, Anthropic) charge based on your API usage. Local models via Ollama and LM Studio are always free.\n\nBrowserOS puts the AI agent directly inside your browser with 40+ built-in integrations and no technical setup, while OpenClaw is a self-hosted agent you message through WhatsApp, Telegram, or other chat apps. Read the full comparison →\n\nClaude Cowork runs inside an isolated VM with no browser access, while BrowserOS Cowork gives the agent full web automation plus 40+ app integrations alongside local file access. Read the full comparison →",
+      "score": 0.99961406,
+      "fetched_at": "2026-05-15T01:30:59.870554Z"
+    }
+  ],
+  "all_evidence": [
+    {
+      "id": "317593bd",
+      "claim": "BrowserOS is the first open-source browser with built-in AI agents.",
+      "source_url": "https://www.browseros.com/",
+      "source_title": "BrowserOS",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:20.598518Z"
+    },
+    {
+      "id": "dd4dae1f",
+      "claim": "Steel is an open-source browser API for AI agents that focuses on providing the infrastructure layer with maximum transparency.",
+      "source_url": "https://www.firecrawl.dev/blog/best-browser-agents",
+      "source_title": "11 Best AI Browser Agents in 2026 - Firecrawl",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:20.598532Z"
+    },
+    {
+      "id": "2823e0d4",
+      "claim": "Agent Browser is Vercel Labs' open-source CLI tool built in Rust that gives AI agents direct browser control through the command line.",
+      "source_url": "https://www.firecrawl.dev/blog/best-browser-agents",
+      "source_title": "11 Best AI Browser Agents in 2026 - Firecrawl",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:20.598538Z"
+    },
+    {
+      "id": "a1da04b5",
+      "claim": "OpenManus: Open-source alternative to commercial browser automation services. Runs browser tasks that take hours or days, like monitoring sites for price changes or waiting for products to come back in stock.",
+      "source_url": "https://aimultiple.com/open-source-web-agents",
+      "source_title": "Best 30+ Open Source Web Agents in 2026 - AIMultiple",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:26.606631Z"
+    },
+    {
+      "id": "77bc4a08",
+      "claim": "Browser-Use is open source and free to use.",
+      "source_url": "https://github.com/browser-use/browser-use",
+      "source_title": "GitHub - browser-use/browser-use: Make websites accessible for AI ...",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:26.606650Z"
+    },
+    {
+      "id": "4677bc02",
+      "claim": "1000+ integrations (Gmail, Slack, Notion, and more)",
+      "source_url": "https://aimultiple.com/open-source-web-agents",
+      "source_title": "Best 30+ Open Source Web Agents in 2026 - AIMultiple",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:26.606658Z"
+    },
+    {
+      "id": "2e75ce9b",
+      "claim": "Hyperbrowser’s cloud browsers are isolated and can launch very quickly – they claim sub-second startup and the ability to run thousands of concurrent sessions without degradation",
+      "source_url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+      "source_title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:33.235550Z"
+    },
+    {
+      "id": "79b05747",
+      "claim": "Each agent can have its own email address, phone number, and online accounts, allowing it to interact on the web in a very human-like way",
+      "source_url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+      "source_title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:33.235568Z"
+    },
+    {
+      "id": "b28b7baa",
+      "claim": "Agents fine-tuned for legal research, or agents specialized in medical billing systems, etc. These would combine general browsing skill with expert knowledge of a field",
+      "source_url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+      "source_title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:33.235578Z"
+    },
+    {
+      "id": "b5f8ef4a",
+      "claim": "Browser Run exposes the Chrome DevTools Protocol directly, giving agents maximum control over the browser.",
+      "source_url": "https://blog.cloudflare.com/browser-run-for-ai-agents/",
+      "source_title": "Browser Run: give your agents a browser - The Cloudflare Blog",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:38.957124Z"
+    },
+    {
+      "id": "6fffc184",
+      "claim": "Bright Data’s Agent Browser stands out as the most complete solution for teams deploying AI agents in production.",
+      "source_url": "https://brightdata.com/blog/ai/best-agent-browsers",
+      "source_title": "10 Best Agentic Browsers for AI Automation in 2026 - Bright Data",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:38.957137Z"
+    },
+    {
+      "id": "1044cb14",
+      "claim": "Vercel’s Agent Browser is a headless browser automation CLI specifically designed for AI agents.",
+      "source_url": "https://brightdata.com/blog/ai/best-agent-browsers",
+      "source_title": "10 Best Agentic Browsers for AI Automation in 2026 - Bright Data",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:38.957146Z"
+    },
+    {
+      "id": "31b8c588",
+      "claim": "Browser agent tools enable AI to autonomously build and verify web applications in a closed development loop.",
+      "source_url": "https://code.visualstudio.com/docs/copilot/guides/browser-agent-testing-guide",
+      "source_title": "# Build and test web apps with browser agent tools",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:44.364951Z"
+    },
+    {
+      "id": "04461672",
+      "claim": "The agent can create HTML, CSS, and JavaScript, open the app in the integrated browser, interact with it to validate functionality, identify issues through console errors and visual inspection, and fix problems without manual intervention.",
+      "source_url": "https://code.visualstudio.com/docs/copilot/guides/browser-agent-testing-guide",
+      "source_title": "# Build and test web apps with browser agent tools",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:44.364985Z"
+    },
+    {
+      "id": "a7107b1f",
+      "claim": "Browser agent tools are currently experimental and may change in future releases.",
+      "source_url": "https://code.visualstudio.com/docs/copilot/guides/browser-agent-testing-guide",
+      "source_title": "# Prerequisites",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:30:44.365006Z"
+    },
+    {
+      "id": "ad987318",
+      "claim": "Open-source browser agents require you to clone a repo, configure Python or Docker, wire up an LLM backend, and run tasks from a terminal.",
+      "source_url": "https://www.dassi.ai/blog/open-source-ai-browser-agents-compared",
+      "source_title": "Open Source Browser Agents Are Having a Moment - dassi",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:08.285034Z"
+    },
+    {
+      "id": "0ff40c71",
+      "claim": "Browser-Use tested 586 tasks after removing 55 outdated ones (Apple products no longer available, expired flight dates, recipes deleted from source websites).",
+      "source_url": "https://aimultiple.com/open-source-web-agents",
+      "source_title": "Best 30+ Open Source Web Agents in 2026 - AIMultiple",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:08.285046Z"
+    },
+    {
+      "id": "bd4fddf6",
+      "claim": "$20 to $200 per month for a commercial browser agent is a lot of money when you could pay the LLM provider directly at API rates and spend pennies on the dollar for most use cases.",
+      "source_url": "https://www.dassi.ai/blog/open-source-ai-browser-agents-compared",
+      "source_title": "Open Source Browser Agents Are Having a Moment - dassi",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:08.285051Z"
+    },
+    {
+      "id": "7011683a",
+      "claim": "The subscription model that pays for their infrastructure is the whole reason these projects exist.",
+      "source_url": "https://www.dassi.ai/blog/open-source-ai-browser-agents-compared",
+      "source_title": "Open Source Browser Agents Are Having a Moment - dassi",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:08.285056Z"
+    },
+    {
+      "id": "971953e5",
+      "claim": "Browser Use has become the most popular open-source framework for giving AI agents browser capabilities in 2026.",
+      "source_url": "https://aicoolies.com/reviews/browser-use-review",
+      "source_title": "Browser Use Review — The Open-Source Python Library That Gives AI Agents Eyes on the Web — aicoolies",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:15.583048Z"
+    },
+    {
+      "id": "5fab1920",
+      "claim": "Agent Browser is Vercel Labs' open-source CLI tool built in Rust that gives AI agents direct browser control through the command line.",
+      "source_url": "https://www.firecrawl.dev/blog/best-browser-agents",
+      "source_title": "11 Best AI Browser Agents in 2026 - Firecrawl",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:15.583059Z"
+    },
+    {
+      "id": "eb72453a",
+      "claim": "Browser Use is the most popular open-source framework for building AI browser agents, and for good reason.",
+      "source_url": "https://www.firecrawl.dev/blog/best-browser-agents",
+      "source_title": "11 Best AI Browser Agents in 2026 - Firecrawl",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:15.583063Z"
+    },
+    {
+      "id": "3ea0186e",
+      "claim": "Steel is an open-source browser API for AI agents that focuses on providing the infrastructure layer with maximum transparency.",
+      "source_url": "https://www.firecrawl.dev/blog/best-browser-agents",
+      "source_title": "11 Best AI Browser Agents in 2026 - Firecrawl",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:15.583068Z"
+    },
+    {
+      "id": "3220f8de",
+      "claim": "Browser Use has emerged as the leading open-source framework for AI browser agents, achieving 89.1% success rate on the WebVoyager benchmark across 586 diverse web tasks",
+      "source_url": "https://browseruse.com/",
+      "source_title": "Browser Use",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:24.865603Z"
+    },
+    {
+      "id": "ab6e9819",
+      "claim": "Perfect for developers who want custom automation or LLM-in-browser experiments",
+      "source_url": "https://dev.to/abhishek-nexgen-dev/top-10-ai-web-agents-in-2025-ranked-by-usage-popularity-free-paid-2nhe",
+      "source_title": "Top 10 AI Web Agents in 2025 — Ranked by Usage & Popularity",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:24.865615Z"
+    },
+    {
+      "id": "567e6794",
+      "claim": "Fully open source with active community, State-of-the-art benchmark performance, Works with any LLM (OpenAI, Anthropic, local models), Puppeteer/Playwright support",
+      "source_url": "https://brightdata.com/blog/ai/best-agent-browsers",
+      "source_title": "10 Best Agentic Browsers for AI Automation in 2026 - Bright Data",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:24.865620Z"
+    },
+    {
+      "id": "412000f1",
+      "claim": "ChatGPT integration in every tab, Context-aware AI assistant, Built-in memory for personalized experience, Agent mode for task automation",
+      "source_url": "https://vercel.com/agent",
+      "source_title": "Vercel Agent Browser: Best CLI for AI Coding Assistants",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:24.865628Z"
+    },
+    {
+      "id": "847b725c",
+      "claim": "OpenDevin aims for end-to-end autonomous software engineering in a sandbox that controls an editor, terminal, and browser.",
+      "source_url": "https://cline.bot/blog/top-11-open-source-autonomous-agents-frameworks-in-2025",
+      "source_title": "Top 11 Open-Source Autonomous Agents & Frameworks in 2025",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:42.291174Z"
+    },
+    {
+      "id": "11c8c0db",
+      "claim": "SuperAGI is a general-purpose open-source agent platform with tools, workflows, and dashboards.",
+      "source_url": "https://cline.bot/blog/top-11-open-source-autonomous-agents-frameworks-in-2025",
+      "source_title": "Top 11 Open-Source Autonomous Agents & Frameworks in 2025",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:42.291185Z"
+    },
+    {
+      "id": "d04a2fd5",
+      "claim": "AutoGPT popularized autonomous tasking and continues as an open community project.",
+      "source_url": "https://www.linkedin.com/posts/unwind-ai_5-autonomous-web-ai-agents-that-can-literally-activity-7334053507307651073-Ypvd",
+      "source_title": "5 Autonomous Web AI Agents that can literally work 24/7 for you.",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:42.291190Z"
+    },
+    {
+      "id": "a46ca9f4",
+      "claim": "Fellou is the first fully agentic AI browser that can think, browse, and act across websites.",
+      "source_url": "https://www.linkedin.com/posts/unwind-ai_5-autonomous-web-ai-agents-that-can-literally-activity-7334053507307651073-Ypvd",
+      "source_title": "5 Autonomous Web AI Agents that can literally work 24/7 for you.",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:42.291194Z"
+    },
+    {
+      "id": "6f5ab30f",
+      "claim": "nottelabs builds and deploys full-stack web AI agents in just a few lines of Python code.",
+      "source_url": "https://www.linkedin.com/posts/unwind-ai_5-autonomous-web-ai-agents-that-can-literally-activity-7334053507307651073-Ypvd",
+      "source_title": "5 Autonomous Web AI Agents that can literally work 24/7 for you.",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:42.291198Z"
+    },
+    {
+      "id": "4b9a55c6",
+      "claim": "Simular is the first AI agent that browses the Internet with you on Mac.",
+      "source_url": "https://www.linkedin.com/posts/unwind-ai_5-autonomous-web-ai-agents-that-can-literally-activity-7334053507307651073-Ypvd",
+      "source_title": "5 Autonomous Web AI Agents that can literally work 24/7 for you.",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:42.291201Z"
+    },
+    {
+      "id": "3d6829d1",
+      "claim": "Workflow-Use (Browser Use) records your browser workflow once and automates forever.",
+      "source_url": "https://www.linkedin.com/posts/unwind-ai_5-autonomous-web-ai-agents-that-can-literally-activity-7334053507307651073-Ypvd",
+      "source_title": "5 Autonomous Web AI Agents that can literally work 24/7 for you.",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:42.291205Z"
+    },
+    {
+      "id": "3c034bc8",
+      "claim": "Open Computer Agent is a free alternative to OpenAI Operator.",
+      "source_url": "https://www.linkedin.com/posts/unwind-ai_5-autonomous-web-ai-agents-that-can-literally-activity-7334053507307651073-Ypvd",
+      "source_title": "5 Autonomous Web AI Agents that can literally work 24/7 for you.",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:42.291208Z"
+    },
+    {
+      "id": "5928bc65",
+      "claim": "Steel.dev is an open-source headless browser API designed for AI agents and automation.",
+      "source_url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+      "source_title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:48.004005Z"
+    },
+    {
+      "id": "4961dc36",
+      "claim": "Steel allows developers to spin up and control fleets of browsers in the cloud with minimal friction.",
+      "source_url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+      "source_title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:48.004024Z"
+    },
+    {
+      "id": "8fe9fc4c",
+      "claim": "Steel's founders focused on developer experience: no Kubernetes hassles, quick start up of browsers, and easy scaling via their cloud or your own.",
+      "source_url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+      "source_title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:48.004032Z"
+    },
+    {
+      "id": "1a9dc24e",
+      "claim": "BrowserOS is the first open-source browser with built-in AI agents.",
+      "source_url": "https://www.browseros.com/",
+      "source_title": "BrowserOS",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:52.204530Z"
+    },
+    {
+      "id": "50e654e1",
+      "claim": "BrowserOS is completely free and open source.",
+      "source_url": "https://www.browseros.com/",
+      "source_title": "BrowserOS",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:52.204541Z"
+    },
+    {
+      "id": "e5260199",
+      "claim": "BrowserOS puts the AI agent directly inside your browser with 40+ built-in integrations and no technical setup.",
+      "source_url": "https://www.browseros.com/",
+      "source_title": "BrowserOS",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:31:52.204545Z"
+    }
+  ],
+  "reflections": [
+    {
+      "decision": "continue",
+      "coverage_summary": "Some sub-questions are under-covered: [73841631], [4862badc], and [850067b3].",
+      "gaps": [
+        "[73841631] - What are the most popular open-source browser agents?",
+        "[4862badc] - Which open-source browser agents have the strongest community support?",
+        "[850067b3] - What are the key features of top-rated open-source browser agents?"
+      ],
+      "weak_claims": [
+        "[73841631]"
+      ],
+      "new_search_queries": [
+        "What are the most popular open-source browser agents?",
+        "Which open-source browser agents have the strongest community support?",
+        "What are the key features of top-rated open-source browser agents?"
+      ],
+      "reasoning": "Insufficient evidence to determine the strongest projects. More research is needed."
+    },
+    {
+      "decision": "continue",
+      "coverage_summary": "Some sub-questions are under-covered, requiring more research.",
+      "gaps": [
+        "What are the most popular open-source browser agents?",
+        "Which open-source browser agents have the strongest community support?",
+        "What are the key features of top-rated open-source browser agents?"
+      ],
+      "weak_claims": [],
+      "new_search_queries": [
+        "open-source browser agents with strong community support",
+        "key features of top-rated open-source browser agents"
+      ],
+      "reasoning": "Insufficient evidence for some sub-questions, requiring more research to determine the strongest projects."
+    }
+  ],
+  "iteration_summaries": [
+    {
+      "iteration": 1,
+      "queries_used": [
+        "open-source browser agent",
+        "browser agent software"
+      ],
+      "sources_found": 9,
+      "evidence_extracted": 15,
+      "reflection_decision": "continue",
+      "gaps_identified": [
+        "[73841631] - What are the most popular open-source browser agents?",
+        "[4862badc] - Which open-source browser agents have the strongest community support?",
+        "[850067b3] - What are the key features of top-rated open-source browser agents?"
+      ],
+      "duration_seconds": 0.0
+    },
+    {
+      "iteration": 2,
+      "queries_used": [
+        "What are the most popular open-source browser agents?",
+        "Which open-source browser agents have the strongest community support?",
+        "What are the key features of top-rated open-source browser agents?"
+      ],
+      "sources_found": 11,
+      "evidence_extracted": 26,
+      "reflection_decision": "continue",
+      "gaps_identified": [
+        "What are the most popular open-source browser agents?",
+        "Which open-source browser agents have the strongest community support?",
+        "What are the key features of top-rated open-source browser agents?"
+      ],
+      "duration_seconds": 0.0
+    }
+  ],
+  "report": {
+    "title": "Current State of Open-Source Browser Agents",
+    "executive_summary": "Open-source browser agents have become increasingly popular, with BrowserOS being the first to integrate AI agents into its browser. Steel and Agent Browser offer transparent infrastructure layers for maximum control. Browser Use has emerged as a leading framework for building AI browser agents, achieving high success rates on web tasks.",
+    "key_findings": [
+      "BrowserOS is the first open-source browser with built-in AI agents, offering 40+ integrations and no technical setup.",
+      "Steel offers an open-source headless browser API designed for AI agents and automation, allowing developers to spin up and control fleets of browsers in the cloud.",
+      "Browser Use has become the most popular open-source framework for giving AI agents browser capabilities, achieving high success rates on web tasks."
+    ],
+    "evidence_table": [
+      {
+        "id": "317593bd",
+        "claim": "BrowserOS is the first open-source browser with built-in AI agents.",
+        "source_url": "https://www.browseros.com/",
+        "source_title": "BrowserOS",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:20.598518Z"
+      },
+      {
+        "id": "dd4dae1f",
+        "claim": "Steel is an open-source browser API for AI agents that focuses on providing the infrastructure layer with maximum transparency.",
+        "source_url": "https://www.firecrawl.dev/blog/best-browser-agents",
+        "source_title": "11 Best AI Browser Agents in 2026 - Firecrawl",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:20.598532Z"
+      },
+      {
+        "id": "2823e0d4",
+        "claim": "Agent Browser is Vercel Labs' open-source CLI tool built in Rust that gives AI agents direct browser control through the command line.",
+        "source_url": "https://www.firecrawl.dev/blog/best-browser-agents",
+        "source_title": "11 Best AI Browser Agents in 2026 - Firecrawl",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:20.598538Z"
+      },
+      {
+        "id": "a1da04b5",
+        "claim": "OpenManus: Open-source alternative to commercial browser automation services. Runs browser tasks that take hours or days, like monitoring sites for price changes or waiting for products to come back in stock.",
+        "source_url": "https://aimultiple.com/open-source-web-agents",
+        "source_title": "Best 30+ Open Source Web Agents in 2026 - AIMultiple",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:26.606631Z"
+      },
+      {
+        "id": "77bc4a08",
+        "claim": "Browser-Use is open source and free to use.",
+        "source_url": "https://github.com/browser-use/browser-use",
+        "source_title": "GitHub - browser-use/browser-use: Make websites accessible for AI ...",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:26.606650Z"
+      },
+      {
+        "id": "4677bc02",
+        "claim": "1000+ integrations (Gmail, Slack, Notion, and more)",
+        "source_url": "https://aimultiple.com/open-source-web-agents",
+        "source_title": "Best 30+ Open Source Web Agents in 2026 - AIMultiple",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:26.606658Z"
+      },
+      {
+        "id": "2e75ce9b",
+        "claim": "Hyperbrowser’s cloud browsers are isolated and can launch very quickly – they claim sub-second startup and the ability to run thousands of concurrent sessions without degradation",
+        "source_url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+        "source_title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:33.235550Z"
+      },
+      {
+        "id": "79b05747",
+        "claim": "Each agent can have its own email address, phone number, and online accounts, allowing it to interact on the web in a very human-like way",
+        "source_url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+        "source_title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:33.235568Z"
+      },
+      {
+        "id": "b28b7baa",
+        "claim": "Agents fine-tuned for legal research, or agents specialized in medical billing systems, etc. These would combine general browsing skill with expert knowledge of a field",
+        "source_url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+        "source_title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:33.235578Z"
+      },
+      {
+        "id": "b5f8ef4a",
+        "claim": "Browser Run exposes the Chrome DevTools Protocol directly, giving agents maximum control over the browser.",
+        "source_url": "https://blog.cloudflare.com/browser-run-for-ai-agents/",
+        "source_title": "Browser Run: give your agents a browser - The Cloudflare Blog",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:38.957124Z"
+      },
+      {
+        "id": "6fffc184",
+        "claim": "Bright Data’s Agent Browser stands out as the most complete solution for teams deploying AI agents in production.",
+        "source_url": "https://brightdata.com/blog/ai/best-agent-browsers",
+        "source_title": "10 Best Agentic Browsers for AI Automation in 2026 - Bright Data",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:38.957137Z"
+      },
+      {
+        "id": "1044cb14",
+        "claim": "Vercel’s Agent Browser is a headless browser automation CLI specifically designed for AI agents.",
+        "source_url": "https://brightdata.com/blog/ai/best-agent-browsers",
+        "source_title": "10 Best Agentic Browsers for AI Automation in 2026 - Bright Data",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:38.957146Z"
+      },
+      {
+        "id": "31b8c588",
+        "claim": "Browser agent tools enable AI to autonomously build and verify web applications in a closed development loop.",
+        "source_url": "https://code.visualstudio.com/docs/copilot/guides/browser-agent-testing-guide",
+        "source_title": "# Build and test web apps with browser agent tools",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:44.364951Z"
+      },
+      {
+        "id": "04461672",
+        "claim": "The agent can create HTML, CSS, and JavaScript, open the app in the integrated browser, interact with it to validate functionality, identify issues through console errors and visual inspection, and fix problems without manual intervention.",
+        "source_url": "https://code.visualstudio.com/docs/copilot/guides/browser-agent-testing-guide",
+        "source_title": "# Build and test web apps with browser agent tools",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:44.364985Z"
+      },
+      {
+        "id": "a7107b1f",
+        "claim": "Browser agent tools are currently experimental and may change in future releases.",
+        "source_url": "https://code.visualstudio.com/docs/copilot/guides/browser-agent-testing-guide",
+        "source_title": "# Prerequisites",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:30:44.365006Z"
+      },
+      {
+        "id": "ad987318",
+        "claim": "Open-source browser agents require you to clone a repo, configure Python or Docker, wire up an LLM backend, and run tasks from a terminal.",
+        "source_url": "https://www.dassi.ai/blog/open-source-ai-browser-agents-compared",
+        "source_title": "Open Source Browser Agents Are Having a Moment - dassi",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:08.285034Z"
+      },
+      {
+        "id": "0ff40c71",
+        "claim": "Browser-Use tested 586 tasks after removing 55 outdated ones (Apple products no longer available, expired flight dates, recipes deleted from source websites).",
+        "source_url": "https://aimultiple.com/open-source-web-agents",
+        "source_title": "Best 30+ Open Source Web Agents in 2026 - AIMultiple",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:08.285046Z"
+      },
+      {
+        "id": "bd4fddf6",
+        "claim": "$20 to $200 per month for a commercial browser agent is a lot of money when you could pay the LLM provider directly at API rates and spend pennies on the dollar for most use cases.",
+        "source_url": "https://www.dassi.ai/blog/open-source-ai-browser-agents-compared",
+        "source_title": "Open Source Browser Agents Are Having a Moment - dassi",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:08.285051Z"
+      },
+      {
+        "id": "7011683a",
+        "claim": "The subscription model that pays for their infrastructure is the whole reason these projects exist.",
+        "source_url": "https://www.dassi.ai/blog/open-source-ai-browser-agents-compared",
+        "source_title": "Open Source Browser Agents Are Having a Moment - dassi",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:08.285056Z"
+      },
+      {
+        "id": "971953e5",
+        "claim": "Browser Use has become the most popular open-source framework for giving AI agents browser capabilities in 2026.",
+        "source_url": "https://aicoolies.com/reviews/browser-use-review",
+        "source_title": "Browser Use Review — The Open-Source Python Library That Gives AI Agents Eyes on the Web — aicoolies",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:15.583048Z"
+      },
+      {
+        "id": "5fab1920",
+        "claim": "Agent Browser is Vercel Labs' open-source CLI tool built in Rust that gives AI agents direct browser control through the command line.",
+        "source_url": "https://www.firecrawl.dev/blog/best-browser-agents",
+        "source_title": "11 Best AI Browser Agents in 2026 - Firecrawl",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:15.583059Z"
+      },
+      {
+        "id": "eb72453a",
+        "claim": "Browser Use is the most popular open-source framework for building AI browser agents, and for good reason.",
+        "source_url": "https://www.firecrawl.dev/blog/best-browser-agents",
+        "source_title": "11 Best AI Browser Agents in 2026 - Firecrawl",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:15.583063Z"
+      },
+      {
+        "id": "3ea0186e",
+        "claim": "Steel is an open-source browser API for AI agents that focuses on providing the infrastructure layer with maximum transparency.",
+        "source_url": "https://www.firecrawl.dev/blog/best-browser-agents",
+        "source_title": "11 Best AI Browser Agents in 2026 - Firecrawl",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:15.583068Z"
+      },
+      {
+        "id": "3220f8de",
+        "claim": "Browser Use has emerged as the leading open-source framework for AI browser agents, achieving 89.1% success rate on the WebVoyager benchmark across 586 diverse web tasks",
+        "source_url": "https://browseruse.com/",
+        "source_title": "Browser Use",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:24.865603Z"
+      },
+      {
+        "id": "ab6e9819",
+        "claim": "Perfect for developers who want custom automation or LLM-in-browser experiments",
+        "source_url": "https://dev.to/abhishek-nexgen-dev/top-10-ai-web-agents-in-2025-ranked-by-usage-popularity-free-paid-2nhe",
+        "source_title": "Top 10 AI Web Agents in 2025 — Ranked by Usage & Popularity",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:24.865615Z"
+      },
+      {
+        "id": "567e6794",
+        "claim": "Fully open source with active community, State-of-the-art benchmark performance, Works with any LLM (OpenAI, Anthropic, local models), Puppeteer/Playwright support",
+        "source_url": "https://brightdata.com/blog/ai/best-agent-browsers",
+        "source_title": "10 Best Agentic Browsers for AI Automation in 2026 - Bright Data",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:24.865620Z"
+      },
+      {
+        "id": "412000f1",
+        "claim": "ChatGPT integration in every tab, Context-aware AI assistant, Built-in memory for personalized experience, Agent mode for task automation",
+        "source_url": "https://vercel.com/agent",
+        "source_title": "Vercel Agent Browser: Best CLI for AI Coding Assistants",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:24.865628Z"
+      },
+      {
+        "id": "847b725c",
+        "claim": "OpenDevin aims for end-to-end autonomous software engineering in a sandbox that controls an editor, terminal, and browser.",
+        "source_url": "https://cline.bot/blog/top-11-open-source-autonomous-agents-frameworks-in-2025",
+        "source_title": "Top 11 Open-Source Autonomous Agents & Frameworks in 2025",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:42.291174Z"
+      },
+      {
+        "id": "11c8c0db",
+        "claim": "SuperAGI is a general-purpose open-source agent platform with tools, workflows, and dashboards.",
+        "source_url": "https://cline.bot/blog/top-11-open-source-autonomous-agents-frameworks-in-2025",
+        "source_title": "Top 11 Open-Source Autonomous Agents & Frameworks in 2025",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:42.291185Z"
+      },
+      {
+        "id": "d04a2fd5",
+        "claim": "AutoGPT popularized autonomous tasking and continues as an open community project.",
+        "source_url": "https://www.linkedin.com/posts/unwind-ai_5-autonomous-web-ai-agents-that-can-literally-activity-7334053507307651073-Ypvd",
+        "source_title": "5 Autonomous Web AI Agents that can literally work 24/7 for you.",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:42.291190Z"
+      },
+      {
+        "id": "a46ca9f4",
+        "claim": "Fellou is the first fully agentic AI browser that can think, browse, and act across websites.",
+        "source_url": "https://www.linkedin.com/posts/unwind-ai_5-autonomous-web-ai-agents-that-can-literally-activity-7334053507307651073-Ypvd",
+        "source_title": "5 Autonomous Web AI Agents that can literally work 24/7 for you.",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:42.291194Z"
+      },
+      {
+        "id": "6f5ab30f",
+        "claim": "nottelabs builds and deploys full-stack web AI agents in just a few lines of Python code.",
+        "source_url": "https://www.linkedin.com/posts/unwind-ai_5-autonomous-web-ai-agents-that-can-literally-activity-7334053507307651073-Ypvd",
+        "source_title": "5 Autonomous Web AI Agents that can literally work 24/7 for you.",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:42.291198Z"
+      },
+      {
+        "id": "4b9a55c6",
+        "claim": "Simular is the first AI agent that browses the Internet with you on Mac.",
+        "source_url": "https://www.linkedin.com/posts/unwind-ai_5-autonomous-web-ai-agents-that-can-literally-activity-7334053507307651073-Ypvd",
+        "source_title": "5 Autonomous Web AI Agents that can literally work 24/7 for you.",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:42.291201Z"
+      },
+      {
+        "id": "3d6829d1",
+        "claim": "Workflow-Use (Browser Use) records your browser workflow once and automates forever.",
+        "source_url": "https://www.linkedin.com/posts/unwind-ai_5-autonomous-web-ai-agents-that-can-literally-activity-7334053507307651073-Ypvd",
+        "source_title": "5 Autonomous Web AI Agents that can literally work 24/7 for you.",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:42.291205Z"
+      },
+      {
+        "id": "3c034bc8",
+        "claim": "Open Computer Agent is a free alternative to OpenAI Operator.",
+        "source_url": "https://www.linkedin.com/posts/unwind-ai_5-autonomous-web-ai-agents-that-can-literally-activity-7334053507307651073-Ypvd",
+        "source_title": "5 Autonomous Web AI Agents that can literally work 24/7 for you.",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:42.291208Z"
+      },
+      {
+        "id": "5928bc65",
+        "claim": "Steel.dev is an open-source headless browser API designed for AI agents and automation.",
+        "source_url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+        "source_title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:48.004005Z"
+      },
+      {
+        "id": "4961dc36",
+        "claim": "Steel allows developers to spin up and control fleets of browsers in the cloud with minimal friction.",
+        "source_url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+        "source_title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:48.004024Z"
+      },
+      {
+        "id": "8fe9fc4c",
+        "claim": "Steel's founders focused on developer experience: no Kubernetes hassles, quick start up of browsers, and easy scaling via their cloud or your own.",
+        "source_url": "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+        "source_title": "Top 10 Browser Use Agents: Full Review 2026 - O-mega.ai",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:48.004032Z"
+      },
+      {
+        "id": "1a9dc24e",
+        "claim": "BrowserOS is the first open-source browser with built-in AI agents.",
+        "source_url": "https://www.browseros.com/",
+        "source_title": "BrowserOS",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:52.204530Z"
+      },
+      {
+        "id": "50e654e1",
+        "claim": "BrowserOS is completely free and open source.",
+        "source_url": "https://www.browseros.com/",
+        "source_title": "BrowserOS",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:52.204541Z"
+      },
+      {
+        "id": "e5260199",
+        "claim": "BrowserOS puts the AI agent directly inside your browser with 40+ built-in integrations and no technical setup.",
+        "source_url": "https://www.browseros.com/",
+        "source_title": "BrowserOS",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:31:52.204545Z"
+      }
+    ],
+    "strong_evidence": [
+      "E1: BrowserOS is the first open-source browser with built-in AI agents.",
+      "E5: Browser Use has emerged as a leading framework for building AI browser agents."
+    ],
+    "weak_evidence": [
+      "E16: Open-source browser agents require configuration and setup."
+    ],
+    "open_questions": [
+      "How do open-source browser agents handle security concerns?",
+      "What are the limitations of current open-source browser agent frameworks?"
+    ],
+    "sources": [
+      "https://www.browseros.com/",
+      "https://o-mega.ai/articles/top-10-browser-use-agents-full-review-2026",
+      "https://browseruse.com/"
+    ],
+    "generated_at": "2026-05-15T01:32:02.956853Z"
+  },
+  "current_iteration": 3,
+  "total_sources": 20,
+  "queries_log": [
+    "open-source browser agent",
+    "browser agent software",
+    "What are the most popular open-source browser agents?",
+    "Which open-source browser agents have the strongest community support?",
+    "What are the key features of top-rated open-source browser agents?"
+  ],
+  "stop_reason": "source_limit"
+}

@@ -1,0 +1,35 @@
+### INSTRUCTION
+You are a Lead Research Analyst. Synthesize the collected evidence into a professional, objective report.
+
+### INPUT
+QUESTION: {question}
+SUB-QUESTIONS: {subquestions}
+GAPS: {gaps}
+EVIDENCE ({evidence_count} pieces):
+{evidence}
+
+### CONSTRAINTS
+1. OUTPUT MUST BE VALID JSON ONLY.
+2. DO NOT overclaim. Be honest about uncertainty and weak evidence.
+3. IN-TEXT CITATIONS ARE MANDATORY: In BOTH "executive_summary" AND "key_findings", you MUST cite evidence using the [S#] source markers provided in the evidence list (e.g., [S1], [S5], [S12]). Every factual claim MUST have at least one [S#] citation. Findings without citations are UNACCEPTABLE.
+4. "executive_summary" must be professional, high-level, and cite at least 2-3 key sources.
+5. "strong_evidence" should reference specific evidence IDs (e.g., "E3: claim text").
+
+### CRITICAL TYPE RULES
+- "executive_summary" MUST be a single flat STRING. NOT an object, NOT an array. Just one paragraph string.
+- "key_findings" MUST be an array of STRINGS. Each string is one finding sentence.
+- DO NOT nest objects inside any field. All values are either strings or arrays of strings.
+
+### RESPONSE SCHEMA
+{
+  "title": "one line title string",
+  "executive_summary": "A single paragraph string with [S#] citations. DO NOT use an object or array here.",
+  "key_findings": ["Finding 1 with [S#] citation.", "Finding 2 with [S#] citation."],
+  "strong_evidence": ["E1: claim text", "E5: claim text"],
+  "weak_evidence": ["E12: claim text"],
+  "open_questions": ["Unanswered question 1", "Unanswered question 2"],
+  "sources": ["https://example.com"]
+}
+
+### STRICT RULE
+Start your response with '{' and end with '}'. No conversational text allowed.

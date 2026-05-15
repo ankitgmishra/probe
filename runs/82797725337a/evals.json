@@ -1,0 +1,31 @@
+{
+  "factuality_score": 0.79,
+  "source_diversity": 15,
+  "source_categories": {
+    "tech": 2,
+    "social": 6,
+    "blog": 1,
+    "other": 32
+  },
+  "source_authority_score": 0.47,
+  "uncertainty_calibration": 0.67,
+  "iteration_depth": 3,
+  "runtime_seconds": 114.4,
+  "sources_analyzed": 20,
+  "stop_reason": "source_limit",
+  "total_evidence": 41,
+  "strong_evidence_count": 20,
+  "moderate_evidence_count": 15,
+  "weak_evidence_count": 6,
+  "speculative_evidence_count": 0,
+  "avg_evidence_per_subquestion": 0.0,
+  "redundant_evidence_pairs": 0,
+  "freshness_score": 1.0,
+  "reflection_quality": {
+    "total_reflections": 2,
+    "continue_decisions": 2,
+    "new_queries_generated": 5,
+    "gaps_identified": 6,
+    "iterative_behavior": true
+  }
+}

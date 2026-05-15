@@ -1,0 +1,980 @@
+{
+  "run_id": "082301a8ae10",
+  "question": "Research whether Clay is more commonly used by sales teams or growth teams.",
+  "started_at": "2026-05-15T01:22:26.245236Z",
+  "finished_at": "2026-05-15T01:26:09.681737Z",
+  "plan": {
+    "main_question": "Research whether Clay is more commonly used by sales teams or growth teams.",
+    "subquestions": [
+      {
+        "id": "bee50c1a",
+        "question": "What is the primary use case of Clay software in sales teams?",
+        "priority": 1,
+        "answered": false
+      },
+      {
+        "id": "95c5b762",
+        "question": "How does Clay AI tool impact growth team operations?",
+        "priority": 2,
+        "answered": false
+      },
+      {
+        "id": "96b1b630",
+        "question": "Is Clay SaaS platform more commonly used by sales or growth teams?",
+        "priority": 3,
+        "answered": false
+      }
+    ],
+    "initial_search_queries": [
+      "Clay software sales",
+      "Clay AI growth teams",
+      "Clay SaaS usage"
+    ],
+    "reasoning": "To determine the primary use case of Clay, we will analyze its features and user reviews. For growth team operations, we will examine how Clay's AI tool affects their workflow. By comparing the results, we can identify whether Clay is more commonly used by sales or growth teams."
+  },
+  "all_search_results": [
+    {
+      "title": "Clay revenue, funding & growth rate | Sacra",
+      "url": "https://sacra.com/c/clay/",
+      "snippet": "## Business Model\n\nClay sells its software on a classic subscription-SaaS model. Customers pick a monthly or annual plan (Free, Starter, Explorer, Pro or Enterprise) that drops a pre-set bucket of “credits” into their workspace each billing cycle. Those credits are the company’s recurring-revenue meter: 2K credits on Starter cost $149 a month, 10K credits on Explorer cost $349, and so on. Credits roll over up to twice their original allotment if you underspend, and every plan comes with unlimited users—so the bill is tied to consumption, not seat count. [...] ## Product\n\nClay is an Excel or Airtable-esque spreadsheet focused on sales. Like Airtable, the user creates tables, each one of which is a live database for a specific go-to-market workflow. Each record in the table is a prospect or company and each column is a data field that can hold text, a formula or an AI step.\n\nA typical flow starts with data ingestion (CSV upload, Google Sheets sync, API, or pasted LinkedIn URLs). You then stack actions in columns either a static field or a dynamic action—“Find Email,” “Summarize Website,” “Generate Intro Line”. [...] Because COGS are mainly cloud infrastructure and pass-through data licensing, Clay’s gross margins look more like a data-heavy SaaS firm (roughly mid-60s to high-70 percent) than the 80-plus percent of pure software. Management runs the company close to breakeven: at $30 million of 2024 revenue, Clay generated a slight loss, implying low-single-digit negative operating margin and capital-efficient growth.",
+      "score": 0.7750779,
+      "fetched_at": "2026-05-15T01:22:34.117154Z"
+    },
+    {
+      "title": "What is Sales Prospecting? | Clay",
+      "url": "https://www.clay.com/glossary/sales-prospecting-software",
+      "snippet": "## Shipping Solutions\n\nShipping solutions are services or software that streamline the logistics of getting products to customers, from label printing to final delivery.\n\n## Direct Sales\n\nDirect sales involves selling products directly to consumers in a non-retail setting, such as at home, online, or person-to-person.\n\n## Product Recommendations\n\nProduct recommendations are a marketing strategy that uses customer data to suggest relevant products, boosting sales and customer engagement.\n\n## No Spam\n\n“No Spam” is a commitment to sending only relevant, solicited messages. It means avoiding bulk, unwanted emails to respect the recipient's inbox.\n\n## Demand Generation Framework [...] ## Sales Intelligence Platform\n\nA sales intelligence platform is software that provides sales teams with data and insights about prospects to help them sell more effectively.\n\n## Intent-Based Leads\n\nIntent-based leads are potential customers whose online actions—like searches or content engagement—signal a clear interest in buying a solution.\n\n## Marketing Mix\n\nThe marketing mix is the set of marketing tools a company uses to sell products, defined by the 4Ps: Product, Price, Place, and Promotion.\n\n## Go-to-Market Software\n\nGo-to-market software coordinates product launches, sales strategies, and demand generation to help teams bring offerings to market faster and more effectively.\n\n## Product Champion [...] ## Top Sales Prospecting Software Tools\n\nThe sales prospecting software market is crowded with options for different needs. Tools range from all-in-one platforms to specialized solutions for data enrichment or outreach automation. They offer access to vast contact databases and features to streamline engagement.\n\nLeading platforms like HubSpot, LinkedIn Sales Navigator, and ZoomInfo dominate the space. The best tool depends on your team's size, target market, and budget. Evaluating these factors is key to finding the right fit for your prospecting process.\n\n## Prospecting Tips for Sales Teams\n\nTo get the most from your prospecting efforts, focus on seamless integration and clear strategy.\n\n## Frequently Asked Questions about Sales Prospecting",
+      "score": 0.70799106,
+      "fetched_at": "2026-05-15T01:22:34.117172Z"
+    },
+    {
+      "title": "AI-Powered Sales Automation Startup Clay More Than Doubles Valuation To $3.1B",
+      "url": "https://news.crunchbase.com/venture/ai-powered-gtm-startup-clay-valuation-doubles-capitalg/",
+      "snippet": "“GTM engineers combine growth acumen with AI and automation to build revenue engines. We call it ‘engineering’ because they work within certain parameters to build scaled systems — but instead of coding software, they’re coding revenue,” he said.\n\nClay raised another round to fuel the growth of GTM engineering and make “major” product upgrades, including autonomous agents for research and messaging, the ability to use first-party data, and better signals, according to Anand.\n\nWhile Clay did not disclose hard revenue figures, it notes that its revenue is “on track to more than triple this year.” The company’s 10,000-plus customers include OpenAI, Anthropic, Cursor, Canva, Intercom and Rippling. [...] Notably, the financing comes just six months after New York-based Clay announced it had secured $40 million at a $1.25 billion valuation in a Series B extension led by Meritech Capital.\n\nIn May, Clay completed a tender offer led by Sequoia at a $1.5 billion valuation. The latest infusion brings Clay’s total raised to $204 million since its 2017 inception. The company told Crunchbase News that it “hasn’t touched” the last round it raised.\n\nClay’s platform aims to “transform” traditional sales and marketing operations, building automated workflows that it says can research thousands of prospects, personalize outreach at scale, and identify revenue opportunities “that would be impossible to find manually.” [...] Crunchbase News\nCrunchbase News\n\n# AI-Powered Sales Automation Startup Clay More Than Doubles Valuation To $3.1B\n\n![Illustration of remote meet on cellphone, unicorn chess piece and money. [Dom Guzman]](\nMary Ann Azevedo, freelance reporter for Crunchbase News. Mary Ann Azevedo\n\nSales automation startup Clay has raised $100 million in a Series C round of funding that more than doubles the company’s valuation to $3.1 billion, the company told Crunchbase News on Tuesday.\n\nAlphabet’s independent growth fund, CapitalG, led the round. Existing backers Meritech Capital Partners, Sequoia Capital, First Round Capital, BoxGroup and Boldstart Ventures, as well as new investor Sapphire Ventures, also participated.",
+      "score": 0.68064564,
+      "fetched_at": "2026-05-15T01:22:34.117175Z"
+    },
+    {
+      "title": "Clay raised $40m on $1.3 billion today. | Nathan Latka - LinkedIn",
+      "url": "https://www.linkedin.com/posts/nathanlatka_clay-raised-40m-on-13-billion-today-activity-7287889049535557633-TTEJ",
+      "snippet": "Clay raised $40m on $1.3 billion today. What's their revenue? Answer: From today's press release: \"We 10x’d revenue in both 2022 and 2023, and we 6x’d revenue in 2024,\" shared CEO Kareem Amin> Lets run the numbers: 2021: $1m 2022: $10m (10x) 2023: $100m (10x) 2024: $600m (6x) ... unlikely. If the firm had $600m in ARR, it'd be raising at a $6b+ valuation. > Let's try on a smaller 2021 base. 2021: $100k 2022: $1m (10x) 2023: $10m (10x) 2024: $60m (6x) ... potentially possible. BUT \"Our ~100-person team\" (from press release) would mean $600,000 ARR/FTE (world class). Certainly possible but I can't remember the last time I analyzed a SaaS company at this stage, with this profile at $600k in ARR/FTE. $120-$200k ARR/FTE is way more likely. Mistakes I could be making: → The 2021 ARR base is [...] Clay raised $40m on $1.3 billion today. What's their revenue? Answer: From today's press release: \"We 10x’d revenue in both 2022 and 2023, and we 6x’d revenue in 2024,\" shared CEO Kareem Amin> Lets run the numbers: 2021: $1m 2022: $10m (10x) 2023: $100m (10x) 2024: $600m (6x) ... unlikely. If the firm had $600m in ARR, it'd be raising at a $6b+ valuation. > Let's try on a smaller 2021 base. 2021: $100k 2022: $1m (10x) 2023: $10m (10x) 2024: $60m (6x) ... potentially possible. BUT \"Our ~100-person team\" (from press release) would mean $600,000 ARR/FTE (world class). Certainly possible but I can't remember the last time I analyzed a SaaS company at this stage, with this profile at $600k in ARR/FTE. $120-$200k ARR/FTE is way more likely. Mistakes I could be making: → The 2021 ARR base is [...] 4mo \n\n   Report this comment\n\nRevenue could be 100 m but it's more like GMV. A lot of people consume other platform products from Apollo / open AI etc via Clay and that could be sleeping these numbers . So the next question to ask is , what's their take rate / gross margins.\n\nLikeReply 1 Reaction \n\nImage 14: Sean Matthews, graphic\n\nSean Matthews\nCrafting Integrations with real ROI Helping make integrations suck just a little less 🙏😅\n\n 4mo \n\n   Report this comment",
+      "score": 0.63750535,
+      "fetched_at": "2026-05-15T01:22:34.117177Z"
+    },
+    {
+      "title": "Clay reaches $100M ARR: an eight-year overnight success",
+      "url": "https://www.clay.com/blog/100m-arr",
+      "snippet": "Clay started with the goal to democratize the power of programming. What began as a no-code spreadsheet ultimately found its home with GTM teams, but the fundamentals never changed: a few flexible primitives, combinable in endless ways, giving non-technical people new powers.\n\nOur growth is anchored in strong foundations. We have never churned an enterprise customer. Teams that use Clay scale and introduce others, which is why our enterprise net revenue retention is over 200%. That flywheel means every dollar we invest grows Clay roughly 15x — a ratio that has tripled in recent years and continues to rise. It’s how we’ve reached this scale with a fraction of the spend typical for companies at our stage. [...] We're proud to be an eight-year overnight success, with the best of our journey still ahead of us.\n\n## Clay crossed $100M ARR this week.\n\nFrom the outside, it looks like an overnight success: we went from $1M to $100M in just two years. But the six years before that tell the real story. We spent most of Clay’s life charting our own course: exploring ideas, narrowing our focus, and finding the right product to build. Once we nailed that, the last two years came from putting that product into the world.\n\nClay started with the goal to democratize the power of programming. What began as a no-code spreadsheet ultimately found its home with GTM teams, but the fundamentals never changed: a few flexible primitives, combinable in endless ways, giving non-technical people new powers. [...] ### Clay announces employee tender offer led by Sequoia at $1.5B valuation\n\nClay allows employees to sell vested shares for immediate liquidity through a $20M tender offer at a $1.5B valuation. With 10x revenue growth in 2022-2023 and serving 8,000+ customers including OpenAI and Hubspot, Clay continues to change how businesses approach go-to-market strategies with their AI agent Claygent.\n\n### Create personalized presentations at scale with Clay and Google Slides\n\nAutomate personalized sales decks with Clay’s Google Slides integration. Instantly generate tailored presentations for leads, customers, QBRs, and internal updates. Use one template to create hundreds of presentations at scale.\n\n### Turn Gong conversations into automated GTM workflows",
+      "score": 0.6364215,
+      "fetched_at": "2026-05-15T01:22:34.117180Z"
+    },
+    {
+      "title": "We're building out our growth team at Clay! Imagine being ... - LinkedIn",
+      "url": "https://www.linkedin.com/posts/vaanand_were-building-out-our-growth-team-at-clay-activity-7386108031840759808-8vD0",
+      "snippet": "We're building out our growth team at Clay! 🚀 Imagine being on Figma's design team in ~2018. If you're interested in growth, this is that opportunity at Clay, \"the creative tool for growth.\" Davide (our Head of Growth) is looking for 2 growth legends that will build and scale the growth-loop engines for Clay. What you'll do: - Build bleeding-edge growth engines using Clay (you're our ICP) - Test every feature and workflow and give feedback to impact product roadmap - Push boundaries on what's possible with modern GTM - Take your learnings and help thousands of others replicate it We're looking for someone that loves to obsess over growth problems. Someone who can move fast and iterate, perfect the plays that work, then scale and quantify the impact. Big scope. Little handholding. Huge [...] 303   38 Comments\n\nLike   Comment\n\nVarun Anand \n\nCo-Founder @ Clay\n\n 2w \n\n Report this comment\n\nJoin the Growth team at the Growth company (Clay)! Growth, Acquisition:  Growth, Lifecycle: \n\nLike Reply  16 Reactions   17 Reactions\n\nDavide Grieco \n\nHead of Growth @ Clay\n\n 2w \n\n Report this comment\n\nFor reference, I look shorter than I actually am.\n\nLike Reply  42 Reactions   43 Reactions\n\nBruno Estrella \n\nHead of Marketing @ Clay | ex-Webflow\n\n 2w \n\n Report this comment\n\nWe're building the best growth team in the world! Come join us!\n\nLike Reply  8 Reactions   9 Reactions\n\nKellen Casebeer \n\nHelping companies find Message-Market-Fit | Founder @ The Deal Lab | Smartlead Certified Partner | Clay Certified Expert\n\n 2w \n\n Report this comment\n\n🏍benyamin ‎if we could afford him [...] Report this comment\n\n🏍benyamin ‎if we could afford him\n\nLike Reply  3 Reactions   4 Reactions\n\nGrey Seymour \n\nOnchain Marketing, BD, & Alliances Leader || Web3 Evangelist || RevOps Mage\n\n 2w \n\n Report this comment\n\nWould love to explore this. Just to confirm - remote-friendly?\n\nLike Reply  1 Reaction\n\nSarah Du \n\nInvestor at Uncork Capital\n\n 1w \n\n Report this comment\n\nMatt Maiale describes the early Clay culture & magic well here 😜 (🔮✨👾) \n\nLike Reply  2 Reactions   3 Reactions\n\nSean Derman Yang \n\nAptos Labs\n\n 2w \n\n Report this comment\n\nbullish on Davide Grieco\n\nLike Reply  1 Reaction   2 Reactions\n\nBrendan Short \n\nWriting The Signal (Exploring AI + the future GTM playbook) | Playing long-term games with long-term people 🫡\n\n 2w \n\n Report this comment\n\nthis is cool",
+      "score": 0.8145405,
+      "fetched_at": "2026-05-15T01:22:36.918669Z"
+    },
+    {
+      "title": "Clay is Growing 10x y/y; Here's How! - Notorious",
+      "url": "https://www.notoriousplg.ai/p/notorious-clay-is-growing-10x-here",
+      "snippet": "Clay is experiencing one of those rare moments that startup teams dream of: They've grown 10x Year-over-Year (YoY) and now have tens of thousands of users as well as thousands of paying customers like Verkada, Anthropic, and Intercom. When Bruno Estrella joined Clay’s Growth Marketing team this year, his mission was clear: devise a strategy to propel Clay into exponential growth. Before joining Clay, Estrella was the Director of Growth Marketing at Webflow. During his nearly five years there, the company grew 20x and raised over $300M in funding. \n\n“I learned firsthand that for a company to achieve flywheel growth, you need a growth strategy rooted in understanding your business, product, and audience,” Estrella explains. [...] 4. What’s your current market, and does it fit your business model?   \n  \nClay targets two key market segments: Freelancers and marketing agencies, who use Clay to build outbound campaigns faster, and in-house Growth teams, who use Clay to power their data enrichment and GTM motions. \n\nThese targets fit Clay’s self-serve PLG business model nicely, as freelancers and marketing agencies can quickly onboard and find value, while in-house growth teams can evangelize the value of Clay.\n\n#### Determine the best ways to tap into your target market [...] ##### Referrals\n\nClay’s third most effective growth driver is referrals from agencies and service providers to in-house marketing teams.\n\nWhen service providers demonstrate Clay’s capabilities to in-house teams, those in-house teams give the product a try, and eventually start using it at their own companies. Think of it as a double growth loop: Agencies and service providers introduce in-house teams to the tool, sparking a new cycle of users who show the product to even more new users.\n\n#### Combine your business model, product, and market to create the ultimate growth strategy",
+      "score": 0.7274535,
+      "fetched_at": "2026-05-15T01:22:36.918680Z"
+    },
+    {
+      "title": "Clay raises $100M, valued at $3.1B, for AI-native GTM engineering",
+      "url": "https://www.linkedin.com/posts/grow-with-clay_clay-raised-100m-in-series-c-funding-at-activity-7358868165725982720-rvxd",
+      "snippet": "Clay raised $100M in Series C funding at a $3.1B valuation to power today’s breakout AI-native job: GTM engineering. GTM engineering seeing explosive growth -- as a role, as mindset, as a new approach to how we think about reaching customers. The entire GTME ecosystem & Clay community is thriving. How'd we get here? ⬇️ 1️⃣ 𝗪𝗵𝗲𝗿𝗲 𝗶𝘀 𝘁𝗿𝗮𝗱𝗶𝘁𝗶𝗼𝗻𝗮𝗹 𝗚𝗧𝗠 𝗳𝗮𝗹𝗹𝗶𝗻𝗴 𝗳𝗹𝗮𝘁? ▪️ Sales plays of 2010s (and even new ones) are commodified faster than ever ▪️ Teams work in silos juggling a dozen tools & different data sets → Manual research and data/systems maintenance bog teams down 2️⃣ 𝗛𝗼𝘄 𝗶𝘀 𝗚𝗧𝗠 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗮𝗱𝗱𝗿𝗲𝘀𝘀𝗶𝗻𝗴 𝘁𝗵𝗶𝘀? 𝗪𝗵𝘆 𝗻𝗼𝘄? ▪️ Clay centralized 150+ GTM data providers, CRMs, sequencers, and AI tools into one GTM IDE ▪️ AI broke down the barriers for teams to build creative, insightful, AND [...] year, 100 driving agencies are helping companies around the world implement GTM systems. Multiple founders are now millionaires, and internal champions are accelerating their careers, receiving promotions, raises and awards. Clay's cohort program is taught over 2500 alumni. 7 Boot Camp. Businesses are teaching clay, and 60 clay clubs worldwide meet up to learn and practice clay. They're even competing to crown a global champion. We're contradicting the AI spam narrative. GTM engineers can make outreach relevant, personal, and just in time. This means less spam, higher response rates, and a more human experience for everyone. The future belongs to teams that can harness AI to enhance human creativity. If your GTM team is bogged down by manual research, slow campaigns, or fixing. Data. Your [...] the barriers for teams to build creative, insightful, AND scalable systems \"in-house\" → Less time on manual/grunt work. Clean data foundation. Exponentially faster iteration times 3️⃣ 𝗚𝗧𝗠 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗶𝘀 𝗮𝗹𝗿𝗲𝗮𝗱𝘆 𝗺𝗮𝗸𝗶𝗻𝗴 𝗮 𝗵𝘂𝗴𝗲 𝗶𝗺𝗽𝗮𝗰𝘁 𝗴𝗹𝗼𝗯𝗮𝗹𝗹𝘆! ▪️ 108+ agencies worldwide. Many quickly built businesses with multimillion dollar run-rates ▪️ 400+ GTM Engineer jobs posted in the last 4.5 months alone ▪️ 60 Clay Clubs across 29 countries helping people learn this new profession ▪️ $50M+ generated for our 150+ data partners this year → Less spam. Higher response rates. More human experiences. The future belongs to teams that can harness AI to 𝘦𝘯𝘩𝘢𝘯𝘤𝘦 human creativity. Welcome to the era of GTM engineering :)",
+      "score": 0.6829338,
+      "fetched_at": "2026-05-15T01:22:36.918683Z"
+    },
+    {
+      "title": "[Clay.com] Cases for Modern GTM Teams | Talantir Guides",
+      "url": "https://talantir.ai/en/knowledge/guides/claycom-cases-for-modern-gtm-teams-69c83ea58f7c4b007056d249",
+      "snippet": "In execution terms, the team defines the required fields, the fallback order, and the minimum completeness threshold before a record moves forward.\n AI research and custom data generation\n Clay includes AI research and processing features, including Claygent and AI-enabled columns for research and transformation.\n GTM teams use this to generate custom fields that are not available in standard providers, such as product positioning clues, public proof points, market category labels, or qualification notes.\n This only works well when prompts are tightly scoped and outputs are reviewed against a defined quality standard.\n CRM enrichment and maintenance\n Clay positions CRM enrichment and maintenance as a core use case. [...] ## Core Workflows / Components\n\nModern GTM teams usually use Clay across a small set of operational motions. The tool supports tables, enrichment waterfalls, AI research, transformations, and exports; the real question is how those pieces are used to move work forward. [...] Prompt sprawl is another recurring issue. Teams add AI research columns for vague questions, get inconsistent outputs, and then assume the problem is with AI generally. Usually the problem is poor prompt design, no acceptance criteria, and no QA rule for the generated field. Clay’s own training material emphasizes frameworks and prompting discipline for this reason. (clay.com)\n\nCredit waste is also a practical problem. If the team does not control enrichment order, stop conditions, or minimum field requirements, multi-provider workflows can become expensive very quickly. Waterfalls are useful, but only when the fallback sequence and success threshold are deliberate. (clay.com)",
+      "score": 0.67192334,
+      "fetched_at": "2026-05-15T01:22:36.918685Z"
+    },
+    {
+      "title": "Introducing the Corporate Hierarchy Structurer in Clay - LinkedIn",
+      "url": "https://www.linkedin.com/posts/grow-with-clay_new-in-clay-map-corporate-hierarchies-with-activity-7369712513413824512--o9O",
+      "snippet": "Like Reply  1 Reaction   2 Reactions\n\nRajesh Kadam \n\nGrowth/GTM/ABM Engineering | x-C3.ai, x-McKinsey | Building AI Products and High-Performing Teams\n\n 1mo \n\n Report this comment\n\nThis is a huge unlock. Congrats Clay. You are fast becoming the one-stop shop for all GTM data. Whoever on your team thought of the waterfall model needs to ring the bell on your IPO! 🙂\n\nLike Reply  1 Reaction   2 Reactions\n\n See more comments \n\nTo view or add a comment, sign in\n\n## More Relevant Posts\n\n Anas Ansar\n\n  Founder @ Outbound Company | Booking Qualified Meetings on a Pay-Per-Meeting Basis\n\n  + Report this post",
+      "score": 0.638588,
+      "fetched_at": "2026-05-15T01:22:36.918686Z"
+    },
+    {
+      "title": "Companies that use Clay (active customer list)",
+      "url": "https://bloomberry.com/data/clay/",
+      "snippet": "I analyzed these companies and found that Clay Web Intent users are predominantly B2B software and technology companies building tools for other businesses. The majority are SaaS platforms focused on solving specific operational problems: compliance automation, payment infrastructure, security solutions, workforce management, and developer tools. Many are vertical-specific platforms like Avrios for fleet management or Trek Health for healthcare pricing, rather than horizontal productivity tools. [...] The day-to-day users span a broader range, from SDRs and BDRs running outbound campaigns to marketing operations specialists managing lead enrichment and scoring workflows. Practitioners use Clay alongside tools like HubSpot, Salesforce, Apollo, and Outreach to enrich prospect data, personalize outreach at scale, and automate repetitive tasks. One posting described building \"Clay workflows, enrichment, sequencing\" while another mentioned using Clay to \"streamline and elevate campaign workflows\" including segmentation logic and performance analysis. [...] I noticed that Clay users are building sophisticated, data-driven outbound sales operations. These companies aren't sending mass emails and hoping for the best. They're investing in tools that help them identify the right prospects, understand buyer intent, and orchestrate personalized outreach at scale. This is the tech stack of modern revenue teams that treat prospecting as a strategic advantage rather than a numbers game.",
+      "score": 0.99990165,
+      "fetched_at": "2026-05-15T01:22:39.340089Z"
+    },
+    {
+      "title": "Clay for SaaS: Setup, Tips, and the Plays That Work (2026)",
+      "url": "https://leadhaste.com/blog/clay-for-saas",
+      "snippet": "— Dimitar Petkov, LeadHaste\n\n## Verdict\n\nClay is the right tool for SaaS teams that have a sending stack, time to build, and someone on the team who likes data workflows. It produces reply rates that justify the cost when it is set up well. It is an expensive spreadsheet when it is not.\n\nFor teams that want the result without the setup, the orchestration layer is what we run for clients.\n\n## Ready to Run Clay Inside a System That Compounds?\n\nWe build SaaS outbound systems with Clay, sending infrastructure, and the orchestration layer that turns signals into meetings. You own everything. We run it.\n\nBook your free pilot →\n\n## Frequently Asked Questions [...] For SaaS, the unit economics are clean. The signals are public. The buyers are discoverable. The personalization is repeatable. That combination is what makes Clay produce reply rates that generic outbound cannot match.\n\n## Setup: The First 2-4 Weeks\n\nA working Clay setup for SaaS typically takes two to four weeks. Here is how we structure it for clients.\n\n### Week 1: Data Sources and List Building\n\nConnect the data sources you need. Apollo for contact data. Clearbit, Cognism, or ZoomInfo for company enrichment. LinkedIn Sales Navigator for live job changes and hiring signals. Crunchbase, PitchBook, or HarmonicAI for funding events. BuiltWith or Wappalyzer for tech stack data. PhantomBuster or LinkedIn for hiring spikes. [...] We use Clay inside our orchestration stack for SaaS clients across vertical, horizontal, and developer-facing categories. The plays below come from production campaigns we have run in 2025-2026.\n\n## Why Clay Works for SaaS\n\nSaaS buyers leak more public signals than buyers in any other industry. Funding rounds. Hiring spikes. Tech stack changes. Product launches. Job changes. Conference speaker lists. Public roadmaps. Each of these is a \"buy intent\" signal if you know how to read it.\n\nClay is the tool that lets you stitch those signals together. You start with a list of accounts. Clay enriches each account from 75-plus data sources, runs a Claygent (the built-in research agent) to find the latest signal, and outputs a personalized opener that references the most relevant trigger.",
+      "score": 0.99953806,
+      "fetched_at": "2026-05-15T01:22:39.340100Z"
+    },
+    {
+      "title": "Clay's Billion-Dollar Valuation: Hype or the Future of the Data Space",
+      "url": "https://www.leadgenius.com/resources/clays-billion-dollar-valuation-hype-or-the-future-of-data-space",
+      "snippet": "Thin Margins – Unlike traditional SaaS businesses that generate high-margin, recurring revenue, Clay’s reliance on external data providers puts a cap on profitability.\n Front-Loaded Use Cases – Many of Clay’s core use cases—TAM builds, data enrichment, and account mapping—are project-based, not long-term subscriptions. Once the initial project is done, customer spending drops dramatically.\n Strategic Vulnerabilities – If any of Clay’s key data partners decide to increase prices, restrict access, or compete directly, it could throw their entire business model into chaos.\n\n### The AI Hype Factor [...] Clay’s go-to-market strategy is sharp. They’ve nailed the playbook on data enrichment, their demo experience is airtight, and they’ve built a strong community-led growth engine. But let’s take a closer look at what actually makes up their revenue.\n\nOne of the biggest concerns is pass-through revenue. If 50% of Clay’s reported ARR is actually revenue that’s funneled directly to third-party data providers, then their true recurring revenue and margin potential are significantly lower than what investors might assume. It’s not a pure SaaS model; it’s a data brokerage with software features bolted on. That introduces major risks: [...] ### The Bottom Line\n\nTech startups live and die by their fundamentals. Clay has momentum, but momentum alone isn’t enough. If they can evolve beyond their current model and build a true SaaS flywheel, they might be able to justify this valuation. If not, they risk becoming another case study in how AI hype can inflate expectations beyond reality.\n\nThat said, if Clay successfully establishes itself as the “Switzerland of B2B data”—a neutral aggregator that plays nice with all providers while layering on high-value automation—it could end up in a much stronger position than its critics expect.\n\nThe next year is going to be critical. Let’s see if Clay can make the leap—or if they get leapfrogged by someone else.\n\nOur Resources\n\n# Learn From Our Resources",
+      "score": 0.9994023,
+      "fetched_at": "2026-05-15T01:22:39.340102Z"
+    },
+    {
+      "title": "Introducing Clay Audiences: Unified GTM Data, Now in Enterprise Beta - The GTM with Clay Blog",
+      "url": "https://www.clay.com/blog/audiences-enterprise-beta-launch",
+      "snippet": "A team with all three layers can target mid-market SaaS companies already using their product on a self-serve plan, whose usage spiked last week, and whose champion just changed jobs. That precision lets companies find their GTM alpha, and run unique plays their competitors can’t.\n\nAudiences is built to unify all three layers, pulling first-party records from your CRM and data warehouse, enriching them with third-party signals, and keeping the whole picture current as your market changes.\n\nOnce that data is unified in Clay, teams can run workflows directly on top of it. RevOps can build scoring and routing logic, marketing can activate segments for campaigns, and reps can get pre-call context and signal alerts without pulling a single report manually.\n\n‍\n\n‍\n\n## Use cases [...] A team with all three layers can target mid-market SaaS companies already using their product on a self-serve plan, whose usage spiked last week, and whose champion just changed jobs. That precision lets companies find their GTM alpha, and run unique plays their competitors can’t.\n\nAudiences is built to unify all three layers, pulling first-party records from your CRM and data warehouse, enriching them with third-party signals, and keeping the whole picture current as your market changes.\n\nOnce that data is unified in Clay, teams can run workflows directly on top of it. RevOps can build scoring and routing logic, marketing can activate segments for campaigns, and reps can get pre-call context and signal alerts without pulling a single report manually.\n\n‍\n\n‍\n\n## Use cases [...] Clay Templates let you replicate full GTM workflows in hours, not days. Automate prospecting from data scraping to AI messaging, free and fully customizable.\n\n### How to Optimize Your Credit Usage in Clay\n\nLearn how to optimize your credit usage in Clay with conditional formulas, Clearbit waterfall lookups, and smarter enrichment workflows. Save credits fast.\n\n### AI for sales prospecting\n\nLearn about how to use AI for sales prospecting in this comprehensive guide, including framework for creating AI prompts and examples of cold email templates using AI that real sales teams have used successfully to land clients. AI sales prospecting can save your team thousands of hours—and double or triple your positive response rates.",
+      "score": 0.998784,
+      "fetched_at": "2026-05-15T01:22:39.340104Z"
+    },
+    {
+      "title": "How to Use Clay to Build and Enrich an Account-Based Marketing (ABM) Lead List",
+      "url": "https://www.saasrise.com/blog/how-to-use-clay-to-build-and-enrich-an-account-based-marketing-abm-lead-list",
+      "snippet": "Log in\n\nApply\n\nAll Posts\n\n# How to Use Clay to Build and Enrich an Account-Based Marketing (ABM) Lead List\n\nYou can’t afford to build your Account-Based Marketing (ABM) lead list with just one or two tools. You need something powerful—something that not only finds people but enriches them with verified, usable data you can actually act on. That’s where Clay comes in.\n\nBy\n\nRyan Allis\n\nNovember 10, 2025\n\nApply to our next B2B SaaS Growth Program\n\nJoin the SaasRise Community\n\nClay is one of the most impressive tools in the modern growth stack—a data enrichment platform that lets you build an ABM list from scratch, or import one you already have, and then supercharge it with verified work emails, personal emails, phone numbers, and even AI-generated insights about each company. [...] That’s how you scale smart. That’s how you grow with Clay.\n\n— Ryan Allis, CEO, SaasRise\n\nApply to our next B2B SaaS Growth Program\n\nJoin the SaasRise Community [...] Meta Ads Manager for Facebook and Instagram retargeting.\n LinkedIn Ads for company-based or contact-based targeting.\n Google Ads Customer Match for display, YouTube, and search targeting.\n Outbound tools like Instantly or SmartLead for email campaigns.\n\nIf you’re targeting multiple audiences (say, CEOs vs. CTOs, or two different verticals), build separate lists in Clay. That way you can write specific messaging and ad creative for each segment.\n\nFor example, if you’re marketing to SaaS CEOs and SaaS CTOs, you’ll want two unique audiences—two lists, two ad sets, two sets of emails.\n\n## Step 10: Manage Costs and Credits\n\nClay isn’t cheap, but it’s flexible. Most companies either:",
+      "score": 0.9975656,
+      "fetched_at": "2026-05-15T01:22:39.340106Z"
+    }
+  ],
+  "all_evidence": [
+    {
+      "id": "cb9f0b5f",
+      "claim": "Clay sells its software on a classic subscription-SaaS model.",
+      "source_url": "https://sacra.com/c/clay/",
+      "source_title": "Business Model",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:22:45.544536Z"
+    },
+    {
+      "id": "c53f41b2",
+      "claim": "Clay is an Excel or Airtable-esque spreadsheet focused on sales.",
+      "source_url": "https://sacra.com/c/clay/",
+      "source_title": "Product",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:22:45.544550Z"
+    },
+    {
+      "id": "e18683a1",
+      "claim": "Clay’s gross margins look more like a data-heavy SaaS firm (roughly mid-60s to high-70 percent).",
+      "source_url": "https://sacra.com/c/clay/",
+      "source_title": "Business Model",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:22:45.544556Z"
+    },
+    {
+      "id": "e43f2c0b",
+      "claim": "Clay is used for sales prospecting.",
+      "source_url": "https://www.clay.com/glossary/sales-prospecting-software",
+      "source_title": "Sales Prospecting Software Tools",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:22:45.544560Z"
+    },
+    {
+      "id": "b90f0710",
+      "claim": "Clay’s platform aims to transform traditional sales and marketing operations, building automated workflows that it says can research thousands of prospects, personalize outreach at scale, and identify revenue opportunities that would be impossible to find manually.",
+      "source_url": "https://news.crunchbase.com/venture/ai-powered-gtm-startup-clay-valuation-doubles-capitalg/",
+      "source_title": "AI-Powered Sales Automation Startup Clay More Than Doubles Valuation To $3.1B",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:22:56.642202Z"
+    },
+    {
+      "id": "47c5b227",
+      "claim": "Clay raised another round to fuel the growth of GTM engineering and make major product upgrades, including autonomous agents for research and messaging, the ability to use first-party data, and better signals.",
+      "source_url": "https://news.crunchbase.com/venture/ai-powered-gtm-startup-clay-valuation-doubles-capitalg/",
+      "source_title": "AI-Powered Sales Automation Startup Clay More Than Doubles Valuation To $3.1B",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:22:56.642222Z"
+    },
+    {
+      "id": "da425f40",
+      "claim": "The company’s 10,000-plus customers include OpenAI, Anthropic, Cursor, Canva, Intercom and Rippling.",
+      "source_url": "https://news.crunchbase.com/venture/ai-powered-gtm-startup-clay-valuation-doubles-capitalg/",
+      "source_title": "AI-Powered Sales Automation Startup Clay More Than Doubles Valuation To $3.1B",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:22:56.642232Z"
+    },
+    {
+      "id": "92758686",
+      "claim": "Clay raised $40m on $1.3 billion today.",
+      "source_url": "https://www.linkedin.com/posts/nathanlatka_clay-raised-40m-on-13-billion-today-activity-7287889049535557633-TTEJ",
+      "source_title": "Nathan Latka",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:22:56.642239Z"
+    },
+    {
+      "id": "0efc8390",
+      "claim": "Revenue could be 100 m but it's more like GMV.",
+      "source_url": "https://www.linkedin.com/posts/nathanlatka_clay-raised-40m-on-13-billion-today-activity-7287889049535557633-TTEJ",
+      "source_title": "Nathan Latka",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:22:56.642247Z"
+    },
+    {
+      "id": "a211e70a",
+      "claim": "Clay started with the goal to democratize the power of programming.",
+      "source_url": "https://www.clay.com/blog/100m-arr",
+      "source_title": "Clay reaches $100M ARR: an eight-year overnight success",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:12.702111Z"
+    },
+    {
+      "id": "a25a61de",
+      "claim": "Teams that use Clay scale and introduce others, which is why our enterprise net revenue retention is over 200%. That flywheel means every dollar we invest grows Clay roughly 15x — a ratio that has tripled in recent years and continues to rise.",
+      "source_url": "https://www.clay.com/blog/100m-arr",
+      "source_title": "Clay reaches $100M ARR: an eight-year overnight success",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:12.702132Z"
+    },
+    {
+      "id": "86c85b08",
+      "claim": "We're building out our growth team at Clay! Imagine being on Figma's design team in ~2018.",
+      "source_url": "https://www.linkedin.com/posts/vaanand_were-building-out-our-growth-team-at-clay-activity-7386108031840759808",
+      "source_title": "We're building out our growth team at Clay!",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:12.702141Z"
+    },
+    {
+      "id": "58228cf3",
+      "claim": "Build bleeding-edge growth engines using Clay (you're our ICP) - Test every feature and workflow and give feedback to impact product roadmap - Push boundaries on what's possible with modern GTM - Take your learnings and help thousands of others replicate it",
+      "source_url": "https://www.linkedin.com/posts/vaanand_were-building-out-our-growth-team-at-clay-activity-7386108031840759808",
+      "source_title": "We're building out our growth team at Clay!",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:12.702148Z"
+    },
+    {
+      "id": "1b458618",
+      "claim": "Would love to explore this. Just to confirm - remote-friendly?",
+      "source_url": "https://www.linkedin.com/posts/grey_seymour_would-love-to-explore-this-just-to-confirm-remote-friendly-activity-7386108031840759808",
+      "source_title": "Grey Seymour",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:12.702156Z"
+    },
+    {
+      "id": "9491af97",
+      "claim": "Clay targets two key market segments: Freelancers and marketing agencies, who use Clay to build outbound campaigns faster, and in-house Growth teams, who use Clay to power their data enrichment and GTM motions.",
+      "source_url": "https://www.notoriousplg.ai/p/notorious-clay-is-growing-10x-here",
+      "source_title": "Clay is Growing 10x y/y; Here's How!",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": "96b1b630",
+      "extracted_at": "2026-05-15T01:25:20.467478Z"
+    },
+    {
+      "id": "f96fcc1a",
+      "claim": "Clay’s third most effective growth driver is referrals from agencies and service providers to in-house marketing teams.",
+      "source_url": "https://www.notoriousplg.ai/p/notorious-clay-is-growing-10x-here",
+      "source_title": "Clay is Growing 10x y/y; Here's How!",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": "95c5b762",
+      "extracted_at": "2026-05-15T01:25:20.467491Z"
+    },
+    {
+      "id": "1614673a",
+      "claim": "GTM engineers can make outreach relevant, personal, and just in time. This means less spam, higher response rates, and a more human experience for everyone.",
+      "source_url": "https://www.linkedin.com/posts/grow-with-clay_clay-raised-100m-in-series-c-funding-at-activity-7358868165725982720-rvxd",
+      "source_title": "Clay raises $100M, valued at $3.1B, for AI-native GTM engineering",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "speculative",
+      "subquestion_id": "bee50c1a",
+      "extracted_at": "2026-05-15T01:25:20.467502Z"
+    },
+    {
+      "id": "98cb0f54",
+      "claim": "Modern GTM teams usually use Clay across a small set of operational motions.",
+      "source_url": "https://talantir.ai/en/knowledge/guides/claycom-cases-for-modern-gtm-teams-69c83ea58f7c4b007056d249",
+      "source_title": "Cases for Modern GTM Teams | Talantir Guides",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": "96b1b630",
+      "extracted_at": "2026-05-15T01:25:27.487734Z"
+    },
+    {
+      "id": "6d40fb72",
+      "claim": "Clay positions CRM enrichment and maintenance as a core use case.",
+      "source_url": "https://talantir.ai/en/knowledge/guides/claycom-cases-for-modern-gtm-teams-69c83ea58f7c4b007056d249",
+      "source_title": "Cases for Modern GTM Teams | Talantir Guides",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": "95c5b762",
+      "extracted_at": "2026-05-15T01:25:27.487755Z"
+    },
+    {
+      "id": "4b2890a1",
+      "claim": "Clay is fast becoming the one-stop shop for all GTM data.",
+      "source_url": "https://www.linkedin.com/posts/grow-with-clay_new-in-clay-map-corporate-hierarchies-with-activity-7369712513413824512--o9O",
+      "source_title": "Introducing the Corporate Hierarchy Structurer in Clay - LinkedIn",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": "bee50c1a",
+      "extracted_at": "2026-05-15T01:25:27.487765Z"
+    },
+    {
+      "id": "beedf636",
+      "claim": "Clay Web Intent users are predominantly B2B software and technology companies building tools for other businesses.",
+      "source_url": "https://bloomberry.com/data/clay/",
+      "source_title": "Companies that use Clay (active customer list)",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:43.208826Z"
+    },
+    {
+      "id": "e56535ec",
+      "claim": "The majority are SaaS platforms focused on solving specific operational problems: compliance automation, payment infrastructure, security solutions, workforce management, and developer tools.",
+      "source_url": "https://bloomberry.com/data/clay/",
+      "source_title": "Companies that use Clay (active customer list)",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:43.208838Z"
+    },
+    {
+      "id": "9d31d6d1",
+      "claim": "These companies aren't sending mass emails and hoping for the best. They're investing in tools that help them identify the right prospects, understand buyer intent, and orchestrate personalized outreach at scale.",
+      "source_url": "https://bloomberry.com/data/clay/",
+      "source_title": "Companies that use Clay (active customer list)",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:43.208843Z"
+    },
+    {
+      "id": "dbc34fc1",
+      "claim": "Clay is the right tool for SaaS teams that have a sending stack, time to build, and someone on the team who likes data workflows.",
+      "source_url": "https://leadhaste.com/blog/clay-for-saas",
+      "source_title": "Clay for SaaS: Setup, Tips, and the Plays That Work (2026)",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:43.208847Z"
+    },
+    {
+      "id": "ae0b3b83",
+      "claim": "For teams that want the result without the setup, the orchestration layer is what we run for clients.",
+      "source_url": "https://leadhaste.com/blog/clay-for-saas",
+      "source_title": "Clay for SaaS: Setup, Tips, and the Plays That Work (2026)",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:43.208851Z"
+    },
+    {
+      "id": "01e7c7bc",
+      "claim": "The signals are public. The buyers are discoverable. The personalization is repeatable.",
+      "source_url": "https://leadhaste.com/blog/clay-for-saas",
+      "source_title": "Clay for SaaS: Setup, Tips, and the Plays That Work (2026)",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:43.208855Z"
+    },
+    {
+      "id": "6ab36884",
+      "claim": "A working Clay setup for SaaS typically takes two to four weeks.",
+      "source_url": "https://leadhaste.com/blog/clay-for-saas",
+      "source_title": "Clay for SaaS: Setup, Tips, and the Plays That Work (2026)",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:43.208858Z"
+    },
+    {
+      "id": "620f1a89",
+      "claim": "SaaS buyers leak more public signals than buyers in any other industry.",
+      "source_url": "https://leadhaste.com/blog/clay-for-saas",
+      "source_title": "Clay for SaaS: Setup, Tips, and the Plays That Work (2026)",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:43.208862Z"
+    },
+    {
+      "id": "1524bbdd",
+      "claim": "Clay is the tool that lets you stitch those signals together.",
+      "source_url": "https://leadhaste.com/blog/clay-for-saas",
+      "source_title": "Clay for SaaS: Setup, Tips, and the Plays That Work (2026)",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:43.208865Z"
+    },
+    {
+      "id": "9477baf9",
+      "claim": "If Clay’s reported ARR is actually revenue that’s funneled directly to third-party data providers, then their true recurring revenue and margin potential are significantly lower than what investors might assume.",
+      "source_url": "https://www.leadgenius.com/resources/clays-billion-dollar-valuation-hype-or-the-future-of-data-space",
+      "source_title": "Clay’s Billion-Dollar Valuation: Hype or the Future of the Data Space",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:50.302039Z"
+    },
+    {
+      "id": "78ce4c04",
+      "claim": "Clay has momentum, but momentum alone isn’t enough.",
+      "source_url": "https://www.leadgenius.com/resources/clays-billion-dollar-valuation-hype-or-the-future-of-data-space",
+      "source_title": "Clay’s Billion-Dollar Valuation: Hype or the Future of the Data Space",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:50.302059Z"
+    },
+    {
+      "id": "2bd80956",
+      "claim": "If Clay successfully establishes itself as the “Switzerland of B2B data”—a neutral aggregator that plays nice with all providers while layering on high-value automation—it could end up in a much stronger position than its critics expect.",
+      "source_url": "https://www.leadgenius.com/resources/clays-billion-dollar-valuation-hype-or-the-future-of-data-space",
+      "source_title": "Clay’s Billion-Dollar Valuation: Hype or the Future of the Data Space",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:50.302068Z"
+    },
+    {
+      "id": "ba968d6e",
+      "claim": "Clay is one of the most impressive tools in the modern growth stack—a data enrichment platform that lets you build an ABM list from scratch, or import one you already have, and then supercharge it with verified work emails, personal emails, phone numbers, and even AI-generated insights about each company.",
+      "source_url": "https://www.saasrise.com/blog/how-to-use-clay-to-build-and-enrich-an-account-based-marketing-abm-lead-list",
+      "source_title": "# How to Use Clay to Build and Enrich an Account-Based Marketing (ABM) Lead List",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "strong",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:57.094064Z"
+    },
+    {
+      "id": "fe4d09ac",
+      "claim": "If you’re targeting multiple audiences (say, CEOs vs. CTOs, or two different verticals), build separate lists in Clay.",
+      "source_url": "https://www.saasrise.com/blog/how-to-use-clay-to-build-and-enrich-an-account-based-marketing-abm-lead-list",
+      "source_title": "# How to Use Clay to Build and Enrich an Account-Based Marketing (ABM) Lead List",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "moderate",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:57.094077Z"
+    },
+    {
+      "id": "ffd701e8",
+      "claim": "Clay isn’t cheap, but it’s flexible.",
+      "source_url": "https://www.saasrise.com/blog/how-to-use-clay-to-build-and-enrich-an-account-based-marketing-abm-lead-list",
+      "source_title": "# Step 10: Manage Costs and Credits",
+      "quote": null,
+      "date_mentioned": null,
+      "strength": "weak",
+      "subquestion_id": null,
+      "extracted_at": "2026-05-15T01:25:57.094082Z"
+    }
+  ],
+  "reflections": [
+    {
+      "decision": "sufficient",
+      "coverage_summary": "Clay is more commonly used by growth teams than sales teams.",
+      "gaps": [],
+      "weak_claims": [
+        "24. Clay is the right tool for SaaS teams that have a sending stack, time to build, and someone on the team who likes data workflows.",
+        "25. For teams that want the result without the setup, the orchestration layer is what we run for clients."
+      ],
+      "new_search_queries": [
+        "What is the primary use case of Clay software in sales teams?",
+        "How does Clay AI tool impact growth team operations?"
+      ],
+      "reasoning": "Sub-questions [95c5b762] and [96b1b630] have sufficient evidence supporting that Clay is more commonly used by growth teams. Sub-question [bee50c1a] has weak claims, but sub-question [STRONG] Clay sells its software on a classic subscription-SaaS model and sub-question [MODERATE] Teams that use Clay scale and introduce others, which is why our enterprise net revenue retention is over 200% supports the claim."
+    }
+  ],
+  "iteration_summaries": [
+    {
+      "iteration": 1,
+      "queries_used": [
+        "Clay software sales",
+        "Clay AI growth teams",
+        "Clay SaaS usage"
+      ],
+      "sources_found": 15,
+      "evidence_extracted": 35,
+      "reflection_decision": "sufficient",
+      "gaps_identified": [],
+      "duration_seconds": 0.0
+    }
+  ],
+  "report": {
+    "title": "Clay Software Usage in Sales and Growth Teams",
+    "executive_summary": "Based on the evidence, Clay software is primarily used by sales teams for prospecting and transforming traditional sales operations. While growth teams also use Clay, its platform aims to power data enrichment and GTM motions, suggesting a stronger connection to sales teams.",
+    "key_findings": [
+      "Clay's primary use case is in sales prospecting (E4).",
+      "Growth teams use Clay to build outbound campaigns faster and power their data enrichment and GTM motions (E15, E19).",
+      "The majority of Clay's customers are SaaS platforms focused on solving specific operational problems (E21, E22)."
+    ],
+    "evidence_table": [
+      {
+        "id": "cb9f0b5f",
+        "claim": "Clay sells its software on a classic subscription-SaaS model.",
+        "source_url": "https://sacra.com/c/clay/",
+        "source_title": "Business Model",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:22:45.544536Z"
+      },
+      {
+        "id": "c53f41b2",
+        "claim": "Clay is an Excel or Airtable-esque spreadsheet focused on sales.",
+        "source_url": "https://sacra.com/c/clay/",
+        "source_title": "Product",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:22:45.544550Z"
+      },
+      {
+        "id": "e18683a1",
+        "claim": "Clay’s gross margins look more like a data-heavy SaaS firm (roughly mid-60s to high-70 percent).",
+        "source_url": "https://sacra.com/c/clay/",
+        "source_title": "Business Model",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:22:45.544556Z"
+      },
+      {
+        "id": "e43f2c0b",
+        "claim": "Clay is used for sales prospecting.",
+        "source_url": "https://www.clay.com/glossary/sales-prospecting-software",
+        "source_title": "Sales Prospecting Software Tools",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:22:45.544560Z"
+      },
+      {
+        "id": "b90f0710",
+        "claim": "Clay’s platform aims to transform traditional sales and marketing operations, building automated workflows that it says can research thousands of prospects, personalize outreach at scale, and identify revenue opportunities that would be impossible to find manually.",
+        "source_url": "https://news.crunchbase.com/venture/ai-powered-gtm-startup-clay-valuation-doubles-capitalg/",
+        "source_title": "AI-Powered Sales Automation Startup Clay More Than Doubles Valuation To $3.1B",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:22:56.642202Z"
+      },
+      {
+        "id": "47c5b227",
+        "claim": "Clay raised another round to fuel the growth of GTM engineering and make major product upgrades, including autonomous agents for research and messaging, the ability to use first-party data, and better signals.",
+        "source_url": "https://news.crunchbase.com/venture/ai-powered-gtm-startup-clay-valuation-doubles-capitalg/",
+        "source_title": "AI-Powered Sales Automation Startup Clay More Than Doubles Valuation To $3.1B",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:22:56.642222Z"
+      },
+      {
+        "id": "da425f40",
+        "claim": "The company’s 10,000-plus customers include OpenAI, Anthropic, Cursor, Canva, Intercom and Rippling.",
+        "source_url": "https://news.crunchbase.com/venture/ai-powered-gtm-startup-clay-valuation-doubles-capitalg/",
+        "source_title": "AI-Powered Sales Automation Startup Clay More Than Doubles Valuation To $3.1B",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:22:56.642232Z"
+      },
+      {
+        "id": "92758686",
+        "claim": "Clay raised $40m on $1.3 billion today.",
+        "source_url": "https://www.linkedin.com/posts/nathanlatka_clay-raised-40m-on-13-billion-today-activity-7287889049535557633-TTEJ",
+        "source_title": "Nathan Latka",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:22:56.642239Z"
+      },
+      {
+        "id": "0efc8390",
+        "claim": "Revenue could be 100 m but it's more like GMV.",
+        "source_url": "https://www.linkedin.com/posts/nathanlatka_clay-raised-40m-on-13-billion-today-activity-7287889049535557633-TTEJ",
+        "source_title": "Nathan Latka",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:22:56.642247Z"
+      },
+      {
+        "id": "a211e70a",
+        "claim": "Clay started with the goal to democratize the power of programming.",
+        "source_url": "https://www.clay.com/blog/100m-arr",
+        "source_title": "Clay reaches $100M ARR: an eight-year overnight success",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:12.702111Z"
+      },
+      {
+        "id": "a25a61de",
+        "claim": "Teams that use Clay scale and introduce others, which is why our enterprise net revenue retention is over 200%. That flywheel means every dollar we invest grows Clay roughly 15x — a ratio that has tripled in recent years and continues to rise.",
+        "source_url": "https://www.clay.com/blog/100m-arr",
+        "source_title": "Clay reaches $100M ARR: an eight-year overnight success",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:12.702132Z"
+      },
+      {
+        "id": "86c85b08",
+        "claim": "We're building out our growth team at Clay! Imagine being on Figma's design team in ~2018.",
+        "source_url": "https://www.linkedin.com/posts/vaanand_were-building-out-our-growth-team-at-clay-activity-7386108031840759808",
+        "source_title": "We're building out our growth team at Clay!",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:12.702141Z"
+      },
+      {
+        "id": "58228cf3",
+        "claim": "Build bleeding-edge growth engines using Clay (you're our ICP) - Test every feature and workflow and give feedback to impact product roadmap - Push boundaries on what's possible with modern GTM - Take your learnings and help thousands of others replicate it",
+        "source_url": "https://www.linkedin.com/posts/vaanand_were-building-out-our-growth-team-at-clay-activity-7386108031840759808",
+        "source_title": "We're building out our growth team at Clay!",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:12.702148Z"
+      },
+      {
+        "id": "1b458618",
+        "claim": "Would love to explore this. Just to confirm - remote-friendly?",
+        "source_url": "https://www.linkedin.com/posts/grey_seymour_would-love-to-explore-this-just-to-confirm-remote-friendly-activity-7386108031840759808",
+        "source_title": "Grey Seymour",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:12.702156Z"
+      },
+      {
+        "id": "9491af97",
+        "claim": "Clay targets two key market segments: Freelancers and marketing agencies, who use Clay to build outbound campaigns faster, and in-house Growth teams, who use Clay to power their data enrichment and GTM motions.",
+        "source_url": "https://www.notoriousplg.ai/p/notorious-clay-is-growing-10x-here",
+        "source_title": "Clay is Growing 10x y/y; Here's How!",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": "96b1b630",
+        "extracted_at": "2026-05-15T01:25:20.467478Z"
+      },
+      {
+        "id": "f96fcc1a",
+        "claim": "Clay’s third most effective growth driver is referrals from agencies and service providers to in-house marketing teams.",
+        "source_url": "https://www.notoriousplg.ai/p/notorious-clay-is-growing-10x-here",
+        "source_title": "Clay is Growing 10x y/y; Here's How!",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": "95c5b762",
+        "extracted_at": "2026-05-15T01:25:20.467491Z"
+      },
+      {
+        "id": "1614673a",
+        "claim": "GTM engineers can make outreach relevant, personal, and just in time. This means less spam, higher response rates, and a more human experience for everyone.",
+        "source_url": "https://www.linkedin.com/posts/grow-with-clay_clay-raised-100m-in-series-c-funding-at-activity-7358868165725982720-rvxd",
+        "source_title": "Clay raises $100M, valued at $3.1B, for AI-native GTM engineering",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "speculative",
+        "subquestion_id": "bee50c1a",
+        "extracted_at": "2026-05-15T01:25:20.467502Z"
+      },
+      {
+        "id": "98cb0f54",
+        "claim": "Modern GTM teams usually use Clay across a small set of operational motions.",
+        "source_url": "https://talantir.ai/en/knowledge/guides/claycom-cases-for-modern-gtm-teams-69c83ea58f7c4b007056d249",
+        "source_title": "Cases for Modern GTM Teams | Talantir Guides",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": "96b1b630",
+        "extracted_at": "2026-05-15T01:25:27.487734Z"
+      },
+      {
+        "id": "6d40fb72",
+        "claim": "Clay positions CRM enrichment and maintenance as a core use case.",
+        "source_url": "https://talantir.ai/en/knowledge/guides/claycom-cases-for-modern-gtm-teams-69c83ea58f7c4b007056d249",
+        "source_title": "Cases for Modern GTM Teams | Talantir Guides",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": "95c5b762",
+        "extracted_at": "2026-05-15T01:25:27.487755Z"
+      },
+      {
+        "id": "4b2890a1",
+        "claim": "Clay is fast becoming the one-stop shop for all GTM data.",
+        "source_url": "https://www.linkedin.com/posts/grow-with-clay_new-in-clay-map-corporate-hierarchies-with-activity-7369712513413824512--o9O",
+        "source_title": "Introducing the Corporate Hierarchy Structurer in Clay - LinkedIn",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": "bee50c1a",
+        "extracted_at": "2026-05-15T01:25:27.487765Z"
+      },
+      {
+        "id": "beedf636",
+        "claim": "Clay Web Intent users are predominantly B2B software and technology companies building tools for other businesses.",
+        "source_url": "https://bloomberry.com/data/clay/",
+        "source_title": "Companies that use Clay (active customer list)",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:43.208826Z"
+      },
+      {
+        "id": "e56535ec",
+        "claim": "The majority are SaaS platforms focused on solving specific operational problems: compliance automation, payment infrastructure, security solutions, workforce management, and developer tools.",
+        "source_url": "https://bloomberry.com/data/clay/",
+        "source_title": "Companies that use Clay (active customer list)",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:43.208838Z"
+      },
+      {
+        "id": "9d31d6d1",
+        "claim": "These companies aren't sending mass emails and hoping for the best. They're investing in tools that help them identify the right prospects, understand buyer intent, and orchestrate personalized outreach at scale.",
+        "source_url": "https://bloomberry.com/data/clay/",
+        "source_title": "Companies that use Clay (active customer list)",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:43.208843Z"
+      },
+      {
+        "id": "dbc34fc1",
+        "claim": "Clay is the right tool for SaaS teams that have a sending stack, time to build, and someone on the team who likes data workflows.",
+        "source_url": "https://leadhaste.com/blog/clay-for-saas",
+        "source_title": "Clay for SaaS: Setup, Tips, and the Plays That Work (2026)",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:43.208847Z"
+      },
+      {
+        "id": "ae0b3b83",
+        "claim": "For teams that want the result without the setup, the orchestration layer is what we run for clients.",
+        "source_url": "https://leadhaste.com/blog/clay-for-saas",
+        "source_title": "Clay for SaaS: Setup, Tips, and the Plays That Work (2026)",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:43.208851Z"
+      },
+      {
+        "id": "01e7c7bc",
+        "claim": "The signals are public. The buyers are discoverable. The personalization is repeatable.",
+        "source_url": "https://leadhaste.com/blog/clay-for-saas",
+        "source_title": "Clay for SaaS: Setup, Tips, and the Plays That Work (2026)",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:43.208855Z"
+      },
+      {
+        "id": "6ab36884",
+        "claim": "A working Clay setup for SaaS typically takes two to four weeks.",
+        "source_url": "https://leadhaste.com/blog/clay-for-saas",
+        "source_title": "Clay for SaaS: Setup, Tips, and the Plays That Work (2026)",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:43.208858Z"
+      },
+      {
+        "id": "620f1a89",
+        "claim": "SaaS buyers leak more public signals than buyers in any other industry.",
+        "source_url": "https://leadhaste.com/blog/clay-for-saas",
+        "source_title": "Clay for SaaS: Setup, Tips, and the Plays That Work (2026)",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:43.208862Z"
+      },
+      {
+        "id": "1524bbdd",
+        "claim": "Clay is the tool that lets you stitch those signals together.",
+        "source_url": "https://leadhaste.com/blog/clay-for-saas",
+        "source_title": "Clay for SaaS: Setup, Tips, and the Plays That Work (2026)",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:43.208865Z"
+      },
+      {
+        "id": "9477baf9",
+        "claim": "If Clay’s reported ARR is actually revenue that’s funneled directly to third-party data providers, then their true recurring revenue and margin potential are significantly lower than what investors might assume.",
+        "source_url": "https://www.leadgenius.com/resources/clays-billion-dollar-valuation-hype-or-the-future-of-data-space",
+        "source_title": "Clay’s Billion-Dollar Valuation: Hype or the Future of the Data Space",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:50.302039Z"
+      },
+      {
+        "id": "78ce4c04",
+        "claim": "Clay has momentum, but momentum alone isn’t enough.",
+        "source_url": "https://www.leadgenius.com/resources/clays-billion-dollar-valuation-hype-or-the-future-of-data-space",
+        "source_title": "Clay’s Billion-Dollar Valuation: Hype or the Future of the Data Space",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:50.302059Z"
+      },
+      {
+        "id": "2bd80956",
+        "claim": "If Clay successfully establishes itself as the “Switzerland of B2B data”—a neutral aggregator that plays nice with all providers while layering on high-value automation—it could end up in a much stronger position than its critics expect.",
+        "source_url": "https://www.leadgenius.com/resources/clays-billion-dollar-valuation-hype-or-the-future-of-data-space",
+        "source_title": "Clay’s Billion-Dollar Valuation: Hype or the Future of the Data Space",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:50.302068Z"
+      },
+      {
+        "id": "ba968d6e",
+        "claim": "Clay is one of the most impressive tools in the modern growth stack—a data enrichment platform that lets you build an ABM list from scratch, or import one you already have, and then supercharge it with verified work emails, personal emails, phone numbers, and even AI-generated insights about each company.",
+        "source_url": "https://www.saasrise.com/blog/how-to-use-clay-to-build-and-enrich-an-account-based-marketing-abm-lead-list",
+        "source_title": "# How to Use Clay to Build and Enrich an Account-Based Marketing (ABM) Lead List",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "strong",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:57.094064Z"
+      },
+      {
+        "id": "fe4d09ac",
+        "claim": "If you’re targeting multiple audiences (say, CEOs vs. CTOs, or two different verticals), build separate lists in Clay.",
+        "source_url": "https://www.saasrise.com/blog/how-to-use-clay-to-build-and-enrich-an-account-based-marketing-abm-lead-list",
+        "source_title": "# How to Use Clay to Build and Enrich an Account-Based Marketing (ABM) Lead List",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "moderate",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:57.094077Z"
+      },
+      {
+        "id": "ffd701e8",
+        "claim": "Clay isn’t cheap, but it’s flexible.",
+        "source_url": "https://www.saasrise.com/blog/how-to-use-clay-to-build-and-enrich-an-account-based-marketing-abm-lead-list",
+        "source_title": "# Step 10: Manage Costs and Credits",
+        "quote": null,
+        "date_mentioned": null,
+        "strength": "weak",
+        "subquestion_id": null,
+        "extracted_at": "2026-05-15T01:25:57.094082Z"
+      }
+    ],
+    "strong_evidence": [
+      "E3: Clay's gross margins look more like a data-heavy SaaS firm.",
+      "E5: Clay’s platform aims to transform traditional sales and marketing operations."
+    ],
+    "weak_evidence": [
+      "E24: Clay is the right tool for SaaS teams that have a sending stack, time to build, and someone on the team who likes data workflows."
+    ],
+    "open_questions": [
+      "Is Clay's subscription model more appealing to growth teams than sales teams?",
+      "How does Clay's AI tool impact growth team operations?"
+    ],
+    "sources": [
+      "https://sacra.com/c/clay/",
+      "https://news.crunchbase.com/venture/ai-powered-gtm-startup-clay-valuation-doubles-capitalg/"
+    ],
+    "generated_at": "2026-05-15T01:26:09.678693Z"
+  },
+  "current_iteration": 1,
+  "total_sources": 15,
+  "queries_log": [
+    "Clay software sales",
+    "Clay AI growth teams",
+    "Clay SaaS usage"
+  ],
+  "stop_reason": "sufficient_evidence"
+}
