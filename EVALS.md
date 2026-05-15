@@ -8,11 +8,11 @@
 ### 1. What makes a research report "good"?
 
 - answers the original question directly
-- separates evidence from inference
+- It clearly distinguishes between extracted facts (e.g., "Revenue is $10M") and AI synthesis (e.g., "This suggests a strong product-market fit").
 - cites sources for major claims
 - includes multiple independent sources
 - acknowledges uncertainty and conflicting evidence
-- avoids overstating conclusions
+- avoids overstating conclusions as a good report admits when it didn't find something. "I don't know" is a more valuable answer than a hallucinated guess.
 - remains concise and readable
 
 
@@ -82,6 +82,9 @@ Measure how frequently a source is referenced by other trusted sources.
 5. Bias and incentive  
 Account for vendor-authored content, affiliate incentives, sponsored research, or promotional material.
 
+6. Freshness  
+For technical topics (like "browser agents"), a source from 2023 is often "low quality" compared to one from 2026, even if the domain is prestigious.
+
 
 ### 4. How would you test that the agent actually iterates instead of doing one shallow search?
 
@@ -122,7 +125,9 @@ The agent retrieves mostly social posts, blogs, or speculative content instead o
 3. Shallow iteration behavior  
 The agent stops after one search cycle despite unresolved gaps or weak evidence.
 
+4. A research question about a breaking news event (e.g., "Who is currently winning the X tournament?"). Testing if the agent can prioritize timestamp-aware evidence over older, more authoritative-looking data.
 
+5. A topic where many blog posts all quote the same incorrect original source. Testing if the agent can identify the lack of independent confirmation.
 
 
 
